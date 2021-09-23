@@ -12,7 +12,7 @@ if you want to new function related to WDCGG.
 please contact me. off course please pull request.
 
 ---
-# 日本語解説
+**日本語解説**
 このリポジトリは、[WDCGG](https://gaw.kishou.go.jp/jp)データの読み込み・解析に使用することができます。
 
 ## install
