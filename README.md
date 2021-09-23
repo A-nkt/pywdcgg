@@ -24,5 +24,7 @@ please contact me. off course please pull request.
 ## Quickstart
 
 ## Note
+解説記事(作成中)
+
 本ライブラリを用いてWDCGGに関する新機能が欲しい場合、ご連絡ください。
 勿論、ご自身で開発されてpull requestでも大歓迎です。
