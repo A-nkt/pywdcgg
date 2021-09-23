@@ -3,7 +3,7 @@ this repository can be use for analysis of [WDCGG](https://gaw.kishou.go.jp/jp) 
 ## install
 I recommend that you use to ``sys``.
 
-```
+```python
 import sys
 sys.path.append('pywdcgg')
 import pywdcgg as pw
@@ -33,7 +33,7 @@ please contact me. off course please pull request.
 ## install
 現状、``sys``を用いたimportを推奨します。
 
-```
+```python
 import sys
 sys.path.append('pywdcgg')
 import pywdcgg as pw
