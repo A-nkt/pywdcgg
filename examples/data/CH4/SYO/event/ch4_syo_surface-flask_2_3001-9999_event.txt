@@ -1,0 +1,1791 @@
+# header_lines : 226
+# Data_Set_Name : ch4_syo_surface-flask_2_3001-9999_event
+# Data_Set_Version : 0002-7006-1002-01-02-3001_2021-07-21-1345
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+# Data_Set_DOI : 10.15138/VNCZ-M766
+# Data_Set_Citation_Format : 
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : SYO
+# site_gaw_type : GAW Regional
+# site_name : Syowa
+# site_country/territory : Japan
+# site_wmo_region : ANTARCTICA
+# site_address1 : East Ongul Island, Lützow-Holm Bay, East Queen Maude Land, East Antarctica.
+# site_address2 : 
+# site_address3 : 
+# site_latitude : -69.0053
+# site_longitude : 39.5811
+# site_elevation : 29.1
+# site_elevation_unit : m
+# site_lst2utc : UTC+03:00
+# site_climate_zone : EF
+# site_climate_zone:comment : Frost climate
+# dataset_creation_date : 2021-08-10
+# dataset_parameter : ch4
+# dataset_parameter_large_class : Greenhouse Gas
+# dataset_parameter_small_class : 
+# dataset_parameter_name_1 : CH4
+# dataset_parameter_name_2 : methane
+# dataset_parameter_name_3 : 
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-flask
+# dataset_platform : fixed station
+# dataset_selection : All event data
+# dataset_selection_tag : event
+# dataset_time_zone : UTC
+# dataset_start_date : 1986-01-25T18:00:00Z
+# dataset_end_date : 2020-12-23T06:15:00Z
+# dataset_statistic_code : 1
+# dataset_statistic : contributor
+# dataset_description : Atmospheric Methane Dry Air Mole Fractions from the NOAA ESRL GMD Carbon Cycle Cooperative Global Air Sampling Network, 1968-2020
+# dataset_description : 
+# dataset_description : These data are provided by NOAA. Principal investigators include Ed Dlugokencky (NOAA). Key partners include Daisuke Goto (NIPR) AND Shinji Morimoto (TU).
+# dataset_description : 
+# dataset_description : Please cite the product's citation when using data from this dataset : Dlugokencky, E.J.,  A.M. Crotwell, J.W. Mund, M.J. Crotwell, and K.W. Thoning (2021), Atmospheric Methane Dry Air Mole Fractions from the NOAA GML Carbon Cycle Cooperative Global Air Sampling Network, 1983-2020, Version: 2021-07-30, https://doi.org/10.15138/VNCZ-M766
+# dataset_aim_of_observation_code : 1
+# dataset_aim_of_observation : Background observation
+# dataset_buffer_code : 3001
+# dataset_buffer : ccgg
+# dataset_buffer:comment : NOAA Carbon Cycle Greenhouse Gases
+# dataset_footnote_code : 9999
+# dataset_footnote : default
+# dataset_footnote:comment : default
+# dataset_processing : Uncertainties are reported for each measurement based on analytical repeatability, reproducibility, and our ability to propagate the WMO CH4 mole fraction standard scale.
+# dataset_processing : Analytical repeatability is based on one of the methods above or on the average absolute value of pair agreement between pairs collected nearly simultaneously.
+# dataset_processing : It varies with analytical instrument from 0.2 to 2.3 ppb. Propagation of the scale is based on the reproducibility determined for scale propagation in our calibration laboratory.
+# dataset_processing : It has a fixed value of 0.5 ppb based on subsequent calibrations of the same cylinder at least one year after the first. Reproducibility is based on long-term variations in measurements of target cylinders, typically ~0.3 ppb.
+# dataset_processing : The three terms are added in quadrature (square root of the sum of the squares) to estimate the measurement uncertainty at 68% confidence interval.
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : 
+# dataset_transition_flag : 0
+# dataset_transition_comment : Dataset was made from entire historical data provided from contributor from 2018 new WDCGG website open onward
+# dataset_reference_total_listed : 2
+# dataset_reference_1_name : Dlugokencky, E.J.,  A.M. Crotwell, J.W. Mund, M.J. Crotwell, and K.W. Thoning (2021), Atmospheric Methane Dry Air Mole Fractions from the NOAA GML Carbon Cycle Cooperative Global Air Sampling Network, 1983-2020, Version: 2021-07-30, https://doi.org/10.15138/VNCZ-M766
+# dataset_reference_2_name : Dlugokencky, E. J., L. P. Steele, P. M. Lang and K. A. Masarie, (1994), The growth rate and distribution of atmospheric methane, Journal of Geophysical Research, 99, D8, 17, doi:10.1029/94JD01245.
+# contributor_organization_code : 2
+# contributor_acronym : NOAA
+# contributor_name : Earth System Research Laboratory, NOAA
+# contributor_address1 : R/GMD1
+# contributor_address2 : NOAA/ESRL
+# contributor_address3 : 325 Broadway Boulder, CO 80305-3337
+# contributor_country/territory : United States of America
+# contributor_url : https://www.esrl.noaa.gov/gmd/index.html
+# contact_total_listed : 2
+# contact_1_name : Ed Dlugokencky
+# contact_1_address1 : NOAA GML
+# contact_1_address2 : 325 Broadway R/GML-1
+# contact_1_address3 : Boulder, CO 80305-3328
+# contact_1_country/territory : United States of America
+# contact_1_organization : Earth System Research Laboratory, NOAA
+# contact_1_organization_acronym : NOAA
+# contact_1_organization_url : https://www.esrl.noaa.gov/gmd/index.html
+# contact_1_email : ed.dlugokencky@noaa.gov
+# contact_1_tel : 303-497-6228
+# contact_1_fax : 
+# contact_2_name : Xin Lan
+# contact_2_address1 : NOAA Global Monitoring Laboratory
+# contact_2_address2 : 325 Broadway, R/GML-1
+# contact_2_address3 : Boulder, CO 80305
+# contact_2_country/territory : United States of America
+# contact_2_organization : Earth System Research Laboratory, NOAA
+# contact_2_organization_acronym : NOAA
+# contact_2_organization_url : https://www.esrl.noaa.gov/gmd/index.html
+# contact_2_email : xin.lan@noaa.gov
+# contact_2_tel : 
+# contact_2_fax : 
+# collaborator_total_listed : 2
+# collaborator_1_organization_code : 56
+# collaborator_1_acronym : NIPR
+# collaborator_1_name : National Institute of Polar Research
+# collaborator_1_address1 : 
+# collaborator_1_address2 : National Institute of Polar Research
+# collaborator_1_address3 : 10-3, Midori-cho, Tachikawa-shi, Tokyo 190-8518, Japan
+# collaborator_1_country/territory : Japan
+# collaborator_1_url : http://www.nipr.ac.jp/english/
+# collaborator_1_person_total_listed : 1
+# collaborator_1_person_1_name : Daisuke Goto
+# collaborator_1_person_1_address1 : 
+# collaborator_1_person_1_address2 : 
+# collaborator_1_person_1_address3 : 10-3 Midori-cho, Tachikawa, Tokyo 190-8518
+# collaborator_1_person_1_country/territory : Japan
+# collaborator_1_person_1_email : goto.daisuke@nipr.ac.jp
+# collaborator_1_person_1_tel : +81-42-512-0673
+# collaborator_1_person_1_fax : +81-42-528-3497
+# collaborator_2_organization_code : 70
+# collaborator_2_acronym : TU
+# collaborator_2_name : Tohoku University
+# collaborator_2_address1 : Center for Atmospheric and Oceanic Studies
+# collaborator_2_address2 : 6-3 Aoba, Aramaki, Aoba-ku
+# collaborator_2_address3 : Sendai 980-8578
+# collaborator_2_country/territory : Japan
+# collaborator_2_url : http://tgr.gp.tohoku.ac.jp
+# collaborator_2_person_total_listed : 1
+# collaborator_2_person_1_name : Shinji Morimoto
+# collaborator_2_person_1_address1 : 
+# collaborator_2_person_1_address2 : 
+# collaborator_2_person_1_address3 : Aoba 6-3, Aramaki, Aoba-ku, Sendai 980-8578
+# collaborator_2_person_1_country/territory : Japan
+# collaborator_2_person_1_email : mon@tohoku.ac.jp
+# collaborator_2_person_1_tel : +81-22-795-5780
+# collaborator_2_person_1_fax : +81-22-795-5797
+# ORG_QCflag_description : This is the NOAA 3-character quality control flag.  Column 1 is the REJECTION flag. An alphanumeric other than a period (.) in the FIRST column indicates a sample with obvious problems during collection or analysis. This measurement should not be interpreted. Column 2 is the SELECTION flag. An alphanumeric other than a period (.) in the SECOND column indicates a sample that is likely valid but does not meet selection criteria determined by the goals of a particular investigation. For example, it might not have been obtained during 'background' conditions.  Column 3 is the INFORMATION flag. An alphanumeric other than a period (.) in the THIRD column provides additional information about the collection or analysis of the sample. A P in the 3rd column of the QC flag indicates the measurement result is preliminary and has not yet been carefully examined by the PI.  The P flag is removed once the quality of the measurement has been determined.
+# intake_height_total_listed : See data part
+# instrument_total_listed : 2
+# instrument_1 : Unknown
+# instrument_1_measurement_method_type_code : 2
+# instrument_1_measurement_method_name : Gas chromatography (FID)
+# instrument_1_start_date : 1986-01-25T18:00:00Z
+# instrument_1_end_date : 2019-01-21T03:01:00Z
+# instrument_2 : Unknown
+# instrument_2_measurement_method_type_code : 18
+# instrument_2_measurement_method_name : CRDS
+# instrument_2_start_date : 2019-02-03T13:55:00Z
+# instrument_2_end_date : 2020-12-23T06:15:00Z
+# scale_total_listed : 1
+# scale_1_code : 3
+# scale_1_name : WMO CH4 X2004A
+# scale_1_start_date : 1986-01-25T18:00:00Z
+# scale_1_end_date : 2020-12-23T06:15:00Z
+# observation_status_code : 1
+# observation_status : Operational/Reporting
+# measurement_calibration : 
+# sampling_frequency_code : 88
+# sampling_frequency : Unknown
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_UTC_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (UTC) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppb
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppb
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background"
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+# site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+SYO 1986 01 25 18 00 00 -999 -9 -9 -9 -9 -9 1618.24 4.59 -9 -69.0 39.575 14.0 11.0 3.0 470-82 N.. 3 1 2 3
+SYO 1986 01 25 18 00 00 -999 -9 -9 -9 -9 -9 1616.36 4.59 -9 -69.0 39.575 14.0 11.0 3.0 470-82 N.. 3 1 2 3
+SYO 1986 02 16 06 00 00 -999 -9 -9 -9 -9 -9 1603.8 4.59 -9 -69.0 39.575 14.0 11.0 3.0 864-83 N.. 3 1 2 3
+SYO 1986 02 16 06 00 00 -999 -9 -9 -9 -9 -9 1606.83 4.59 -9 -69.0 39.575 14.0 11.0 3.0 864-83 N.. 3 1 2 3
+SYO 1986 03 19 06 00 00 -999 -9 -9 -9 -9 -9 1604.36 4.59 -9 -69.0 39.575 14.0 11.0 3.0 194-83 N.. 3 1 2 3
+SYO 1986 03 19 06 00 00 -999 -9 -9 -9 -9 -9 1608.01 4.59 -9 -69.0 39.575 14.0 11.0 3.0 194-83 N.. 3 1 2 3
+SYO 1986 04 17 06 00 00 -999 -9 -9 -9 -9 -9 1599.54 4.59 -9 -69.0 39.575 14.0 11.0 3.0 248-83 ... 1 1 2 3
+SYO 1986 04 17 06 00 00 -999 -9 -9 -9 -9 -9 1600.04 4.59 -9 -69.0 39.575 14.0 11.0 3.0 248-83 ... 1 1 2 3
+SYO 1986 05 15 09 00 00 -999 -9 -9 -9 -9 -9 1611.61 4.59 -9 -69.0 39.575 14.0 11.0 3.0 896-83 ... 1 1 2 3
+SYO 1986 05 15 09 00 00 -999 -9 -9 -9 -9 -9 1613.08 4.59 -9 -69.0 39.575 14.0 11.0 3.0 896-83 ... 1 1 2 3
+SYO 1986 06 17 10 00 00 -999 -9 -9 -9 -9 -9 1621.53 4.59 -9 -69.0 39.575 14.0 11.0 3.0 164-83 ... 1 1 2 3
+SYO 1986 06 17 10 00 00 -999 -9 -9 -9 -9 -9 1622.14 4.59 -9 -69.0 39.575 14.0 11.0 3.0 164-83 ... 1 1 2 3
+SYO 1986 07 15 12 00 00 -999 -9 -9 -9 -9 -9 1627.9 4.59 -9 -69.0 39.575 14.0 11.0 3.0 1260-82 ... 1 1 2 3
+SYO 1986 07 15 12 00 00 -999 -9 -9 -9 -9 -9 1631.9 4.59 -9 -69.0 39.575 14.0 11.0 3.0 1260-82 ... 1 1 2 3
+SYO 1986 08 17 09 00 00 -999 -9 -9 -9 -9 -9 1636.38 4.59 -9 -69.0 39.575 14.0 11.0 3.0 156-82 ... 1 1 2 3
+SYO 1986 08 17 09 00 00 -999 -9 -9 -9 -9 -9 1640.32 4.59 -9 -69.0 39.575 14.0 11.0 3.0 156-82 ... 1 1 2 3
+SYO 1986 09 19 09 00 00 -999 -9 -9 -9 -9 -9 1636.85 4.59 -9 -69.0 39.575 14.0 11.0 3.0 906-82 ... 1 1 2 3
+SYO 1986 09 19 09 00 00 -999 -9 -9 -9 -9 -9 1639.65 4.59 -9 -69.0 39.575 14.0 11.0 3.0 906-82 ... 1 1 2 3
+SYO 1986 10 15 09 00 00 -999 -9 -9 -9 -9 -9 1635.14 4.59 -9 -69.0 39.575 14.0 11.0 3.0 316-83 ... 1 1 2 3
+SYO 1986 10 15 09 00 00 -999 -9 -9 -9 -9 -9 1637.9 4.59 -9 -69.0 39.575 14.0 11.0 3.0 316-83 ... 1 1 2 3
+SYO 1986 11 19 06 00 00 -999 -9 -9 -9 -9 -9 1629.06 4.59 -9 -69.0 39.575 14.0 11.0 3.0 932-82 ... 1 1 2 3
+SYO 1986 11 19 06 00 00 -999 -9 -9 -9 -9 -9 1633.03 4.59 -9 -69.0 39.575 14.0 11.0 3.0 932-82 ... 1 1 2 3
+SYO 1986 12 15 12 00 00 -999 -9 -9 -9 -9 -9 1625.86 4.59 -9 -69.0 39.575 14.0 11.0 3.0 90-83 ... 1 1 2 3
+SYO 1986 12 15 12 00 00 -999 -9 -9 -9 -9 -9 1621.87 4.59 -9 -69.0 39.575 14.0 11.0 3.0 90-83 ... 1 1 2 3
+SYO 1988 02 15 19 20 00 -999 -9 -9 -9 -9 -9 1624.5 4.59 -9 -69.0 39.575 14.0 11.0 3.0 76-85 ... 1 1 2 3
+SYO 1988 02 15 19 20 00 -999 -9 -9 -9 -9 -9 1627.66 4.59 -9 -69.0 39.575 14.0 11.0 3.0 76-85 ... 1 1 2 3
+SYO 1988 02 29 13 25 00 -999 -9 -9 -9 -9 -9 1622.68 4.59 -9 -69.0 39.575 14.0 11.0 3.0 810-85 ... 1 1 2 3
+SYO 1988 02 29 13 25 00 -999 -9 -9 -9 -9 -9 1627.86 4.59 -9 -69.0 39.575 14.0 11.0 3.0 810-85 ... 1 1 2 3
+SYO 1988 03 14 07 50 00 -999 -9 -9 -9 -9 -9 1635.86 4.59 -9 -69.0 39.575 14.0 11.0 3.0 78-85 N.. 3 1 2 3
+SYO 1988 03 14 07 50 00 -999 -9 -9 -9 -9 -9 1638.32 4.59 -9 -69.0 39.575 14.0 11.0 3.0 78-85 N.. 3 1 2 3
+SYO 1988 03 29 08 50 00 -999 -9 -9 -9 -9 -9 1631.31 4.59 -9 -69.0 39.575 14.0 11.0 3.0 528-85 N.. 3 1 2 3
+SYO 1988 03 29 08 50 00 -999 -9 -9 -9 -9 -9 1632.39 4.59 -9 -69.0 39.575 14.0 11.0 3.0 528-85 N.. 3 1 2 3
+SYO 1988 04 19 10 45 00 -999 -9 -9 -9 -9 -9 1626.18 4.59 -9 -69.0 39.575 14.0 11.0 3.0 110-85 ... 1 1 2 3
+SYO 1988 04 19 10 45 00 -999 -9 -9 -9 -9 -9 1626.39 4.59 -9 -69.0 39.575 14.0 11.0 3.0 110-85 ... 1 1 2 3
+SYO 1988 04 30 12 30 00 -999 -9 -9 -9 -9 -9 1629.21 4.59 -9 -69.0 39.575 14.0 11.0 3.0 639-85 N.. 3 1 2 3
+SYO 1988 04 30 12 30 00 -999 -9 -9 -9 -9 -9 1636.15 4.59 -9 -69.0 39.575 14.0 11.0 3.0 639-85 N.. 3 1 2 3
+SYO 1988 04 30 12 30 00 -999 -9 -9 -9 -9 -9 1631.11 4.59 -9 -69.0 39.575 14.0 11.0 3.0 640-85 ... 1 1 2 3
+SYO 1988 05 15 10 30 00 -999 -9 -9 -9 -9 -9 1636.98 4.59 -9 -69.0 39.575 14.0 11.0 3.0 186-82 ... 1 1 2 3
+SYO 1988 05 15 10 30 00 -999 -9 -9 -9 -9 -9 1638.62 4.59 -9 -69.0 39.575 14.0 11.0 3.0 186-82 ... 1 1 2 3
+SYO 1988 06 01 11 20 00 -999 -9 -9 -9 -9 -9 1642.14 4.59 -9 -69.0 39.575 14.0 11.0 3.0 406-83 N.< 3 1 2 3
+SYO 1988 06 01 11 20 00 -999 -9 -9 -9 -9 -9 1644.7 4.59 -9 -69.0 39.575 14.0 11.0 3.0 406-83 N.> 3 1 2 3
+SYO 1988 06 15 11 55 00 -999 -9 -9 -9 -9 -9 1649.71 4.59 -9 -69.0 39.575 14.0 11.0 3.0 100-85 N.. 3 1 2 3
+SYO 1988 06 15 11 55 00 -999 -9 -9 -9 -9 -9 1650.64 4.59 -9 -69.0 39.575 14.0 11.0 3.0 100-85 N.. 3 1 2 3
+SYO 1988 06 29 08 30 00 -999 -9 -9 -9 -9 -9 1643.6 4.59 -9 -69.0 39.575 14.0 11.0 3.0 228-86 ... 1 1 2 3
+SYO 1988 06 29 08 30 00 -999 -9 -9 -9 -9 -9 1646.53 4.59 -9 -69.0 39.575 14.0 11.0 3.0 228-86 ... 1 1 2 3
+SYO 1988 07 14 11 40 00 -999 -9 -9 -9 -9 -9 1654.92 4.59 -9 -69.0 39.575 14.0 11.0 3.0 304-83 N.. 3 1 2 3
+SYO 1988 07 14 11 40 00 -999 -9 -9 -9 -9 -9 1656.92 4.59 -9 -69.0 39.575 14.0 11.0 3.0 304-83 N.. 3 1 2 3
+SYO 1988 07 30 13 10 00 -999 -9 -9 -9 -9 -9 1657.83 4.59 -9 -69.0 39.575 14.0 11.0 3.0 600-85 N.. 3 1 2 3
+SYO 1988 07 30 13 10 00 -999 -9 -9 -9 -9 -9 1657.48 4.59 -9 -69.0 39.575 14.0 11.0 3.0 600-85 N.. 3 1 2 3
+SYO 1988 08 14 13 15 00 -999 -9 -9 -9 -9 -9 1656.97 4.59 -9 -69.0 39.575 14.0 11.0 3.0 490-85 N.. 3 1 2 3
+SYO 1988 08 14 13 15 00 -999 -9 -9 -9 -9 -9 1658.2 4.59 -9 -69.0 39.575 14.0 11.0 3.0 490-85 N.. 3 1 2 3
+SYO 1988 09 02 14 50 00 -999 -9 -9 -9 -9 -9 1654.29 4.59 -9 -69.0 39.575 14.0 11.0 3.0 830-85 ... 1 1 2 3
+SYO 1988 09 02 14 50 00 -999 -9 -9 -9 -9 -9 1655.78 4.59 -9 -69.0 39.575 14.0 11.0 3.0 830-85 ... 1 1 2 3
+SYO 1988 09 15 08 00 00 -999 -9 -9 -9 -9 -9 1656.84 4.59 -9 -69.0 39.575 14.0 11.0 3.0 328-85 ... 1 1 2 3
+SYO 1988 09 15 08 00 00 -999 -9 -9 -9 -9 -9 1659.12 4.59 -9 -69.0 39.575 14.0 11.0 3.0 328-85 ... 1 1 2 3
+SYO 1988 09 29 07 20 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 -9 -69.0 39.575 14.0 11.0 3.0 125-85 *.. 3 1 2 3
+SYO 1988 09 29 07 20 00 -999 -9 -9 -9 -9 -9 1602.29 4.59 -9 -69.0 39.575 14.0 11.0 3.0 125-85 A.. 3 1 2 3
+SYO 1988 09 29 07 20 00 -999 -9 -9 -9 -9 -9 1637.94 4.59 -9 -69.0 39.575 14.0 11.0 3.0 125-85 A.. 3 1 2 3
+SYO 1988 10 15 18 15 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 -9 -69.0 39.575 14.0 11.0 3.0 10-85 *.. 3 1 2 3
+SYO 1988 10 15 18 15 00 -999 -9 -9 -9 -9 -9 1654.93 4.59 -9 -69.0 39.575 14.0 11.0 3.0 10-85 ... 1 1 2 3
+SYO 1988 10 15 18 15 00 -999 -9 -9 -9 -9 -9 1656.14 4.59 -9 -69.0 39.575 14.0 11.0 3.0 10-85 ... 1 1 2 3
+SYO 1988 10 29 10 15 00 -999 -9 -9 -9 -9 -9 1655.87 4.59 -9 -69.0 39.575 14.0 11.0 3.0 1218-82 ... 1 1 2 3
+SYO 1988 10 29 10 15 00 -999 -9 -9 -9 -9 -9 1658.04 4.59 -9 -69.0 39.575 14.0 11.0 3.0 1218-82 ... 1 1 2 3
+SYO 1988 11 14 13 00 00 -999 -9 -9 -9 -9 -9 1651.24 4.59 -9 -69.0 39.575 14.0 11.0 3.0 352-85 ... 1 1 2 3
+SYO 1988 11 14 13 00 00 -999 -9 -9 -9 -9 -9 1661.04 4.59 -9 -69.0 39.575 14.0 11.0 3.0 352-85 ... 1 1 2 3
+SYO 1988 11 29 14 00 00 -999 -9 -9 -9 -9 -9 1652.37 4.59 -9 -69.0 39.575 14.0 11.0 3.0 11-83 ... 1 1 2 3
+SYO 1988 11 29 14 00 00 -999 -9 -9 -9 -9 -9 1652.53 4.59 -9 -69.0 39.575 14.0 11.0 3.0 11-83 ... 1 1 2 3
+SYO 1988 11 29 14 00 00 -999 -9 -9 -9 -9 -9 1662.1 4.59 -9 -69.0 39.575 14.0 11.0 3.0 12-83 N.. 3 1 2 3
+SYO 1988 12 14 11 10 00 -999 -9 -9 -9 -9 -9 1658.83 4.59 -9 -69.0 39.575 14.0 11.0 3.0 228-83 N.. 3 1 2 3
+SYO 1988 12 14 11 10 00 -999 -9 -9 -9 -9 -9 1659.23 4.59 -9 -69.0 39.575 14.0 11.0 3.0 228-83 N.. 3 1 2 3
+SYO 1988 12 30 07 30 00 -999 -9 -9 -9 -9 -9 1647.47 4.59 -9 -69.0 39.575 14.0 11.0 3.0 448-85 ... 1 1 2 3
+SYO 1988 12 30 07 30 00 -999 -9 -9 -9 -9 -9 1647.52 4.59 -9 -69.0 39.575 14.0 11.0 3.0 448-85 ... 1 1 2 3
+SYO 1989 01 14 21 35 00 -999 -9 -9 -9 -9 -9 1643.74 4.59 -9 -69.0 39.575 14.0 11.0 3.0 740-85 ... 1 1 2 3
+SYO 1989 01 14 21 35 00 -999 -9 -9 -9 -9 -9 1651.81 4.59 -9 -69.0 39.575 14.0 11.0 3.0 740-85 ... 1 1 2 3
+SYO 1989 01 30 13 15 00 -999 -9 -9 -9 -9 -9 1634.23 4.59 -9 -69.0 39.575 14.0 11.0 3.0 403-85 ... 1 1 2 3
+SYO 1989 01 30 13 15 00 -999 -9 -9 -9 -9 -9 1634.83 4.59 -9 -69.0 39.575 14.0 11.0 3.0 403-85 ... 1 1 2 3
+SYO 1989 01 30 13 15 00 -999 -9 -9 -9 -9 -9 1639.25 4.59 -9 -69.0 39.575 14.0 11.0 3.0 404-85 N.. 3 1 2 3
+SYO 1989 02 05 04 15 00 -999 -9 -9 -9 -9 -9 1635.17 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2052-62 ... 1 1 2 3
+SYO 1989 02 05 04 15 00 -999 -9 -9 -9 -9 -9 1640.91 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2052-62 ... 1 1 2 3
+SYO 1989 02 20 17 13 00 -999 -9 -9 -9 -9 -9 1632.95 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2055-62 ... 1 1 2 3
+SYO 1989 02 20 17 13 00 -999 -9 -9 -9 -9 -9 1634.65 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2055-62 ... 1 1 2 3
+SYO 1989 03 04 07 05 00 -999 -9 -9 -9 -9 -9 1635.34 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2056-62 ... 1 1 2 3
+SYO 1989 03 04 07 05 00 -999 -9 -9 -9 -9 -9 1635.35 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2056-62 ... 1 1 2 3
+SYO 1989 03 19 09 07 00 -999 -9 -9 -9 -9 -9 1640.56 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2058-62 ... 1 1 2 3
+SYO 1989 03 19 09 07 00 -999 -9 -9 -9 -9 -9 1641.66 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2058-62 ... 1 1 2 3
+SYO 1989 04 01 12 11 00 -999 -9 -9 -9 -9 -9 1636.92 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2060-62 ... 1 1 2 3
+SYO 1989 04 01 12 11 00 -999 -9 -9 -9 -9 -9 1638.3 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2060-62 ... 1 1 2 3
+SYO 1989 04 13 12 13 00 -999 -9 -9 -9 -9 -9 1637.87 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2062-62 ... 1 1 2 3
+SYO 1989 04 13 12 13 00 -999 -9 -9 -9 -9 -9 1639.48 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2062-62 ... 1 1 2 3
+SYO 1989 05 05 13 31 00 -999 -9 -9 -9 -9 -9 1643.23 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2064-62 ... 1 1 2 3
+SYO 1989 05 05 13 31 00 -999 -9 -9 -9 -9 -9 1647.48 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2064-62 ... 1 1 2 3
+SYO 1989 05 19 21 22 00 -999 -9 -9 -9 -9 -9 1646.52 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2066-62 ... 1 1 2 3
+SYO 1989 05 19 21 22 00 -999 -9 -9 -9 -9 -9 1651.1 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2066-62 ... 1 1 2 3
+SYO 1989 06 04 10 50 00 -999 -9 -9 -9 -9 -9 1652.57 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2068-62 ... 1 1 2 3
+SYO 1989 06 04 10 50 00 -999 -9 -9 -9 -9 -9 1657.84 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2068-62 ... 1 1 2 3
+SYO 1989 06 22 10 00 00 -999 -9 -9 -9 -9 -9 1653.72 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2070-62 ... 1 1 2 3
+SYO 1989 06 22 10 00 00 -999 -9 -9 -9 -9 -9 1661.57 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2070-62 ... 1 1 2 3
+SYO 1989 07 02 19 20 00 -999 -9 -9 -9 -9 -9 1662.45 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2072-62 ... 1 1 2 3
+SYO 1989 07 02 19 20 00 -999 -9 -9 -9 -9 -9 1658.62 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2072-62 ... 1 1 2 3
+SYO 1989 07 19 14 06 00 -999 -9 -9 -9 -9 -9 1663.86 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2074-62 ... 1 1 2 3
+SYO 1989 07 19 14 06 00 -999 -9 -9 -9 -9 -9 1665.01 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2074-62 ... 1 1 2 3
+SYO 1989 08 07 09 08 00 -999 -9 -9 -9 -9 -9 1668.03 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2076-62 ... 1 1 2 3
+SYO 1989 08 07 09 08 00 -999 -9 -9 -9 -9 -9 1668.73 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2076-62 ... 1 1 2 3
+SYO 1989 08 22 12 05 00 -999 -9 -9 -9 -9 -9 1669.78 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2078-62 ... 1 1 2 3
+SYO 1989 08 22 12 05 00 -999 -9 -9 -9 -9 -9 1670.16 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2078-62 ... 1 1 2 3
+SYO 1989 09 06 11 05 00 -999 -9 -9 -9 -9 -9 1672.08 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2080-62 ... 1 1 2 3
+SYO 1989 09 06 11 05 00 -999 -9 -9 -9 -9 -9 1673.83 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2080-62 ... 1 1 2 3
+SYO 1989 09 18 09 04 00 -999 -9 -9 -9 -9 -9 1668.61 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2082-62 ... 1 1 2 3
+SYO 1989 09 18 09 04 00 -999 -9 -9 -9 -9 -9 1675.03 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2082-62 ... 1 1 2 3
+SYO 1989 10 02 18 30 00 -999 -9 -9 -9 -9 -9 1670.01 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2084-62 ... 1 1 2 3
+SYO 1989 10 02 18 30 00 -999 -9 -9 -9 -9 -9 1671.11 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2084-62 ... 1 1 2 3
+SYO 1989 10 14 09 06 00 -999 -9 -9 -9 -9 -9 1666.35 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2086-62 ... 1 1 2 3
+SYO 1989 10 14 09 06 00 -999 -9 -9 -9 -9 -9 1667.76 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2086-62 ... 1 1 2 3
+SYO 1989 11 03 14 07 00 -999 -9 -9 -9 -9 -9 1669.73 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2088-62 ... 1 1 2 3
+SYO 1989 11 03 14 07 00 -999 -9 -9 -9 -9 -9 1669.92 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2088-62 ... 1 1 2 3
+SYO 1989 11 17 14 42 00 -999 -9 -9 -9 -9 -9 1660.75 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2090-62 ... 1 1 2 3
+SYO 1989 11 17 14 42 00 -999 -9 -9 -9 -9 -9 1667.03 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2090-62 ... 1 1 2 3
+SYO 1989 12 04 06 58 00 -999 -9 -9 -9 -9 -9 1659.4 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2092-62 ... 1 1 2 3
+SYO 1989 12 04 06 58 00 -999 -9 -9 -9 -9 -9 1661.12 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2092-62 ... 1 1 2 3
+SYO 1989 12 15 09 44 00 -999 -9 -9 -9 -9 -9 1655.99 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2094-62 ... 1 1 2 3
+SYO 1989 12 15 09 44 00 -999 -9 -9 -9 -9 -9 1659.11 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2094-62 ... 1 1 2 3
+SYO 1990 01 04 10 03 00 -999 -9 -9 -9 -9 -9 1652.14 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2096-62 ... 1 1 2 3
+SYO 1990 01 04 10 03 00 -999 -9 -9 -9 -9 -9 1651.42 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2096-62 ... 1 1 2 3
+SYO 1990 01 17 09 50 00 -999 -9 -9 -9 -9 -9 1655.06 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2098-62 ... 1 1 2 3
+SYO 1990 01 17 09 50 00 -999 -9 -9 -9 -9 -9 1651.5 4.59 -9 -69.0 39.575 14.0 11.0 3.0 2098-62 ... 1 1 2 3
+SYO 1990 02 04 06 32 00 -999 -9 -9 -9 -9 -9 1645.6 2.71 -9 -69.0 39.575 14.0 11.0 3.0 938-81 ... 1 1 2 3
+SYO 1990 02 04 06 32 00 -999 -9 -9 -9 -9 -9 1645.84 2.71 -9 -69.0 39.575 14.0 11.0 3.0 938-81 ... 1 1 2 3
+SYO 1990 02 21 20 45 00 -999 -9 -9 -9 -9 -9 1659.18 2.71 -9 -69.0 39.575 14.0 11.0 3.0 310-81 N.. 3 1 2 3
+SYO 1990 02 21 20 45 00 -999 -9 -9 -9 -9 -9 1658.93 2.71 -9 -69.0 39.575 14.0 11.0 3.0 310-81 N.. 3 1 2 3
+SYO 1990 03 01 12 28 00 -999 -9 -9 -9 -9 -9 1657.65 2.71 -9 -69.0 39.575 14.0 11.0 3.0 429-81 N.. 3 1 2 3
+SYO 1990 03 01 12 28 00 -999 -9 -9 -9 -9 -9 1660.23 2.71 -9 -69.0 39.575 14.0 11.0 3.0 429-81 N.. 3 1 2 3
+SYO 1990 03 24 06 50 00 -999 -9 -9 -9 -9 -9 1658.44 2.71 -9 -69.0 39.575 14.0 11.0 3.0 657-81 N.. 3 1 2 3
+SYO 1990 03 24 06 50 00 -999 -9 -9 -9 -9 -9 1658.7 2.71 -9 -69.0 39.575 14.0 11.0 3.0 657-81 N.. 3 1 2 3
+SYO 1990 03 24 06 50 00 -999 -9 -9 -9 -9 -9 1655.65 2.71 -9 -69.0 39.575 14.0 11.0 3.0 658-81 N.. 3 1 2 3
+SYO 1990 04 06 13 00 00 -999 -9 -9 -9 -9 -9 1648.25 2.71 -9 -69.0 39.575 14.0 11.0 3.0 362-81 ... 1 1 2 3
+SYO 1990 04 06 13 00 00 -999 -9 -9 -9 -9 -9 1650.74 2.71 -9 -69.0 39.575 14.0 11.0 3.0 362-81 ... 1 1 2 3
+SYO 1990 04 30 08 54 00 -999 -9 -9 -9 -9 -9 1655.18 2.71 -9 -69.0 39.575 14.0 11.0 3.0 884-81 ... 1 1 2 3
+SYO 1990 04 30 08 54 00 -999 -9 -9 -9 -9 -9 1655.46 2.71 -9 -69.0 39.575 14.0 11.0 3.0 884-81 ... 1 1 2 3
+SYO 1990 05 12 12 30 00 -999 -9 -9 -9 -9 -9 1653.92 2.71 -9 -69.0 39.575 14.0 11.0 3.0 438-81 ... 1 1 2 3
+SYO 1990 05 12 12 30 00 -999 -9 -9 -9 -9 -9 1656.1 2.71 -9 -69.0 39.575 14.0 11.0 3.0 438-81 ... 1 1 2 3
+SYO 1990 05 26 12 02 00 -999 -9 -9 -9 -9 -9 1662.83 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1122-81 N.. 3 1 2 3
+SYO 1990 05 26 12 02 00 -999 -9 -9 -9 -9 -9 1665.32 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1122-81 N.. 3 1 2 3
+SYO 1990 06 09 09 34 00 -999 -9 -9 -9 -9 -9 1661.1 2.71 -9 -69.0 39.575 14.0 11.0 3.0 324-81 ... 1 1 2 3
+SYO 1990 06 09 09 34 00 -999 -9 -9 -9 -9 -9 1662.92 2.71 -9 -69.0 39.575 14.0 11.0 3.0 324-81 ... 1 1 2 3
+SYO 1990 06 25 09 24 00 -999 -9 -9 -9 -9 -9 1665.64 2.71 -9 -69.0 39.575 14.0 11.0 3.0 464-81 ... 1 1 2 3
+SYO 1990 06 25 09 24 00 -999 -9 -9 -9 -9 -9 1666.72 2.71 -9 -69.0 39.575 14.0 11.0 3.0 464-81 ... 1 1 2 3
+SYO 1990 07 08 11 43 00 -999 -9 -9 -9 -9 -9 1667.58 2.71 -9 -69.0 39.575 14.0 11.0 3.0 118-81 ... 1 1 2 3
+SYO 1990 07 08 11 43 00 -999 -9 -9 -9 -9 -9 1666.72 2.71 -9 -69.0 39.575 14.0 11.0 3.0 118-81 ... 1 1 2 3
+SYO 1990 07 24 12 12 00 -999 -9 -9 -9 -9 -9 1675.0 2.71 -9 -69.0 39.575 14.0 11.0 3.0 946-81 ... 1 1 2 3
+SYO 1990 07 24 12 12 00 -999 -9 -9 -9 -9 -9 1670.23 2.71 -9 -69.0 39.575 14.0 11.0 3.0 946-81 ... 1 1 2 3
+SYO 1990 08 17 06 37 00 -999 -9 -9 -9 -9 -9 1670.62 2.71 -9 -69.0 39.575 14.0 11.0 3.0 358-81 ... 1 1 2 3
+SYO 1990 08 17 06 37 00 -999 -9 -9 -9 -9 -9 1673.31 2.71 -9 -69.0 39.575 14.0 11.0 3.0 358-81 ... 1 1 2 3
+SYO 1990 08 26 11 26 00 -999 -9 -9 -9 -9 -9 1694.69 2.71 -9 -69.0 39.575 14.0 11.0 3.0 10-81 N.. 3 1 2 3
+SYO 1990 08 26 11 26 00 -999 -9 -9 -9 -9 -9 1695.84 2.71 -9 -69.0 39.575 14.0 11.0 3.0 10-81 N.. 3 1 2 3
+SYO 1990 09 04 11 30 00 -999 -9 -9 -9 -9 -9 1675.91 2.71 -9 -69.0 39.575 14.0 11.0 3.0 134-81 ... 1 1 2 3
+SYO 1990 09 04 11 30 00 -999 -9 -9 -9 -9 -9 1676.42 2.71 -9 -69.0 39.575 14.0 11.0 3.0 134-81 ... 1 1 2 3
+SYO 1990 09 30 20 42 00 -999 -9 -9 -9 -9 -9 1676.67 2.71 -9 -69.0 39.575 14.0 11.0 3.0 186-81 ... 1 1 2 3
+SYO 1990 09 30 20 42 00 -999 -9 -9 -9 -9 -9 1678.33 2.71 -9 -69.0 39.575 14.0 11.0 3.0 186-81 ... 1 1 2 3
+SYO 1990 10 21 11 58 00 -999 -9 -9 -9 -9 -9 1677.74 2.71 -9 -69.0 39.575 14.0 11.0 3.0 354-81 ... 1 1 2 3
+SYO 1990 10 21 11 58 00 -999 -9 -9 -9 -9 -9 1679.32 2.71 -9 -69.0 39.575 14.0 11.0 3.0 354-81 ... 1 1 2 3
+SYO 1990 10 30 12 24 00 -999 -9 -9 -9 -9 -9 1688.8 2.71 -9 -69.0 39.575 14.0 11.0 3.0 518-81 N.. 3 1 2 3
+SYO 1990 10 30 12 24 00 -999 -9 -9 -9 -9 -9 1692.81 2.71 -9 -69.0 39.575 14.0 11.0 3.0 518-81 N.. 3 1 2 3
+SYO 1990 11 13 12 26 00 -999 -9 -9 -9 -9 -9 1683.62 2.71 -9 -69.0 39.575 14.0 11.0 3.0 116-81 N.. 3 1 2 3
+SYO 1990 11 13 12 26 00 -999 -9 -9 -9 -9 -9 1688.67 2.71 -9 -69.0 39.575 14.0 11.0 3.0 116-81 N.. 3 1 2 3
+SYO 1990 11 30 19 56 00 -999 -9 -9 -9 -9 -9 1679.21 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1012-81 N.. 3 1 2 3
+SYO 1990 11 30 19 56 00 -999 -9 -9 -9 -9 -9 1679.47 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1012-81 N.. 3 1 2 3
+SYO 1990 11 30 19 56 00 -999 -9 -9 -9 -9 -9 1681.35 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1012-81 N.. 3 1 2 3
+SYO 1990 12 17 19 49 00 -999 -9 -9 -9 -9 -9 1666.5 2.71 -9 -69.0 39.575 14.0 11.0 3.0 637-81 ... 1 1 2 3
+SYO 1990 12 17 19 49 00 -999 -9 -9 -9 -9 -9 1667.03 2.71 -9 -69.0 39.575 14.0 11.0 3.0 637-81 ... 1 1 2 3
+SYO 1990 12 31 12 29 00 -999 -9 -9 -9 -9 -9 1661.85 2.71 -9 -69.0 39.575 14.0 11.0 3.0 378-81 ... 1 1 2 3
+SYO 1990 12 31 12 29 00 -999 -9 -9 -9 -9 -9 1664.48 2.71 -9 -69.0 39.575 14.0 11.0 3.0 378-81 ... 1 1 2 3
+SYO 1991 01 13 06 24 00 -999 -9 -9 -9 -9 -9 1658.48 2.71 -9 -69.0 39.575 14.0 11.0 3.0 870-81 ... 1 1 2 3
+SYO 1991 01 13 06 24 00 -999 -9 -9 -9 -9 -9 1658.13 2.71 -9 -69.0 39.575 14.0 11.0 3.0 870-81 ... 1 1 2 3
+SYO 1991 01 30 12 35 00 -999 -9 -9 -9 -9 -9 1674.92 2.71 -9 -69.0 39.575 14.0 11.0 3.0 318-81 N.. 3 1 2 3
+SYO 1991 01 30 12 35 00 -999 -9 -9 -9 -9 -9 1676.07 2.71 -9 -69.0 39.575 14.0 11.0 3.0 318-81 N.. 3 1 2 3
+SYO 1991 02 13 06 59 00 -999 -9 -9 -9 -9 -9 1661.53 2.71 -9 -69.0 39.575 14.0 11.0 3.0 597-81 N.. 3 1 2 3
+SYO 1991 02 13 06 59 00 -999 -9 -9 -9 -9 -9 1662.35 2.71 -9 -69.0 39.575 14.0 11.0 3.0 598-81 N.. 3 1 2 3
+SYO 1991 02 26 10 40 00 -999 -9 -9 -9 -9 -9 1657.47 2.71 -9 -69.0 39.575 14.0 11.0 3.0 35-81 N.. 3 1 2 3
+SYO 1991 02 26 10 40 00 -999 -9 -9 -9 -9 -9 1653.21 2.71 -9 -69.0 39.575 14.0 11.0 3.0 36-81 ... 1 1 2 3
+SYO 1991 03 21 06 23 00 -999 -9 -9 -9 -9 -9 1656.17 2.71 -9 -69.0 39.575 14.0 11.0 3.0 5-81 ... 1 1 2 3
+SYO 1991 03 21 06 23 00 -999 -9 -9 -9 -9 -9 1667.87 2.71 -9 -69.0 39.575 14.0 11.0 3.0 6-81 N.. 3 1 2 3
+SYO 1991 04 03 07 43 00 -999 -9 -9 -9 -9 -9 1661.83 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1005-81 N.. 3 1 2 3
+SYO 1991 04 03 07 43 00 -999 -9 -9 -9 -9 -9 1671.15 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1006-81 N.. 3 1 2 3
+SYO 1991 04 21 15 55 00 -999 -9 -9 -9 -9 -9 1665.27 2.71 -9 -69.0 39.575 14.0 11.0 3.0 943-81 N.. 3 1 2 3
+SYO 1991 04 21 15 55 00 -999 -9 -9 -9 -9 -9 1667.58 2.71 -9 -69.0 39.575 14.0 11.0 3.0 944-81 N.. 3 1 2 3
+SYO 1991 05 03 20 32 00 -999 -9 -9 -9 -9 -9 1661.34 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1297-81 ... 1 1 2 3
+SYO 1991 05 03 20 32 00 -999 -9 -9 -9 -9 -9 1662.62 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1298-81 ... 1 1 2 3
+SYO 1991 05 18 10 45 00 -999 -9 -9 -9 -9 -9 1667.12 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1307-81 ... 1 1 2 3
+SYO 1991 06 07 11 25 00 -999 -9 -9 -9 -9 -9 1673.75 2.71 -9 -69.0 39.575 14.0 11.0 3.0 163-81 N.. 3 1 2 3
+SYO 1991 06 07 11 25 00 -999 -9 -9 -9 -9 -9 1683.32 2.71 -9 -69.0 39.575 14.0 11.0 3.0 164-81 N.. 3 1 2 3
+SYO 1991 06 28 13 05 00 -999 -9 -9 -9 -9 -9 1675.87 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1103-81 N.. 3 1 2 3
+SYO 1991 07 18 19 30 00 -999 -9 -9 -9 -9 -9 1677.68 2.71 -9 -69.0 39.575 14.0 11.0 3.0 85-81 ... 1 1 2 3
+SYO 1991 07 18 19 30 00 -999 -9 -9 -9 -9 -9 1689.41 2.71 -9 -69.0 39.575 14.0 11.0 3.0 86-81 N.. 3 1 2 3
+SYO 1991 07 27 18 05 00 -999 -9 -9 -9 -9 -9 1684.61 2.71 -9 -69.0 39.575 14.0 11.0 3.0 581-81 ... 1 1 2 3
+SYO 1991 07 27 18 05 00 -999 -9 -9 -9 -9 -9 1696.95 2.71 -9 -69.0 39.575 14.0 11.0 3.0 582-81 N.. 3 1 2 3
+SYO 1991 08 15 14 50 00 -999 -9 -9 -9 -9 -9 1690.0 2.71 -9 -69.0 39.575 14.0 11.0 3.0 109-81 N.. 3 1 2 3
+SYO 1991 08 15 14 50 00 -999 -9 -9 -9 -9 -9 1685.79 2.71 -9 -69.0 39.575 14.0 11.0 3.0 110-81 N.. 3 1 2 3
+SYO 1991 08 29 12 30 00 -999 -9 -9 -9 -9 -9 1693.5 2.71 -9 -69.0 39.575 14.0 11.0 3.0 649-81 N.. 3 1 2 3
+SYO 1991 08 29 12 30 00 -999 -9 -9 -9 -9 -9 1688.89 2.71 -9 -69.0 39.575 14.0 11.0 3.0 650-81 N.. 3 1 2 3
+SYO 1991 09 15 14 22 00 -999 -9 -9 -9 -9 -9 1686.04 2.71 -9 -69.0 39.575 14.0 11.0 3.0 545-81 ... 1 1 2 3
+SYO 1991 09 15 14 22 00 -999 -9 -9 -9 -9 -9 1698.6 2.71 -9 -69.0 39.575 14.0 11.0 3.0 546-81 N.. 3 1 2 3
+SYO 1991 10 07 06 55 00 -999 -9 -9 -9 -9 -9 1705.61 2.71 -9 -69.0 39.575 14.0 11.0 3.0 565-81 N.. 3 1 2 3
+SYO 1991 10 07 06 55 00 -999 -9 -9 -9 -9 -9 1690.41 2.71 -9 -69.0 39.575 14.0 11.0 3.0 566-81 N.. 3 1 2 3
+SYO 1991 10 20 16 20 00 -999 -9 -9 -9 -9 -9 1686.83 2.71 -9 -69.0 39.575 14.0 11.0 3.0 765-81 ... 1 1 2 3
+SYO 1991 10 20 16 20 00 -999 -9 -9 -9 -9 -9 1689.23 2.71 -9 -69.0 39.575 14.0 11.0 3.0 766-81 ... 1 1 2 3
+SYO 1991 11 07 06 50 00 -999 -9 -9 -9 -9 -9 1738.93 2.71 -9 -69.0 39.575 14.0 11.0 3.0 823-81 N.. 3 1 2 3
+SYO 1991 11 22 11 17 00 -999 -9 -9 -9 -9 -9 1699.01 2.71 -9 -69.0 39.575 14.0 11.0 3.0 203-81 N.. 3 1 2 3
+SYO 1991 11 22 11 17 00 -999 -9 -9 -9 -9 -9 1692.56 2.71 -9 -69.0 39.575 14.0 11.0 3.0 204-81 ... 1 1 2 3
+SYO 1991 12 03 11 23 00 -999 -9 -9 -9 -9 -9 1691.53 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1029-81 N.. 3 1 2 3
+SYO 1991 12 03 11 23 00 -999 -9 -9 -9 -9 -9 1687.56 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1030-81 ... 1 1 2 3
+SYO 1991 12 18 14 58 00 -999 -9 -9 -9 -9 -9 1683.9 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1457-81 ... 1 1 2 3
+SYO 1992 01 02 10 19 00 -999 -9 -9 -9 -9 -9 1686.11 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1107-81 N.. 3 1 2 3
+SYO 1992 01 19 07 34 00 -999 -9 -9 -9 -9 -9 1679.83 2.71 -9 -69.0 39.575 14.0 11.0 3.0 379-81 N.. 3 1 2 3
+SYO 1992 01 19 07 34 00 -999 -9 -9 -9 -9 -9 1680.75 2.71 -9 -69.0 39.575 14.0 11.0 3.0 380-81 N.. 3 1 2 3
+SYO 1992 02 08 07 30 00 -999 -9 -9 -9 -9 -9 1673.58 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1367-81 ... 1 1 2 3
+SYO 1992 02 17 08 53 00 -999 -9 -9 -9 -9 -9 1669.26 2.71 -9 -69.0 39.575 14.0 11.0 3.0 183-81 ... 1 1 2 3
+SYO 1992 02 17 08 53 00 -999 -9 -9 -9 -9 -9 1672.37 2.71 -9 -69.0 39.575 14.0 11.0 3.0 184-81 ... 1 1 2 3
+SYO 1992 03 04 13 20 00 -999 -9 -9 -9 -9 -9 1669.27 2.71 -9 -69.0 39.575 14.0 11.0 3.0 687-81 ... 1 1 2 3
+SYO 1992 03 04 13 20 00 -999 -9 -9 -9 -9 -9 1672.21 2.71 -9 -69.0 39.575 14.0 11.0 3.0 688-81 ... 1 1 2 3
+SYO 1992 03 18 06 37 00 -999 -9 -9 -9 -9 -9 1671.41 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1083-81 ... 1 1 2 3
+SYO 1992 03 18 06 37 00 -999 -9 -9 -9 -9 -9 1673.46 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1084-81 N.. 3 1 2 3
+SYO 1992 04 03 12 15 00 -999 -9 -9 -9 -9 -9 1680.92 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1345-81 N.. 3 1 2 3
+SYO 1992 04 03 12 15 00 -999 -9 -9 -9 -9 -9 1675.55 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1346-81 ... 1 1 2 3
+SYO 1992 04 17 05 40 00 -999 -9 -9 -9 -9 -9 1671.52 2.71 -9 -69.0 39.575 14.0 11.0 3.0 315-81 ... 1 1 2 3
+SYO 1992 04 17 05 40 00 -999 -9 -9 -9 -9 -9 1678.12 2.71 -9 -69.0 39.575 14.0 11.0 3.0 316-81 ... 1 1 2 3
+SYO 1992 05 07 11 50 00 -999 -9 -9 -9 -9 -9 1682.89 2.71 -9 -69.0 39.575 14.0 11.0 3.0 195-81 ... 1 1 2 3
+SYO 1992 05 07 11 50 00 -999 -9 -9 -9 -9 -9 1683.05 2.71 -9 -69.0 39.575 14.0 11.0 3.0 196-81 N.. 3 1 2 3
+SYO 1992 05 18 07 35 00 -999 -9 -9 -9 -9 -9 1678.3 2.71 -9 -69.0 39.575 14.0 11.0 3.0 313-81 ... 1 1 2 3
+SYO 1992 05 18 07 35 00 -999 -9 -9 -9 -9 -9 1682.69 2.71 -9 -69.0 39.575 14.0 11.0 3.0 314-81 ... 1 1 2 3
+SYO 1992 06 04 08 20 00 -999 -9 -9 -9 -9 -9 1687.72 2.71 -9 -69.0 39.575 14.0 11.0 3.0 310-81 ... 1 1 2 3
+SYO 1992 06 17 07 36 00 -999 -9 -9 -9 -9 -9 1689.0 2.71 -9 -69.0 39.575 14.0 11.0 3.0 441-81 ... 1 1 2 3
+SYO 1992 06 17 07 36 00 -999 -9 -9 -9 -9 -9 1688.71 2.71 -9 -69.0 39.575 14.0 11.0 3.0 442-81 ... 1 1 2 3
+SYO 1992 07 04 07 40 00 -999 -9 -9 -9 -9 -9 1700.06 2.71 -9 -69.0 39.575 14.0 11.0 3.0 307-81 N.. 3 1 2 3
+SYO 1992 07 04 07 40 00 -999 -9 -9 -9 -9 -9 1693.56 2.71 -9 -69.0 39.575 14.0 11.0 3.0 308-81 ... 1 1 2 3
+SYO 1992 07 20 12 16 00 -999 -9 -9 -9 -9 -9 1699.24 2.71 -9 -69.0 39.575 14.0 11.0 3.0 7-81 ... 1 1 2 3
+SYO 1992 07 20 12 16 00 -999 -9 -9 -9 -9 -9 1694.8 2.71 -9 -69.0 39.575 14.0 11.0 3.0 8-81 ... 1 1 2 3
+SYO 1992 08 09 12 50 00 -999 -9 -9 -9 -9 -9 1702.61 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1121-81 ... 1 1 2 3
+SYO 1992 08 09 12 50 00 -999 -9 -9 -9 -9 -9 1697.85 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1122-81 ... 1 1 2 3
+SYO 1992 08 25 06 38 00 -999 -9 -9 -9 -9 -9 1698.04 2.71 -9 -69.0 39.575 14.0 11.0 3.0 561-81 ... 1 1 2 3
+SYO 1992 08 25 06 38 00 -999 -9 -9 -9 -9 -9 1698.32 2.71 -9 -69.0 39.575 14.0 11.0 3.0 562-81 ... 1 1 2 3
+SYO 1992 09 07 07 45 00 -999 -9 -9 -9 -9 -9 1704.86 2.71 -9 -69.0 39.575 14.0 11.0 3.0 786-81 ... 1 1 2 3
+SYO 1992 09 22 12 01 00 -999 -9 -9 -9 -9 -9 1703.01 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1377-81 ... 1 1 2 3
+SYO 1992 09 22 12 01 00 -999 -9 -9 -9 -9 -9 1703.61 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1378-81 ... 1 1 2 3
+SYO 1992 10 12 08 34 00 -999 -9 -9 -9 -9 -9 1704.94 2.71 -9 -69.0 39.575 14.0 11.0 3.0 361-81 ... 1 1 2 3
+SYO 1992 10 12 08 34 00 -999 -9 -9 -9 -9 -9 1702.77 2.71 -9 -69.0 39.575 14.0 11.0 3.0 362-81 ... 1 1 2 3
+SYO 1992 10 28 12 55 00 -999 -9 -9 -9 -9 -9 1699.87 2.71 -9 -69.0 39.575 14.0 11.0 3.0 817-81 ... 1 1 2 3
+SYO 1992 10 28 12 55 00 -999 -9 -9 -9 -9 -9 1699.62 2.71 -9 -69.0 39.575 14.0 11.0 3.0 818-81 ... 1 1 2 3
+SYO 1992 11 07 06 53 00 -999 -9 -9 -9 -9 -9 1702.39 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1459-81 ... 1 1 2 3
+SYO 1992 11 07 06 53 00 -999 -9 -9 -9 -9 -9 1700.88 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1460-81 ... 1 1 2 3
+SYO 1992 11 25 08 30 00 -999 -9 -9 -9 -9 -9 1693.25 2.71 -9 -69.0 39.575 14.0 11.0 3.0 477-81 ... 1 1 2 3
+SYO 1992 11 25 08 30 00 -999 -9 -9 -9 -9 -9 1691.08 2.71 -9 -69.0 39.575 14.0 11.0 3.0 478-81 ... 1 1 2 3
+SYO 1992 12 07 06 25 00 -999 -9 -9 -9 -9 -9 1688.98 2.71 -9 -69.0 39.575 14.0 11.0 3.0 419-81 ... 1 1 2 3
+SYO 1992 12 07 06 25 00 -999 -9 -9 -9 -9 -9 1694.64 2.71 -9 -69.0 39.575 14.0 11.0 3.0 420-81 ... 1 1 2 3
+SYO 1992 12 23 06 28 00 -999 -9 -9 -9 -9 -9 1685.22 2.71 -9 -69.0 39.575 14.0 11.0 3.0 1376-81 ... 1 1 2 3
+SYO 1993 01 05 14 50 00 -999 -9 -9 -9 -9 -9 1682.79 2.71 -9 -69.0 39.575 14.0 11.0 3.0 197-81 ... 1 1 2 3
+SYO 1993 01 05 14 50 00 -999 -9 -9 -9 -9 -9 1679.28 2.71 -9 -69.0 39.575 14.0 11.0 3.0 198-81 ... 1 1 2 3
+SYO 1993 01 15 07 15 00 -999 -9 -9 -9 -9 -9 1673.29 2.71 -9 -69.0 39.575 14.0 11.0 3.0 845-81 ... 1 1 2 3
+SYO 1993 01 15 07 15 00 -999 -9 -9 -9 -9 -9 1680.62 2.71 -9 -69.0 39.575 14.0 11.0 3.0 846-81 ... 1 1 2 3
+SYO 1993 02 06 18 30 00 -999 -9 -9 -9 -9 -9 1676.2 2.71 -9 -69.0 39.575 16.0 11.0 5.0 17-91 ... 1 1 2 3
+SYO 1993 02 06 18 30 00 -999 -9 -9 -9 -9 -9 1673.71 2.71 -9 -69.0 39.575 16.0 11.0 5.0 18-91 ... 1 1 2 3
+SYO 1993 02 21 17 35 00 -999 -9 -9 -9 -9 -9 1672.53 2.71 -9 -69.0 39.575 16.0 11.0 5.0 45-91 ... 1 1 2 3
+SYO 1993 02 21 17 35 00 -999 -9 -9 -9 -9 -9 1668.95 2.71 -9 -69.0 39.575 16.0 11.0 5.0 46-91 ... 1 1 2 3
+SYO 1993 03 06 07 30 00 -999 -9 -9 -9 -9 -9 1668.98 2.71 -9 -69.0 39.575 16.0 11.0 5.0 139-91 ... 1 1 2 3
+SYO 1993 03 06 07 30 00 -999 -9 -9 -9 -9 -9 1671.17 2.71 -9 -69.0 39.575 16.0 11.0 5.0 140-91 ... 1 1 2 3
+SYO 1993 03 20 08 00 00 -999 -9 -9 -9 -9 -9 1672.01 2.71 -9 -69.0 39.575 16.0 11.0 5.0 141-91 ... 1 1 2 3
+SYO 1993 03 20 08 00 00 -999 -9 -9 -9 -9 -9 1671.0 2.71 -9 -69.0 39.575 16.0 11.0 5.0 142-91 ... 1 1 2 3
+SYO 1993 04 05 10 55 00 -999 -9 -9 -9 -9 -9 1674.82 2.71 -9 -69.0 39.575 16.0 11.0 5.0 135-91 ... 1 1 2 3
+SYO 1993 04 05 10 55 00 -999 -9 -9 -9 -9 -9 1673.47 2.71 -9 -69.0 39.575 16.0 11.0 5.0 136-91 ... 1 1 2 3
+SYO 1993 04 19 06 30 00 -999 -9 -9 -9 -9 -9 1676.48 2.71 -9 -69.0 39.575 16.0 11.0 5.0 137-91 ... 1 1 2 3
+SYO 1993 04 19 06 30 00 -999 -9 -9 -9 -9 -9 1677.5 2.71 -9 -69.0 39.575 16.0 11.0 5.0 138-91 ... 1 1 2 3
+SYO 1993 05 08 13 55 00 -999 -9 -9 -9 -9 -9 1683.37 2.71 -9 -69.0 39.575 16.0 11.0 5.0 115-91 ... 1 1 2 3
+SYO 1993 05 08 13 55 00 -999 -9 -9 -9 -9 -9 1683.19 2.71 -9 -69.0 39.575 16.0 11.0 5.0 116-91 ... 1 1 2 3
+SYO 1993 05 24 07 40 00 -999 -9 -9 -9 -9 -9 1683.02 2.71 -9 -69.0 39.575 16.0 11.0 5.0 117-91 ... 1 1 2 3
+SYO 1993 05 24 07 40 00 -999 -9 -9 -9 -9 -9 1686.11 2.71 -9 -69.0 39.575 16.0 11.0 5.0 118-91 ... 1 1 2 3
+SYO 1993 06 11 08 45 00 -999 -9 -9 -9 -9 -9 1692.28 2.71 -9 -69.0 39.575 16.0 11.0 5.0 43-91 ... 1 1 2 3
+SYO 1993 06 11 08 45 00 -999 -9 -9 -9 -9 -9 1689.82 2.71 -9 -69.0 39.575 16.0 11.0 5.0 44-91 ... 1 1 2 3
+SYO 1993 06 20 13 15 00 -999 -9 -9 -9 -9 -9 1690.01 2.71 -9 -69.0 39.575 16.0 11.0 5.0 59-91 ... 1 1 2 3
+SYO 1993 06 20 13 15 00 -999 -9 -9 -9 -9 -9 1688.84 2.71 -9 -69.0 39.575 16.0 11.0 5.0 60-91 ... 1 1 2 3
+SYO 1993 07 05 10 50 00 -999 -9 -9 -9 -9 -9 1691.64 2.71 -9 -69.0 39.575 16.0 11.0 5.0 131-91 ... 1 1 2 3
+SYO 1993 07 05 10 50 00 -999 -9 -9 -9 -9 -9 1693.01 2.71 -9 -69.0 39.575 16.0 11.0 5.0 132-91 ... 1 1 2 3
+SYO 1993 07 21 14 41 00 -999 -9 -9 -9 -9 -9 1697.61 2.71 -9 -69.0 39.575 16.0 11.0 5.0 61-91 ... 1 1 2 3
+SYO 1993 07 21 14 41 00 -999 -9 -9 -9 -9 -9 1700.76 2.71 -9 -69.0 39.575 16.0 11.0 5.0 62-91 .X. 2 1 2 3
+SYO 1993 08 09 11 20 00 -999 -9 -9 -9 -9 -9 1699.04 2.71 -9 -69.0 39.575 16.0 11.0 5.0 107-91 ... 1 1 2 3
+SYO 1993 08 09 11 20 00 -999 -9 -9 -9 -9 -9 1700.47 2.71 -9 -69.0 39.575 16.0 11.0 5.0 108-91 ... 1 1 2 3
+SYO 1993 08 26 06 50 00 -999 -9 -9 -9 -9 -9 1700.4 2.71 -9 -69.0 39.575 16.0 11.0 5.0 133-91 ... 1 1 2 3
+SYO 1993 08 26 06 50 00 -999 -9 -9 -9 -9 -9 1699.1 2.71 -9 -69.0 39.575 16.0 11.0 5.0 134-91 ... 1 1 2 3
+SYO 1993 09 06 08 55 00 -999 -9 -9 -9 -9 -9 1701.22 2.71 -9 -69.0 39.575 16.0 11.0 5.0 129-91 ... 1 1 2 3
+SYO 1993 09 06 08 55 00 -999 -9 -9 -9 -9 -9 1702.59 2.71 -9 -69.0 39.575 16.0 11.0 5.0 130-91 ... 1 1 2 3
+SYO 1993 09 26 14 45 00 -999 -9 -9 -9 -9 -9 1701.7 2.71 -9 -69.0 39.575 16.0 11.0 5.0 127-91 ... 1 1 2 3
+SYO 1993 09 26 14 45 00 -999 -9 -9 -9 -9 -9 1701.43 2.71 -9 -69.0 39.575 16.0 11.0 5.0 128-91 ... 1 1 2 3
+SYO 1993 10 08 13 42 00 -999 -9 -9 -9 -9 -9 1702.33 2.71 -9 -69.0 39.575 16.0 11.0 5.0 123-91 ... 1 1 2 3
+SYO 1993 10 08 13 42 00 -999 -9 -9 -9 -9 -9 1700.22 2.71 -9 -69.0 39.575 16.0 11.0 5.0 124-91 ... 1 1 2 3
+SYO 1993 10 19 12 11 00 -999 -9 -9 -9 -9 -9 1700.63 2.71 -9 -69.0 39.575 16.0 11.0 5.0 11-91 ... 1 1 2 3
+SYO 1993 10 19 12 11 00 -999 -9 -9 -9 -9 -9 1702.14 2.71 -9 -69.0 39.575 16.0 11.0 5.0 12-91 ... 1 1 2 3
+SYO 1993 11 02 07 40 00 -999 -9 -9 -9 -9 -9 1701.96 2.71 -9 -69.0 39.575 16.0 11.0 5.0 113-91 ... 1 1 2 3
+SYO 1993 11 02 07 40 00 -999 -9 -9 -9 -9 -9 1698.49 2.71 -9 -69.0 39.575 16.0 11.0 5.0 114-91 ... 1 1 2 3
+SYO 1993 11 23 20 22 00 -999 -9 -9 -9 -9 -9 1694.74 2.71 -9 -69.0 39.575 16.0 11.0 5.0 111-91 ... 1 1 2 3
+SYO 1993 11 23 20 22 00 -999 -9 -9 -9 -9 -9 1692.33 2.71 -9 -69.0 39.575 16.0 11.0 5.0 112-91 ... 1 1 2 3
+SYO 1993 12 04 08 40 00 -999 -9 -9 -9 -9 -9 1689.98 2.71 -9 -69.0 39.575 16.0 11.0 5.0 109-91 ... 1 1 2 3
+SYO 1993 12 04 08 40 00 -999 -9 -9 -9 -9 -9 1690.51 2.71 -9 -69.0 39.575 16.0 11.0 5.0 110-91 ... 1 1 2 3
+SYO 1993 12 22 20 26 00 -999 -9 -9 -9 -9 -9 1688.35 2.71 -9 -69.0 39.575 16.0 11.0 5.0 145-91 ... 1 1 2 3
+SYO 1993 12 22 20 26 00 -999 -9 -9 -9 -9 -9 1686.67 2.71 -9 -69.0 39.575 16.0 11.0 5.0 146-91 ... 1 1 2 3
+SYO 1994 01 04 08 01 00 -999 -9 -9 -9 -9 -9 1684.84 2.71 -9 -69.0 39.575 16.0 11.0 5.0 143-91 ... 1 1 2 3
+SYO 1994 01 04 08 01 00 -999 -9 -9 -9 -9 -9 1686.26 2.71 -9 -69.0 39.575 16.0 11.0 5.0 144-91 ... 1 1 2 3
+SYO 1994 02 08 08 20 00 -999 -9 -9 -9 -9 -9 1673.86 2.71 -9 -69.0 39.575 16.0 11.0 5.0 481-91 ... 1 1 2 3
+SYO 1994 02 08 08 20 00 -999 -9 -9 -9 -9 -9 1677.01 2.71 -9 -69.0 39.575 16.0 11.0 5.0 482-91 ... 1 1 2 3
+SYO 1994 02 22 13 35 00 -999 -9 -9 -9 -9 -9 1674.22 2.71 -9 -69.0 39.575 16.0 11.0 5.0 483-91 ... 1 1 2 3
+SYO 1994 02 22 13 35 00 -999 -9 -9 -9 -9 -9 1670.79 2.71 -9 -69.0 39.575 16.0 11.0 5.0 484-91 ... 1 1 2 3
+SYO 1994 03 10 07 45 00 -999 -9 -9 -9 -9 -9 1674.41 2.71 -9 -69.0 39.575 16.0 11.0 5.0 463-91 ... 1 1 2 3
+SYO 1994 03 10 07 45 00 -999 -9 -9 -9 -9 -9 1673.49 2.71 -9 -69.0 39.575 16.0 11.0 5.0 464-91 ... 1 1 2 3
+SYO 1994 03 26 10 35 00 -999 -9 -9 -9 -9 -9 1677.4 2.71 -9 -69.0 39.575 16.0 11.0 5.0 467-91 ... 1 1 2 3
+SYO 1994 03 26 10 35 00 -999 -9 -9 -9 -9 -9 1674.06 2.71 -9 -69.0 39.575 16.0 11.0 5.0 468-91 ... 1 1 2 3
+SYO 1994 04 06 13 35 00 -999 -9 -9 -9 -9 -9 1678.72 2.71 -9 -69.0 39.575 16.0 11.0 5.0 477-91 ... 1 1 2 3
+SYO 1994 04 06 13 35 00 -999 -9 -9 -9 -9 -9 1676.09 2.71 -9 -69.0 39.575 16.0 11.0 5.0 478-91 ... 1 1 2 3
+SYO 1994 04 20 13 55 00 -999 -9 -9 -9 -9 -9 1680.02 2.71 -9 -69.0 39.575 16.0 11.0 5.0 479-91 ... 1 1 2 3
+SYO 1994 04 20 13 55 00 -999 -9 -9 -9 -9 -9 1681.38 2.71 -9 -69.0 39.575 16.0 11.0 5.0 480-91 ... 1 1 2 3
+SYO 1994 05 12 07 25 00 -999 -9 -9 -9 -9 -9 1685.84 2.71 -9 -69.0 39.575 16.0 11.0 5.0 465-91 ... 1 1 2 3
+SYO 1994 05 12 07 25 00 -999 -9 -9 -9 -9 -9 1686.31 2.71 -9 -69.0 39.575 16.0 11.0 5.0 466-91 ... 1 1 2 3
+SYO 1994 05 23 11 20 00 -999 -9 -9 -9 -9 -9 1685.18 2.71 -9 -69.0 39.575 16.0 11.0 5.0 509-91 ... 1 1 2 3
+SYO 1994 05 23 11 20 00 -999 -9 -9 -9 -9 -9 1686.98 2.71 -9 -69.0 39.575 16.0 11.0 5.0 510-91 ... 1 1 2 3
+SYO 1994 06 04 10 50 00 -999 -9 -9 -9 -9 -9 1688.95 2.71 -9 -69.0 39.575 16.0 11.0 5.0 459-91 ... 1 1 2 3
+SYO 1994 06 04 10 50 00 -999 -9 -9 -9 -9 -9 1687.33 2.71 -9 -69.0 39.575 16.0 11.0 5.0 460-91 ... 1 1 2 3
+SYO 1994 06 16 07 40 00 -999 -9 -9 -9 -9 -9 1696.32 2.71 -9 -69.0 39.575 16.0 11.0 5.0 491-91 ... 1 1 2 3
+SYO 1994 06 16 07 40 00 -999 -9 -9 -9 -9 -9 1693.5 2.71 -9 -69.0 39.575 16.0 11.0 5.0 492-91 ... 1 1 2 3
+SYO 1994 07 14 07 40 00 -999 -9 -9 -9 -9 -9 1699.89 2.71 -9 -69.0 39.575 16.0 11.0 5.0 469-91 ... 1 1 2 3
+SYO 1994 07 14 07 40 00 -999 -9 -9 -9 -9 -9 1700.04 2.71 -9 -69.0 39.575 16.0 11.0 5.0 470-91 ... 1 1 2 3
+SYO 1994 07 26 08 40 00 -999 -9 -9 -9 -9 -9 1702.31 2.71 -9 -69.0 39.575 16.0 11.0 5.0 471-91 ... 1 1 2 3
+SYO 1994 07 26 08 40 00 -999 -9 -9 -9 -9 -9 1698.42 2.71 -9 -69.0 39.575 16.0 11.0 5.0 472-91 ... 1 1 2 3
+SYO 1994 08 13 10 50 00 -999 -9 -9 -9 -9 -9 1704.71 2.71 -9 -69.0 39.575 16.0 11.0 5.0 487-91 ... 1 1 2 3
+SYO 1994 08 13 10 50 00 -999 -9 -9 -9 -9 -9 1705.52 2.71 -9 -69.0 39.575 16.0 11.0 5.0 488-91 ... 1 1 2 3
+SYO 1994 08 25 07 20 00 -999 -9 -9 -9 -9 -9 1704.78 2.71 -9 -69.0 39.575 16.0 11.0 5.0 489-91 ... 1 1 2 3
+SYO 1994 08 25 07 20 00 -999 -9 -9 -9 -9 -9 1707.91 2.71 -9 -69.0 39.575 16.0 11.0 5.0 490-91 ... 1 1 2 3
+SYO 1994 09 11 05 25 00 -999 -9 -9 -9 -9 -9 1708.51 2.71 -9 -69.0 39.575 16.0 11.0 5.0 485-91 ... 1 1 2 3
+SYO 1994 09 11 05 25 00 -999 -9 -9 -9 -9 -9 1706.24 2.71 -9 -69.0 39.575 16.0 11.0 5.0 486-91 ... 1 1 2 3
+SYO 1994 09 27 06 05 00 -999 -9 -9 -9 -9 -9 1704.84 2.71 -9 -69.0 39.575 16.0 11.0 5.0 461-91 ... 1 1 2 3
+SYO 1994 09 27 06 05 00 -999 -9 -9 -9 -9 -9 1702.41 2.71 -9 -69.0 39.575 16.0 11.0 5.0 462-91 ... 1 1 2 3
+SYO 1994 10 11 12 50 00 -999 -9 -9 -9 -9 -9 1706.26 2.71 -9 -69.0 39.575 16.0 11.0 5.0 451-91 ... 1 1 2 3
+SYO 1994 10 11 12 50 00 -999 -9 -9 -9 -9 -9 1706.49 2.71 -9 -69.0 39.575 16.0 11.0 5.0 452-91 ... 1 1 2 3
+SYO 1994 10 29 04 40 00 -999 -9 -9 -9 -9 -9 1706.54 2.71 -9 -69.0 39.575 16.0 11.0 5.0 453-91 ... 1 1 2 3
+SYO 1994 10 29 04 40 00 -999 -9 -9 -9 -9 -9 1703.85 2.71 -9 -69.0 39.575 16.0 11.0 5.0 454-91 ... 1 1 2 3
+SYO 1994 11 13 10 30 00 -999 -9 -9 -9 -9 -9 1705.74 2.71 -9 -69.0 39.575 16.0 11.0 5.0 447-91 ... 1 1 2 3
+SYO 1994 11 13 10 30 00 -999 -9 -9 -9 -9 -9 1703.42 2.71 -9 -69.0 39.575 16.0 11.0 5.0 448-91 ... 1 1 2 3
+SYO 1994 11 27 08 30 00 -999 -9 -9 -9 -9 -9 1702.51 2.71 -9 -69.0 39.575 16.0 11.0 5.0 449-91 ... 1 1 2 3
+SYO 1994 11 27 08 30 00 -999 -9 -9 -9 -9 -9 1700.79 2.71 -9 -69.0 39.575 16.0 11.0 5.0 450-91 ... 1 1 2 3
+SYO 1994 12 14 05 55 00 -999 -9 -9 -9 -9 -9 1701.91 2.71 -9 -69.0 39.575 16.0 11.0 5.0 473-91 ... 1 1 2 3
+SYO 1994 12 14 05 55 00 -999 -9 -9 -9 -9 -9 1697.72 2.71 -9 -69.0 39.575 16.0 11.0 5.0 474-91 ... 1 1 2 3
+SYO 1994 12 27 10 35 00 -999 -9 -9 -9 -9 -9 1695.45 2.71 -9 -69.0 39.575 16.0 11.0 5.0 475-91 ... 1 1 2 3
+SYO 1994 12 27 10 35 00 -999 -9 -9 -9 -9 -9 1697.13 2.71 -9 -69.0 39.575 16.0 11.0 5.0 476-91 ... 1 1 2 3
+SYO 1995 01 14 07 50 00 -999 -9 -9 -9 -9 -9 1692.95 2.71 -9 -69.0 39.575 16.0 11.0 5.0 455-91 ... 1 1 2 3
+SYO 1995 01 14 07 50 00 -999 -9 -9 -9 -9 -9 1690.43 2.71 -9 -69.0 39.575 16.0 11.0 5.0 456-91 ... 1 1 2 3
+SYO 1995 01 26 08 30 00 -999 -9 -9 -9 -9 -9 1688.11 2.71 -9 -69.0 39.575 16.0 11.0 5.0 457-91 ... 1 1 2 3
+SYO 1995 01 26 08 30 00 -999 -9 -9 -9 -9 -9 1687.01 2.71 -9 -69.0 39.575 16.0 11.0 5.0 458-91 ... 1 1 2 3
+SYO 1995 02 13 18 05 00 -999 -9 -9 -9 -9 -9 1690.27 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1061-91 ... 1 1 2 3
+SYO 1995 02 13 18 05 00 -999 -9 -9 -9 -9 -9 1684.43 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1062-91 ... 1 1 2 3
+SYO 1995 03 02 17 57 00 -999 -9 -9 -9 -9 -9 1683.41 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1063-91 ... 1 1 2 3
+SYO 1995 03 02 17 57 00 -999 -9 -9 -9 -9 -9 1682.92 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1064-91 ... 1 1 2 3
+SYO 1995 04 14 11 45 00 -999 -9 -9 -9 -9 -9 1686.27 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1077-91 ... 1 1 2 3
+SYO 1995 04 14 11 45 00 -999 -9 -9 -9 -9 -9 1686.81 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1078-91 ... 1 1 2 3
+SYO 1995 04 29 11 05 00 -999 -9 -9 -9 -9 -9 1694.13 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1079-91 ... 1 1 2 3
+SYO 1995 04 29 11 05 00 -999 -9 -9 -9 -9 -9 1690.26 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1080-91 ... 1 1 2 3
+SYO 1995 05 17 18 20 00 -999 -9 -9 -9 -9 -9 1693.17 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1085-91 ... 1 1 2 3
+SYO 1995 05 17 18 20 00 -999 -9 -9 -9 -9 -9 1694.96 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1086-91 ... 1 1 2 3
+SYO 1995 05 28 11 10 00 -999 -9 -9 -9 -9 -9 1695.48 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1087-91 ... 1 1 2 3
+SYO 1995 05 28 11 10 00 -999 -9 -9 -9 -9 -9 1696.96 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1088-91 ... 1 1 2 3
+SYO 1995 06 15 20 50 00 -999 -9 -9 -9 -9 -9 1695.2 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1081-91 ... 1 1 2 3
+SYO 1995 06 15 20 50 00 -999 -9 -9 -9 -9 -9 1694.03 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1082-91 ... 1 1 2 3
+SYO 1995 06 28 19 40 00 -999 -9 -9 -9 -9 -9 1704.22 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1083-91 ... 1 1 2 3
+SYO 1995 06 28 19 40 00 -999 -9 -9 -9 -9 -9 1700.01 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1084-91 ... 1 1 2 3
+SYO 1995 07 14 20 40 00 -999 -9 -9 -9 -9 -9 1702.23 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1069-91 ... 1 1 2 3
+SYO 1995 07 14 20 40 00 -999 -9 -9 -9 -9 -9 1704.04 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1070-91 ... 1 1 2 3
+SYO 1995 07 30 11 20 00 -999 -9 -9 -9 -9 -9 1708.96 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1071-91 ... 1 1 2 3
+SYO 1995 07 30 11 20 00 -999 -9 -9 -9 -9 -9 1709.9 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1072-91 ... 1 1 2 3
+SYO 1995 08 14 12 05 00 -999 -9 -9 -9 -9 -9 1709.65 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1073-91 ... 1 1 2 3
+SYO 1995 08 14 12 05 00 -999 -9 -9 -9 -9 -9 1705.84 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1074-91 ... 1 1 2 3
+SYO 1995 09 01 11 35 00 -999 -9 -9 -9 -9 -9 1711.37 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1075-91 ... 1 1 2 3
+SYO 1995 09 01 11 35 00 -999 -9 -9 -9 -9 -9 1712.27 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1076-91 ... 1 1 2 3
+SYO 1995 10 14 10 50 00 -999 -9 -9 -9 -9 -9 1712.32 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1049-91 ... 1 1 2 3
+SYO 1995 10 14 10 50 00 -999 -9 -9 -9 -9 -9 1717.14 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1050-91 ... 1 1 2 3
+SYO 1995 10 29 17 40 00 -999 -9 -9 -9 -9 -9 1714.91 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1051-91 ... 1 1 2 3
+SYO 1995 10 29 17 40 00 -999 -9 -9 -9 -9 -9 1712.56 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1052-91 ... 1 1 2 3
+SYO 1995 11 13 19 55 00 -999 -9 -9 -9 -9 -9 1711.1 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1045-91 ... 1 1 2 3
+SYO 1995 11 13 19 55 00 -999 -9 -9 -9 -9 -9 1711.11 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1046-91 ... 1 1 2 3
+SYO 1995 11 29 14 25 00 -999 -9 -9 -9 -9 -9 1707.64 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1047-91 ... 1 1 2 3
+SYO 1995 11 29 14 25 00 -999 -9 -9 -9 -9 -9 1708.83 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1048-91 ... 1 1 2 3
+SYO 1995 12 18 12 45 00 -999 -9 -9 -9 -9 -9 1709.57 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1057-91 ... 1 1 2 3
+SYO 1995 12 18 12 45 00 -999 -9 -9 -9 -9 -9 1707.23 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1058-91 ... 1 1 2 3
+SYO 1995 12 31 19 00 00 -999 -9 -9 -9 -9 -9 1697.42 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1059-91 ... 1 1 2 3
+SYO 1995 12 31 19 00 00 -999 -9 -9 -9 -9 -9 1697.82 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1060-91 ... 1 1 2 3
+SYO 1996 01 16 13 15 00 -999 -9 -9 -9 -9 -9 1694.7 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1043-91 ... 1 1 2 3
+SYO 1996 01 16 13 15 00 -999 -9 -9 -9 -9 -9 1692.27 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1044-91 ... 1 1 2 3
+SYO 1996 02 12 19 05 00 -999 -9 -9 -9 -9 -9 1683.81 2.71 -9 -69.0 39.575 16.0 11.0 5.0 239-91 ... 1 1 2 3
+SYO 1996 02 12 19 05 00 -999 -9 -9 -9 -9 -9 1684.06 2.71 -9 -69.0 39.575 16.0 11.0 5.0 240-91 ... 1 1 2 3
+SYO 1996 02 26 09 55 00 -999 -9 -9 -9 -9 -9 1685.13 2.71 -9 -69.0 39.575 16.0 11.0 5.0 243-91 ... 1 1 2 3
+SYO 1996 02 26 09 55 00 -999 -9 -9 -9 -9 -9 1687.06 2.71 -9 -69.0 39.575 16.0 11.0 5.0 244-91 ... 1 1 2 3
+SYO 1996 03 20 04 05 00 -999 -9 -9 -9 -9 -9 1684.53 2.71 -9 -69.0 39.575 16.0 11.0 5.0 553-91 ... 1 1 2 3
+SYO 1996 03 20 04 05 00 -999 -9 -9 -9 -9 -9 1682.71 2.71 -9 -69.0 39.575 16.0 11.0 5.0 554-91 ... 1 1 2 3
+SYO 1996 03 25 16 52 00 -999 -9 -9 -9 -9 -9 1683.28 2.71 -9 -69.0 39.575 16.0 11.0 5.0 851-91 ... 1 1 2 3
+SYO 1996 03 25 16 52 00 -999 -9 -9 -9 -9 -9 1685.04 2.71 -9 -69.0 39.575 16.0 11.0 5.0 852-91 ... 1 1 2 3
+SYO 1996 04 09 14 47 00 -999 -9 -9 -9 -9 -9 1688.99 2.71 -9 -69.0 39.575 16.0 11.0 5.0 29-91 ... 1 1 2 3
+SYO 1996 04 09 14 47 00 -999 -9 -9 -9 -9 -9 1689.73 2.71 -9 -69.0 39.575 16.0 11.0 5.0 30-91 ... 1 1 2 3
+SYO 1996 04 22 11 34 00 -999 -9 -9 -9 -9 -9 1691.15 2.71 -9 -69.0 39.575 16.0 11.0 5.0 487-91 ... 1 1 2 3
+SYO 1996 04 22 11 34 00 -999 -9 -9 -9 -9 -9 1690.28 2.71 -9 -69.0 39.575 16.0 11.0 5.0 488-91 ... 1 1 2 3
+SYO 1996 05 22 13 02 00 -999 -9 -9 -9 -9 -9 1695.94 2.71 -9 -69.0 39.575 16.0 11.0 5.0 585-91 ... 1 1 2 3
+SYO 1996 05 22 13 02 00 -999 -9 -9 -9 -9 -9 1689.81 2.71 -9 -69.0 39.575 16.0 11.0 5.0 586-91 ... 1 1 2 3
+SYO 1996 05 30 14 02 00 -999 -9 -9 -9 -9 -9 1701.71 2.71 -9 -69.0 39.575 16.0 11.0 5.0 759-91 ... 1 1 2 3
+SYO 1996 05 30 14 02 00 -999 -9 -9 -9 -9 -9 1694.92 2.71 -9 -69.0 39.575 16.0 11.0 5.0 760-91 ... 1 1 2 3
+SYO 1996 06 03 13 18 00 -999 -9 -9 -9 -9 -9 1700.31 2.71 -9 -69.0 39.575 16.0 11.0 5.0 283-91 ... 1 1 2 3
+SYO 1996 06 03 13 18 00 -999 -9 -9 -9 -9 -9 1696.8 2.71 -9 -69.0 39.575 16.0 11.0 5.0 284-91 ... 1 1 2 3
+SYO 1996 06 17 11 00 00 -999 -9 -9 -9 -9 -9 1703.09 2.71 -9 -69.0 39.575 16.0 11.0 5.0 511-91 ... 1 1 2 3
+SYO 1996 06 17 11 00 00 -999 -9 -9 -9 -9 -9 1702.41 2.71 -9 -69.0 39.575 16.0 11.0 5.0 512-91 ... 1 1 2 3
+SYO 1996 07 01 12 30 00 -999 -9 -9 -9 -9 -9 1702.75 2.71 -9 -69.0 39.575 16.0 11.0 5.0 129-91 ... 1 1 2 3
+SYO 1996 07 01 12 30 00 -999 -9 -9 -9 -9 -9 1704.57 2.71 -9 -69.0 39.575 16.0 11.0 5.0 130-91 ... 1 1 2 3
+SYO 1996 07 15 09 00 00 -999 -9 -9 -9 -9 -9 1709.82 2.71 -9 -69.0 39.575 16.0 11.0 5.0 225-91 ... 1 1 2 3
+SYO 1996 07 15 09 00 00 -999 -9 -9 -9 -9 -9 1705.02 2.71 -9 -69.0 39.575 16.0 11.0 5.0 226-91 ... 1 1 2 3
+SYO 1996 08 07 13 27 00 -999 -9 -9 -9 -9 -9 1711.42 2.71 -9 -69.0 39.575 16.0 11.0 5.0 223-91 ... 1 1 2 3
+SYO 1996 08 07 13 27 00 -999 -9 -9 -9 -9 -9 1709.84 2.71 -9 -69.0 39.575 16.0 11.0 5.0 224-91 ... 1 1 2 3
+SYO 1996 08 19 13 30 00 -999 -9 -9 -9 -9 -9 1712.63 2.71 -9 -69.0 39.575 16.0 11.0 5.0 983-91 ... 1 1 2 3
+SYO 1996 08 19 13 30 00 -999 -9 -9 -9 -9 -9 1711.9 2.71 -9 -69.0 39.575 16.0 11.0 5.0 984-91 ... 1 1 2 3
+SYO 1996 09 03 08 00 00 -999 -9 -9 -9 -9 -9 1714.58 2.71 -9 -69.0 39.575 16.0 11.0 5.0 673-91 ... 1 1 2 3
+SYO 1996 09 03 08 00 00 -999 -9 -9 -9 -9 -9 1714.75 2.71 -9 -69.0 39.575 16.0 11.0 5.0 674-91 ... 1 1 2 3
+SYO 1996 09 11 13 15 00 -999 -9 -9 -9 -9 -9 1715.86 2.71 -9 -69.0 39.575 16.0 11.0 5.0 635-91 ... 1 1 2 3
+SYO 1996 10 10 12 05 00 -999 -9 -9 -9 -9 -9 1717.47 2.71 -9 -69.0 39.575 16.0 11.0 5.0 777-91 ... 1 1 2 3
+SYO 1996 10 10 12 05 00 -999 -9 -9 -9 -9 -9 1713.85 2.71 -9 -69.0 39.575 16.0 11.0 5.0 778-91 ... 1 1 2 3
+SYO 1996 10 21 13 30 00 -999 -9 -9 -9 -9 -9 1714.52 2.71 -9 -69.0 39.575 16.0 11.0 5.0 517-91 ... 1 1 2 3
+SYO 1996 10 21 13 30 00 -999 -9 -9 -9 -9 -9 1709.94 2.71 -9 -69.0 39.575 16.0 11.0 5.0 518-91 ... 1 1 2 3
+SYO 1996 11 05 13 06 00 -999 -9 -9 -9 -9 -9 1714.86 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1363-91 ... 1 1 2 3
+SYO 1996 11 05 13 06 00 -999 -9 -9 -9 -9 -9 1714.73 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1364-91 ... 1 1 2 3
+SYO 1996 11 18 08 00 00 -999 -9 -9 -9 -9 -9 1708.9 2.71 -9 -69.0 39.575 16.0 11.0 5.0 563-91 ... 1 1 2 3
+SYO 1996 11 18 08 00 00 -999 -9 -9 -9 -9 -9 1705.71 2.71 -9 -69.0 39.575 16.0 11.0 5.0 564-91 ... 1 1 2 3
+SYO 1996 12 05 14 00 00 -999 -9 -9 -9 -9 -9 1705.09 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1365-91 ... 1 1 2 3
+SYO 1996 12 05 14 00 00 -999 -9 -9 -9 -9 -9 1702.18 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1366-91 ... 1 1 2 3
+SYO 1996 12 16 14 45 00 -999 -9 -9 -9 -9 -9 1701.51 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1367-91 ... 1 1 2 3
+SYO 1996 12 16 14 45 00 -999 -9 -9 -9 -9 -9 1703.14 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1368-91 ... 1 1 2 3
+SYO 1997 01 07 21 40 00 -999 -9 -9 -9 -9 -9 1696.41 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1307-91 ... 1 1 2 3
+SYO 1997 01 07 21 40 00 -999 -9 -9 -9 -9 -9 1699.22 2.71 -9 -69.0 39.575 16.0 11.0 5.0 1308-91 ... 1 1 2 3
+SYO 1997 01 13 14 50 00 -999 -9 -9 -9 -9 -9 1694.6 2.71 -9 -69.0 39.575 16.0 11.0 5.0 857-91 ... 1 1 2 3
+SYO 1997 01 13 14 50 00 -999 -9 -9 -9 -9 -9 1693.68 2.71 -9 -69.0 39.575 16.0 11.0 5.0 858-91 ... 1 1 2 3
+SYO 1997 02 04 08 01 00 -999 -9 -9 -9 -9 -9 1690.6 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1933-91 ... 1 1 2 3
+SYO 1997 02 04 08 01 00 -999 -9 -9 -9 -9 -9 1694.44 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1934-91 ... 1 1 2 3
+SYO 1997 02 21 17 44 00 -999 -9 -9 -9 -9 -9 1689.08 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1937-91 ... 1 1 2 3
+SYO 1997 02 21 17 44 00 -999 -9 -9 -9 -9 -9 1689.19 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1938-91 ... 1 1 2 3
+SYO 1997 03 06 16 18 00 -999 -9 -9 -9 -9 -9 1690.23 1.4 -9 -69.0 39.575 16.0 11.0 5.0 491-91 ... 1 1 2 3
+SYO 1997 03 06 16 18 00 -999 -9 -9 -9 -9 -9 1688.65 1.4 -9 -69.0 39.575 16.0 11.0 5.0 492-91 ... 1 1 2 3
+SYO 1997 03 20 11 07 00 -999 -9 -9 -9 -9 -9 1690.57 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1771-91 ... 1 1 2 3
+SYO 1997 03 20 11 07 00 -999 -9 -9 -9 -9 -9 1692.39 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1772-91 ... 1 1 2 3
+SYO 1997 04 04 12 15 00 -999 -9 -9 -9 -9 -9 1694.36 1.4 -9 -69.0 39.575 16.0 11.0 5.0 79-91 ... 1 1 2 3
+SYO 1997 04 04 12 15 00 -999 -9 -9 -9 -9 -9 1693.42 1.4 -9 -69.0 39.575 16.0 11.0 5.0 80-91 ... 1 1 2 3
+SYO 1997 04 19 12 42 00 -999 -9 -9 -9 -9 -9 1696.87 1.4 -9 -69.0 39.575 16.0 11.0 5.0 989-91 ... 1 1 2 3
+SYO 1997 04 19 12 42 00 -999 -9 -9 -9 -9 -9 1696.76 1.4 -9 -69.0 39.575 16.0 11.0 5.0 990-91 ... 1 1 2 3
+SYO 1997 05 09 07 05 00 -999 -9 -9 -9 -9 -9 1700.17 1.4 -9 -69.0 39.575 16.0 11.0 5.0 105-91 ... 1 1 2 3
+SYO 1997 05 09 07 05 00 -999 -9 -9 -9 -9 -9 1700.09 1.4 -9 -69.0 39.575 16.0 11.0 5.0 106-91 ... 1 1 2 3
+SYO 1997 05 19 06 32 00 -999 -9 -9 -9 -9 -9 1703.97 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1149-91 ... 1 1 2 3
+SYO 1997 05 19 06 32 00 -999 -9 -9 -9 -9 -9 1702.09 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1150-91 ... 1 1 2 3
+SYO 1997 06 03 10 30 00 -999 -9 -9 -9 -9 -9 1705.67 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1931-91 ... 1 1 2 3
+SYO 1997 06 03 10 30 00 -999 -9 -9 -9 -9 -9 1706.39 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1932-91 ... 1 1 2 3
+SYO 1997 06 19 08 13 00 -999 -9 -9 -9 -9 -9 1712.02 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1939-91 ... 1 1 2 3
+SYO 1997 06 19 08 13 00 -999 -9 -9 -9 -9 -9 1712.15 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1940-91 ... 1 1 2 3
+SYO 1997 07 04 06 20 00 -999 -9 -9 -9 -9 -9 1713.83 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1935-91 ... 1 1 2 3
+SYO 1997 07 04 06 20 00 -999 -9 -9 -9 -9 -9 1713.04 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1936-91 ... 1 1 2 3
+SYO 1997 07 19 09 27 00 -999 -9 -9 -9 -9 -9 1715.83 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1943-91 ... 1 1 2 3
+SYO 1997 07 19 09 27 00 -999 -9 -9 -9 -9 -9 1715.85 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1944-91 ... 1 1 2 3
+SYO 1997 08 02 06 17 00 -999 -9 -9 -9 -9 -9 1720.38 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1949-91 ... 1 1 2 3
+SYO 1997 08 02 06 17 00 -999 -9 -9 -9 -9 -9 1720.49 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1950-91 ... 1 1 2 3
+SYO 1997 08 20 09 48 00 -999 -9 -9 -9 -9 -9 1721.86 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1941-91 ... 1 1 2 3
+SYO 1997 08 20 09 48 00 -999 -9 -9 -9 -9 -9 1722.64 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1942-91 ... 1 1 2 3
+SYO 1997 09 06 07 06 00 -999 -9 -9 -9 -9 -9 1722.53 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1947-91 ... 1 1 2 3
+SYO 1997 09 06 07 06 00 -999 -9 -9 -9 -9 -9 1721.29 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1948-91 ... 1 1 2 3
+SYO 1997 09 16 10 18 00 -999 -9 -9 -9 -9 -9 1723.04 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1951-91 ... 1 1 2 3
+SYO 1997 09 16 10 18 00 -999 -9 -9 -9 -9 -9 1722.78 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1952-91 ... 1 1 2 3
+SYO 1997 10 03 17 00 00 -999 -9 -9 -9 -9 -9 1721.78 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1945-91 ... 1 1 2 3
+SYO 1997 10 03 17 00 00 -999 -9 -9 -9 -9 -9 1721.9 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1946-91 ... 1 1 2 3
+SYO 1997 10 15 11 52 00 -999 -9 -9 -9 -9 -9 1721.55 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1161-91 ... 1 1 2 3
+SYO 1997 10 15 11 52 00 -999 -9 -9 -9 -9 -9 1721.23 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1162-91 ... 1 1 2 3
+SYO 1997 11 07 06 22 00 -999 -9 -9 -9 -9 -9 1716.9 1.4 -9 -69.0 39.575 16.0 11.0 5.0 315-91 ... 1 1 2 3
+SYO 1997 11 07 06 22 00 -999 -9 -9 -9 -9 -9 1717.41 1.4 -9 -69.0 39.575 16.0 11.0 5.0 316-91 ... 1 1 2 3
+SYO 1997 11 20 05 20 00 -999 -9 -9 -9 -9 -9 1717.64 1.4 -9 -69.0 39.575 16.0 11.0 5.0 555-91 ... 1 1 2 3
+SYO 1997 11 20 05 20 00 -999 -9 -9 -9 -9 -9 1717.99 1.4 -9 -69.0 39.575 16.0 11.0 5.0 556-91 ... 1 1 2 3
+SYO 1997 12 05 09 49 00 -999 -9 -9 -9 -9 -9 1713.38 1.4 -9 -69.0 39.575 16.0 11.0 5.0 711-91 ... 1 1 2 3
+SYO 1997 12 05 09 49 00 -999 -9 -9 -9 -9 -9 1711.26 1.4 -9 -69.0 39.575 16.0 11.0 5.0 712-91 ... 1 1 2 3
+SYO 1997 12 16 05 34 00 -999 -9 -9 -9 -9 -9 1710.04 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1235-91 ... 1 1 2 3
+SYO 1997 12 16 05 34 00 -999 -9 -9 -9 -9 -9 1711.91 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1236-91 ... 1 1 2 3
+SYO 1998 01 06 13 38 00 -999 -9 -9 -9 -9 -9 1705.65 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1738-91 ... 1 1 2 3
+SYO 1998 01 06 13 38 00 -999 -9 -9 -9 -9 -9 1704.21 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1749-91 ... 1 1 2 3
+SYO 1998 02 02 08 23 00 -999 -9 -9 -9 -9 -9 1699.93 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1041-91 ... 1 1 2 3
+SYO 1998 02 02 08 23 00 -999 -9 -9 -9 -9 -9 1701.87 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1042-91 ... 1 1 2 3
+SYO 1998 02 27 06 30 00 -999 -9 -9 -9 -9 -9 1696.36 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4591-91 ... 1 1 2 3
+SYO 1998 02 27 06 30 00 -999 -9 -9 -9 -9 -9 1700.27 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4592-91 ... 1 1 2 3
+SYO 1998 03 10 07 12 00 -999 -9 -9 -9 -9 -9 1691.92 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4429-91 ... 1 1 2 3
+SYO 1998 03 10 07 12 00 -999 -9 -9 -9 -9 -9 1697.78 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4430-91 ... 1 1 2 3
+SYO 1998 03 29 06 05 00 -999 -9 -9 -9 -9 -9 1696.44 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4609-91 ... 1 1 2 3
+SYO 1998 03 29 06 05 00 -999 -9 -9 -9 -9 -9 1696.3 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4610-91 ... 1 1 2 3
+SYO 1998 04 09 10 42 00 -999 -9 -9 -9 -9 -9 1702.47 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1729-91 ... 1 1 2 3
+SYO 1998 04 09 10 42 00 -999 -9 -9 -9 -9 -9 1699.47 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1730-91 ... 1 1 2 3
+SYO 1998 04 27 07 10 00 -999 -9 -9 -9 -9 -9 1699.44 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1339-91 ... 1 1 2 3
+SYO 1998 04 27 07 10 00 -999 -9 -9 -9 -9 -9 1703.1 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1340-91 ... 1 1 2 3
+SYO 1998 05 06 10 30 00 -999 -9 -9 -9 -9 -9 1700.04 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1991-91 ... 1 1 2 3
+SYO 1998 05 06 10 30 00 -999 -9 -9 -9 -9 -9 1703.85 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1992-91 ... 1 1 2 3
+SYO 1998 05 19 11 10 00 -999 -9 -9 -9 -9 -9 1706.87 1.4 -9 -69.0 39.575 16.0 11.0 5.0 857-91 ... 1 1 2 3
+SYO 1998 05 19 11 10 00 -999 -9 -9 -9 -9 -9 1707.25 1.4 -9 -69.0 39.575 16.0 11.0 5.0 858-91 ... 1 1 2 3
+SYO 1998 06 09 10 30 00 -999 -9 -9 -9 -9 -9 1710.98 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4565-91 ... 1 1 2 3
+SYO 1998 06 09 10 30 00 -999 -9 -9 -9 -9 -9 1713.17 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4566-91 ... 1 1 2 3
+SYO 1998 06 17 06 48 00 -999 -9 -9 -9 -9 -9 1715.53 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4569-91 ... 1 1 2 3
+SYO 1998 06 17 06 48 00 -999 -9 -9 -9 -9 -9 1714.12 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4570-91 ... 1 1 2 3
+SYO 1998 07 03 16 35 00 -999 -9 -9 -9 -9 -9 1718.53 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1561-91 ... 1 1 2 3
+SYO 1998 07 03 16 35 00 -999 -9 -9 -9 -9 -9 1720.3 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1562-91 ... 1 1 2 3
+SYO 1998 07 17 10 30 00 -999 -9 -9 -9 -9 -9 1723.18 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4291-91 ... 1 1 2 3
+SYO 1998 07 17 10 30 00 -999 -9 -9 -9 -9 -9 1724.95 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4292-91 ... 1 1 2 3
+SYO 1998 08 01 08 20 00 -999 -9 -9 -9 -9 -9 1722.18 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4571-91 ... 1 1 2 3
+SYO 1998 08 30 11 31 00 -999 -9 -9 -9 -9 -9 1731.36 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4572-91 ... 1 1 2 3
+SYO 1998 09 09 07 00 00 -999 -9 -9 -9 -9 -9 1733.08 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4575-91 ... 1 1 2 3
+SYO 1998 10 15 16 12 00 -999 -9 -9 -9 -9 -9 1730.82 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4576-91 ... 1 1 2 3
+SYO 1998 10 31 11 10 00 -999 -9 -9 -9 -9 -9 1733.49 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1457-91 ... 1 1 2 3
+SYO 1998 11 16 12 30 00 -999 -9 -9 -9 -9 -9 1730.57 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1458-91 ... 1 1 2 3
+SYO 1998 12 10 12 30 00 -999 -9 -9 -9 -9 -9 1709.49 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4219-91 .X. 2 1 2 3
+SYO 1998 12 25 11 30 00 -999 -9 -9 -9 -9 -9 1711.98 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4220-91 N.. 3 1 2 3
+SYO 1999 01 10 11 25 00 -999 -9 -9 -9 -9 -9 1711.94 1.4 -9 -69.0 39.575 16.0 11.0 5.0 21-91 ... 1 1 2 3
+SYO 1999 01 10 11 25 00 -999 -9 -9 -9 -9 -9 1711.35 1.4 -9 -69.0 39.575 16.0 11.0 5.0 22-91 ... 1 1 2 3
+SYO 1999 01 25 10 25 00 -999 -9 -9 -9 -9 -9 1712.06 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1983-91 ... 1 1 2 3
+SYO 1999 01 25 10 25 00 -999 -9 -9 -9 -9 -9 1711.91 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1984-91 ... 1 1 2 3
+SYO 1999 01 30 13 33 00 -999 -9 -9 -9 -9 -9 1709.12 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1995-91 ... 1 1 2 3
+SYO 1999 01 30 13 33 00 -999 -9 -9 -9 -9 -9 1710.97 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1996-91 ... 1 1 2 3
+SYO 1999 02 05 11 07 00 -999 -9 -9 -9 -9 -9 1708.95 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4045-91 ... 1 1 2 3
+SYO 1999 02 05 11 07 00 -999 -9 -9 -9 -9 -9 1709.56 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4046-91 ... 1 1 2 3
+SYO 1999 02 16 06 54 00 -999 -9 -9 -9 -9 -9 1708.59 1.4 -9 -69.0 39.575 16.0 11.0 5.0 831-91 ... 1 1 2 3
+SYO 1999 02 16 06 54 00 -999 -9 -9 -9 -9 -9 1708.69 1.4 -9 -69.0 39.575 16.0 11.0 5.0 832-91 ... 1 1 2 3
+SYO 1999 03 09 06 30 00 -999 -9 -9 -9 -9 -9 1708.29 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4723-91 ... 1 1 2 3
+SYO 1999 03 09 06 30 00 -999 -9 -9 -9 -9 -9 1707.33 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4724-91 ... 1 1 2 3
+SYO 1999 03 23 10 40 00 -999 -9 -9 -9 -9 -9 1707.07 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4683-91 ... 1 1 2 3
+SYO 1999 03 23 10 40 00 -999 -9 -9 -9 -9 -9 1708.11 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4684-91 ... 1 1 2 3
+SYO 1999 04 08 10 35 00 -999 -9 -9 -9 -9 -9 1711.24 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1471-91 ... 1 1 2 3
+SYO 1999 04 08 10 35 00 -999 -9 -9 -9 -9 -9 1711.21 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1472-91 ... 1 1 2 3
+SYO 1999 04 19 07 56 00 -999 -9 -9 -9 -9 -9 1715.36 1.4 -9 -69.0 39.575 16.0 11.0 5.0 541-91 N.. 3 1 2 3
+SYO 1999 04 19 07 56 00 -999 -9 -9 -9 -9 -9 1712.29 1.4 -9 -69.0 39.575 16.0 11.0 5.0 542-91 ... 1 1 2 3
+SYO 1999 05 05 11 40 00 -999 -9 -9 -9 -9 -9 1718.84 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4769-91 ... 1 1 2 3
+SYO 1999 05 05 11 40 00 -999 -9 -9 -9 -9 -9 1717.78 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4770-91 ... 1 1 2 3
+SYO 1999 05 22 11 05 00 -999 -9 -9 -9 -9 -9 1722.84 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4019-91 ... 1 1 2 3
+SYO 1999 05 22 11 05 00 -999 -9 -9 -9 -9 -9 1719.63 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4020-91 ... 1 1 2 3
+SYO 1999 06 01 10 55 00 -999 -9 -9 -9 -9 -9 1723.87 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4177-91 ... 1 1 2 3
+SYO 1999 06 01 10 55 00 -999 -9 -9 -9 -9 -9 1724.21 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4178-91 ... 1 1 2 3
+SYO 1999 06 16 08 30 00 -999 -9 -9 -9 -9 -9 1726.46 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4311-91 ... 1 1 2 3
+SYO 1999 06 16 08 30 00 -999 -9 -9 -9 -9 -9 1727.41 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4312-91 ... 1 1 2 3
+SYO 1999 07 03 12 05 00 -999 -9 -9 -9 -9 -9 1730.79 1.4 -9 -69.0 39.575 16.0 11.0 5.0 537-91 ... 1 1 2 3
+SYO 1999 07 03 12 05 00 -999 -9 -9 -9 -9 -9 1733.22 1.4 -9 -69.0 39.575 16.0 11.0 5.0 538-91 ... 1 1 2 3
+SYO 1999 07 16 10 40 00 -999 -9 -9 -9 -9 -9 1733.1 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1137-91 ... 1 1 2 3
+SYO 1999 07 16 10 40 00 -999 -9 -9 -9 -9 -9 1733.36 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1138-91 ... 1 1 2 3
+SYO 1999 08 03 08 00 00 -999 -9 -9 -9 -9 -9 1735.54 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1853-91 ... 1 1 2 3
+SYO 1999 08 03 08 00 00 -999 -9 -9 -9 -9 -9 1735.0 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1854-91 ... 1 1 2 3
+SYO 1999 08 19 07 17 00 -999 -9 -9 -9 -9 -9 1740.14 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1777-91 ... 1 1 2 3
+SYO 1999 08 19 07 17 00 -999 -9 -9 -9 -9 -9 1737.87 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1778-91 ... 1 1 2 3
+SYO 1999 09 04 11 02 00 -999 -9 -9 -9 -9 -9 1741.3 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4313-91 ... 1 1 2 3
+SYO 1999 09 04 11 02 00 -999 -9 -9 -9 -9 -9 1740.79 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4314-91 ... 1 1 2 3
+SYO 1999 09 22 12 01 00 -999 -9 -9 -9 -9 -9 1740.93 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4421-91 ... 1 1 2 3
+SYO 1999 09 22 12 01 00 -999 -9 -9 -9 -9 -9 1741.84 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4422-91 ... 1 1 2 3
+SYO 1999 10 06 10 08 00 -999 -9 -9 -9 -9 -9 1742.47 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4379-91 ... 1 1 2 3
+SYO 1999 10 06 10 08 00 -999 -9 -9 -9 -9 -9 1741.26 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4380-91 ... 1 1 2 3
+SYO 1999 10 19 12 15 00 -999 -9 -9 -9 -9 -9 1739.58 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4539-91 ... 1 1 2 3
+SYO 1999 10 19 12 15 00 -999 -9 -9 -9 -9 -9 1738.24 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4540-91 ... 1 1 2 3
+SYO 1999 11 05 10 16 00 -999 -9 -9 -9 -9 -9 1737.11 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4343-91 ... 1 1 2 3
+SYO 1999 11 05 10 16 00 -999 -9 -9 -9 -9 -9 1736.17 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4344-91 ... 1 1 2 3
+SYO 1999 11 19 17 13 00 -999 -9 -9 -9 -9 -9 1734.43 1.4 -9 -69.0 39.575 16.0 11.0 5.0 33-98 ... 1 1 2 3
+SYO 1999 11 19 17 13 00 -999 -9 -9 -9 -9 -9 1736.18 1.4 -9 -69.0 39.575 16.0 11.0 5.0 34-98 ... 1 1 2 3
+SYO 1999 12 06 11 10 00 -999 -9 -9 -9 -9 -9 1730.28 1.4 -9 -69.0 39.575 16.0 11.0 5.0 6313-66 ... 1 1 2 3
+SYO 1999 12 06 11 10 00 -999 -9 -9 -9 -9 -9 1730.91 1.4 -9 -69.0 39.575 16.0 11.0 5.0 6314-66 N.. 3 1 2 3
+SYO 1999 12 17 07 28 00 -999 -9 -9 -9 -9 -9 1727.73 1.4 -9 -69.0 39.575 16.0 11.0 5.0 6577-66 ... 1 1 2 3
+SYO 1999 12 17 07 28 00 -999 -9 -9 -9 -9 -9 1727.44 1.4 -9 -69.0 39.575 16.0 11.0 5.0 6578-66 ... 1 1 2 3
+SYO 2000 01 04 09 51 00 -999 -9 -9 -9 -9 -9 1723.1 1.4 -9 -69.0 39.575 16.0 11.0 5.0 31-98 ... 1 1 2 3
+SYO 2000 01 04 09 51 00 -999 -9 -9 -9 -9 -9 1723.79 1.4 -9 -69.0 39.575 16.0 11.0 5.0 32-98 ... 1 1 2 3
+SYO 2000 01 18 10 51 00 -999 -9 -9 -9 -9 -9 1719.15 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1037-91 ... 1 1 2 3
+SYO 2000 01 18 10 51 00 -999 -9 -9 -9 -9 -9 1717.09 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1038-91 ... 1 1 2 3
+SYO 2000 02 04 07 00 00 -999 -9 -9 -9 -9 -9 1716.53 1.4 -9 -69.0 39.575 16.0 11.0 5.0 171-98 ... 1 1 2 3
+SYO 2000 02 04 07 00 00 -999 -9 -9 -9 -9 -9 1713.58 1.4 -9 -69.0 39.575 16.0 11.0 5.0 172-98 ... 1 1 2 3
+SYO 2000 02 26 08 10 00 -999 -9 -9 -9 -9 -9 1710.4 1.4 -9 -69.0 39.575 16.0 11.0 5.0 557-91 ... 1 1 2 3
+SYO 2000 02 26 08 10 00 -999 -9 -9 -9 -9 -9 1710.65 1.4 -9 -69.0 39.575 16.0 11.0 5.0 558-91 ... 1 1 2 3
+SYO 2000 03 15 05 30 00 -999 -9 -9 -9 -9 -9 1708.54 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1247-91 ... 1 1 2 3
+SYO 2000 03 15 05 30 00 -999 -9 -9 -9 -9 -9 1706.97 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1248-91 ... 1 1 2 3
+SYO 2000 03 27 10 55 00 -999 -9 -9 -9 -9 -9 1709.57 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4639-91 ... 1 1 2 3
+SYO 2000 03 27 10 55 00 -999 -9 -9 -9 -9 -9 1711.45 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4640-91 ... 1 1 2 3
+SYO 2000 04 03 11 59 00 -999 -9 -9 -9 -9 -9 1712.51 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1033-91 ... 1 1 2 3
+SYO 2000 04 03 11 59 00 -999 -9 -9 -9 -9 -9 1713.08 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1034-91 ... 1 1 2 3
+SYO 2000 04 28 13 24 00 -999 -9 -9 -9 -9 -9 1714.7 1.4 -9 -69.0 39.575 16.0 11.0 5.0 188-98 ... 1 1 2 3
+SYO 2000 05 11 12 56 00 -999 -9 -9 -9 -9 -9 1720.6 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4041-91 ... 1 1 2 3
+SYO 2000 05 11 12 56 00 -999 -9 -9 -9 -9 -9 1719.49 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4042-91 ... 1 1 2 3
+SYO 2000 05 30 10 29 00 -999 -9 -9 -9 -9 -9 1725.09 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4729-91 ... 1 1 2 3
+SYO 2000 05 30 10 29 00 -999 -9 -9 -9 -9 -9 1723.89 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4730-91 ... 1 1 2 3
+SYO 2000 06 17 12 47 00 -999 -9 -9 -9 -9 -9 1729.56 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4831-91 ... 1 1 2 3
+SYO 2000 06 17 12 47 00 -999 -9 -9 -9 -9 -9 1730.01 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4832-91 ... 1 1 2 3
+SYO 2000 06 29 13 52 00 -999 -9 -9 -9 -9 -9 1732.4 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4457-91 ... 1 1 2 3
+SYO 2000 06 29 13 52 00 -999 -9 -9 -9 -9 -9 1732.35 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4458-91 ... 1 1 2 3
+SYO 2000 07 22 10 31 00 -999 -9 -9 -9 -9 -9 1735.39 1.4 -9 -69.0 39.575 16.0 11.0 5.0 185-91 ... 1 1 2 3
+SYO 2000 07 22 10 31 00 -999 -9 -9 -9 -9 -9 1736.15 1.4 -9 -69.0 39.575 16.0 11.0 5.0 186-91 ... 1 1 2 3
+SYO 2000 07 31 10 07 00 -999 -9 -9 -9 -9 -9 1736.52 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1143-91 ... 1 1 2 3
+SYO 2000 07 31 10 07 00 -999 -9 -9 -9 -9 -9 1739.65 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1144-91 ... 1 1 2 3
+SYO 2000 08 14 05 45 00 -999 -9 -9 -9 -9 -9 1740.58 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1687-91 ... 1 1 2 3
+SYO 2000 08 14 05 45 00 -999 -9 -9 -9 -9 -9 1741.65 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1688-91 ... 1 1 2 3
+SYO 2000 08 26 06 17 00 -999 -9 -9 -9 -9 -9 1740.86 1.4 -9 -69.0 39.575 16.0 11.0 5.0 175-98 ... 1 1 2 3
+SYO 2000 08 26 06 17 00 -999 -9 -9 -9 -9 -9 1739.8 1.4 -9 -69.0 39.575 16.0 11.0 5.0 176-98 ... 1 1 2 3
+SYO 2000 09 17 06 49 00 -999 -9 -9 -9 -9 -9 1741.35 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4467-91 ... 1 1 2 3
+SYO 2000 09 17 06 49 00 -999 -9 -9 -9 -9 -9 1740.14 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4468-91 ... 1 1 2 3
+SYO 2000 09 27 05 45 00 -999 -9 -9 -9 -9 -9 1744.82 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1711-91 ... 1 1 2 3
+SYO 2000 09 27 05 45 00 -999 -9 -9 -9 -9 -9 1741.59 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1712-91 ... 1 1 2 3
+SYO 2000 10 04 14 25 00 -999 -9 -9 -9 -9 -9 1743.03 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4501-91 ... 1 1 2 3
+SYO 2000 10 04 14 25 00 -999 -9 -9 -9 -9 -9 1740.44 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4502-91 ... 1 1 2 3
+SYO 2000 10 23 13 41 00 -999 -9 -9 -9 -9 -9 1738.35 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4339-91 ... 1 1 2 3
+SYO 2000 10 23 13 41 00 -999 -9 -9 -9 -9 -9 1738.67 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4340-91 ... 1 1 2 3
+SYO 2000 11 07 05 36 00 -999 -9 -9 -9 -9 -9 1736.79 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4235-91 ... 1 1 2 3
+SYO 2000 11 07 05 36 00 -999 -9 -9 -9 -9 -9 1736.45 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4236-91 ... 1 1 2 3
+SYO 2000 11 23 11 03 00 -999 -9 -9 -9 -9 -9 1732.79 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4423-91 ... 1 1 2 3
+SYO 2000 11 23 11 03 00 -999 -9 -9 -9 -9 -9 1733.89 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4424-91 ... 1 1 2 3
+SYO 2000 12 14 05 24 00 -999 -9 -9 -9 -9 -9 1729.98 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1991-91 ... 1 1 2 3
+SYO 2000 12 14 05 24 00 -999 -9 -9 -9 -9 -9 1725.93 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1992-91 ... 1 1 2 3
+SYO 2000 12 24 06 15 00 -999 -9 -9 -9 -9 -9 1724.74 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1303-91 ... 1 1 2 3
+SYO 2000 12 24 06 15 00 -999 -9 -9 -9 -9 -9 1724.54 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1304-91 ... 1 1 2 3
+SYO 2001 01 26 10 48 00 -999 -9 -9 -9 -9 -9 1715.49 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1483-91 ... 1 1 2 3
+SYO 2001 01 26 10 48 00 -999 -9 -9 -9 -9 -9 1716.62 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1484-91 ... 1 1 2 3
+SYO 2001 01 30 10 34 00 -999 -9 -9 -9 -9 -9 1711.97 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4665-91 ... 1 1 2 3
+SYO 2001 01 30 10 34 00 -999 -9 -9 -9 -9 -9 1712.1 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4666-91 ... 1 1 2 3
+SYO 2001 02 12 06 26 00 -999 -9 -9 -9 -9 -9 1711.07 1.4 -9 -69.0 39.575 16.0 11.0 5.0 731-91 ... 1 1 2 3
+SYO 2001 02 12 06 26 00 -999 -9 -9 -9 -9 -9 1712.38 1.4 -9 -69.0 39.575 16.0 11.0 5.0 732-91 ... 1 1 2 3
+SYO 2001 02 19 17 41 00 -999 -9 -9 -9 -9 -9 1710.46 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1443-91 ... 1 1 2 3
+SYO 2001 02 19 17 41 00 -999 -9 -9 -9 -9 -9 1709.25 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1444-91 ... 1 1 2 3
+SYO 2001 03 02 07 12 00 -999 -9 -9 -9 -9 -9 1708.98 1.4 -9 -69.0 39.575 16.0 11.0 5.0 15-98 ... 1 1 2 3
+SYO 2001 03 02 07 12 00 -999 -9 -9 -9 -9 -9 1709.85 1.4 -9 -69.0 39.575 16.0 11.0 5.0 16-98 ... 1 1 2 3
+SYO 2001 03 14 07 26 00 -999 -9 -9 -9 -9 -9 1709.66 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4803-91 ... 1 1 2 3
+SYO 2001 03 14 07 26 00 -999 -9 -9 -9 -9 -9 1709.49 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4804-91 ... 1 1 2 3
+SYO 2001 04 13 08 15 00 -999 -9 -9 -9 -9 -9 1712.84 1.4 -9 -69.0 39.575 16.0 11.0 5.0 123-91 ... 1 1 2 3
+SYO 2001 04 13 08 15 00 -999 -9 -9 -9 -9 -9 1714.17 1.4 -9 -69.0 39.575 16.0 11.0 5.0 124-91 ... 1 1 2 3
+SYO 2001 04 28 10 32 00 -999 -9 -9 -9 -9 -9 1717.18 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1923-91 ... 1 1 2 3
+SYO 2001 04 28 10 32 00 -999 -9 -9 -9 -9 -9 1715.1 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1924-91 ... 1 1 2 3
+SYO 2001 05 25 10 33 00 -999 -9 -9 -9 -9 -9 1724.22 1.4 -9 -69.0 39.575 16.0 11.0 5.0 131-98 ... 1 1 2 3
+SYO 2001 05 25 10 33 00 -999 -9 -9 -9 -9 -9 1721.15 1.4 -9 -69.0 39.575 16.0 11.0 5.0 132-98 ... 1 1 2 3
+SYO 2001 05 28 08 50 00 -999 -9 -9 -9 -9 -9 1723.83 1.4 -9 -69.0 39.575 16.0 11.0 5.0 691-91 ... 1 1 2 3
+SYO 2001 05 28 08 50 00 -999 -9 -9 -9 -9 -9 1723.15 1.4 -9 -69.0 39.575 16.0 11.0 5.0 692-91 ... 1 1 2 3
+SYO 2001 06 15 10 41 00 -999 -9 -9 -9 -9 -9 1729.25 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1321-91 ... 1 1 2 3
+SYO 2001 06 15 10 41 00 -999 -9 -9 -9 -9 -9 1727.64 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1322-91 ... 1 1 2 3
+SYO 2001 07 02 10 43 00 -999 -9 -9 -9 -9 -9 1732.87 1.4 -9 -69.0 39.575 16.0 11.0 5.0 375-91 ... 1 1 2 3
+SYO 2001 07 02 10 43 00 -999 -9 -9 -9 -9 -9 1732.67 1.4 -9 -69.0 39.575 16.0 11.0 5.0 376-91 ... 1 1 2 3
+SYO 2001 07 09 11 25 00 -999 -9 -9 -9 -9 -9 1730.71 1.4 -9 -69.0 39.575 16.0 11.0 5.0 363-91 ... 1 1 2 3
+SYO 2001 07 09 11 25 00 -999 -9 -9 -9 -9 -9 1730.89 1.4 -9 -69.0 39.575 16.0 11.0 5.0 364-91 ... 1 1 2 3
+SYO 2001 07 25 06 05 00 -999 -9 -9 -9 -9 -9 1734.79 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4783-91 ... 1 1 2 3
+SYO 2001 07 25 06 05 00 -999 -9 -9 -9 -9 -9 1736.97 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4784-91 ... 1 1 2 3
+SYO 2001 08 06 07 51 00 -999 -9 -9 -9 -9 -9 1737.46 1.4 -9 -69.0 39.575 16.0 11.0 5.0 25-98 ... 1 1 2 3
+SYO 2001 08 06 07 51 00 -999 -9 -9 -9 -9 -9 1738.91 1.4 -9 -69.0 39.575 16.0 11.0 5.0 26-98 ... 1 1 2 3
+SYO 2001 08 22 08 36 00 -999 -9 -9 -9 -9 -9 1740.07 1.4 -9 -69.0 39.575 16.0 11.0 5.0 897-91 ... 1 1 2 3
+SYO 2001 08 22 08 36 00 -999 -9 -9 -9 -9 -9 1739.87 1.4 -9 -69.0 39.575 16.0 11.0 5.0 898-91 ... 1 1 2 3
+SYO 2001 09 04 07 26 00 -999 -9 -9 -9 -9 -9 1741.98 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1555-91 ... 1 1 2 3
+SYO 2001 09 04 07 26 00 -999 -9 -9 -9 -9 -9 1741.48 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1556-91 ... 1 1 2 3
+SYO 2001 09 28 05 48 00 -999 -9 -9 -9 -9 -9 1741.77 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4957-91 ... 1 1 2 3
+SYO 2001 09 28 05 48 00 -999 -9 -9 -9 -9 -9 1741.06 1.4 -9 -69.0 39.575 16.0 11.0 5.0 4958-91 ... 1 1 2 3
+SYO 2001 10 24 05 30 00 -999 -9 -9 -9 -9 -9 1736.73 1.4 -9 -69.0 39.575 16.0 11.0 5.0 89-98 ... 1 1 2 3
+SYO 2001 10 24 05 30 00 -999 -9 -9 -9 -9 -9 1737.11 1.4 -9 -69.0 39.575 16.0 11.0 5.0 90-98 ... 1 1 2 3
+SYO 2001 11 01 16 32 00 -999 -9 -9 -9 -9 -9 1736.87 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1921-91 ... 1 1 2 3
+SYO 2001 11 01 16 32 00 -999 -9 -9 -9 -9 -9 1737.77 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1922-91 ... 1 1 2 3
+SYO 2001 11 13 05 10 00 -999 -9 -9 -9 -9 -9 1735.07 1.4 -9 -69.0 39.575 16.0 11.0 5.0 63-98 ... 1 1 2 3
+SYO 2001 11 13 05 10 00 -999 -9 -9 -9 -9 -9 1736.2 1.4 -9 -69.0 39.575 16.0 11.0 5.0 64-98 ... 1 1 2 3
+SYO 2001 11 27 04 59 00 -999 -9 -9 -9 -9 -9 1732.82 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1357-91 ... 1 1 2 3
+SYO 2001 11 27 04 59 00 -999 -9 -9 -9 -9 -9 1730.43 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1358-91 ... 1 1 2 3
+SYO 2001 12 10 10 19 00 -999 -9 -9 -9 -9 -9 1727.36 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1683-91 ... 1 1 2 3
+SYO 2001 12 10 10 19 00 -999 -9 -9 -9 -9 -9 1728.13 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1684-91 ... 1 1 2 3
+SYO 2001 12 24 08 44 00 -999 -9 -9 -9 -9 -9 1724.38 1.4 -9 -69.0 39.575 16.0 11.0 5.0 271-91 ... 1 1 2 3
+SYO 2001 12 24 08 44 00 -999 -9 -9 -9 -9 -9 1724.93 1.4 -9 -69.0 39.575 16.0 11.0 5.0 272-91 ... 1 1 2 3
+SYO 2002 01 14 20 03 00 -999 -9 -9 -9 -9 -9 1716.28 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1179-91 ... 1 1 2 3
+SYO 2002 01 14 20 03 00 -999 -9 -9 -9 -9 -9 1716.8 1.4 -9 -69.0 39.575 16.0 11.0 5.0 1180-91 ... 1 1 2 3
+SYO 2002 01 25 07 38 00 -999 -9 -9 -9 -9 -9 1713.64 1.4 -9 -69.0 39.575 16.0 11.0 5.0 401-91 ... 1 1 2 3
+SYO 2002 01 25 07 38 00 -999 -9 -9 -9 -9 -9 1715.11 1.4 -9 -69.0 39.575 16.0 11.0 5.0 402-91 ... 1 1 2 3
+SYO 2002 02 13 05 38 00 -999 -9 -9 -9 -9 -9 1712.4 1.87 -9 -69.0 39.575 16.0 11.0 5.0 335-91 ... 1 1 2 3
+SYO 2002 02 13 05 38 00 -999 -9 -9 -9 -9 -9 1713.79 1.87 -9 -69.0 39.575 16.0 11.0 5.0 336-91 ... 1 1 2 3
+SYO 2002 02 24 11 40 00 -999 -9 -9 -9 -9 -9 1711.75 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4949-91 ... 1 1 2 3
+SYO 2002 02 24 11 40 00 -999 -9 -9 -9 -9 -9 1712.19 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4950-91 ... 1 1 2 3
+SYO 2002 03 12 14 14 00 -999 -9 -9 -9 -9 -9 1711.79 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4317-91 ... 1 1 2 3
+SYO 2002 03 12 14 14 00 -999 -9 -9 -9 -9 -9 1708.93 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4318-91 ... 1 1 2 3
+SYO 2002 03 25 10 46 00 -999 -9 -9 -9 -9 -9 1710.7 1.87 -9 -69.0 39.575 16.0 11.0 5.0 367-99 ... 1 1 2 3
+SYO 2002 03 25 10 46 00 -999 -9 -9 -9 -9 -9 1706.12 1.87 -9 -69.0 39.575 16.0 11.0 5.0 368-99 ... 1 1 2 3
+SYO 2002 04 12 12 01 00 -999 -9 -9 -9 -9 -9 1717.66 1.87 -9 -69.0 39.575 16.0 11.0 5.0 399-99 ... 1 1 2 3
+SYO 2002 04 12 12 01 00 -999 -9 -9 -9 -9 -9 1716.83 1.87 -9 -69.0 39.575 16.0 11.0 5.0 400-99 ... 1 1 2 3
+SYO 2002 04 23 06 21 00 -999 -9 -9 -9 -9 -9 1716.13 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4825-91 ... 1 1 2 3
+SYO 2002 04 23 06 21 00 -999 -9 -9 -9 -9 -9 1717.22 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4826-91 ... 1 1 2 3
+SYO 2002 05 06 10 18 00 -999 -9 -9 -9 -9 -9 1720.93 1.87 -9 -69.0 39.575 16.0 11.0 5.0 265-91 ... 1 1 2 3
+SYO 2002 05 06 10 18 00 -999 -9 -9 -9 -9 -9 1719.99 1.87 -9 -69.0 39.575 16.0 11.0 5.0 266-91 ... 1 1 2 3
+SYO 2002 05 20 07 18 00 -999 -9 -9 -9 -9 -9 1727.97 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1000-91 ... 1 1 2 3
+SYO 2002 05 20 07 18 00 -999 -9 -9 -9 -9 -9 1725.91 1.87 -9 -69.0 39.575 16.0 11.0 5.0 999-91 ... 1 1 2 3
+SYO 2002 06 03 10 14 00 -999 -9 -9 -9 -9 -9 1727.51 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4417-91 ... 1 1 2 3
+SYO 2002 06 03 10 14 00 -999 -9 -9 -9 -9 -9 1724.93 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4418-91 ... 1 1 2 3
+SYO 2002 06 17 11 16 00 -999 -9 -9 -9 -9 -9 1732.31 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4489-91 ... 1 1 2 3
+SYO 2002 06 17 11 16 00 -999 -9 -9 -9 -9 -9 1732.24 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4490-91 ... 1 1 2 3
+SYO 2002 07 04 10 25 00 -999 -9 -9 -9 -9 -9 1739.17 1.87 -9 -69.0 39.575 16.0 11.0 5.0 557-91 ... 1 1 2 3
+SYO 2002 07 04 10 25 00 -999 -9 -9 -9 -9 -9 1738.72 1.87 -9 -69.0 39.575 16.0 11.0 5.0 558-91 ... 1 1 2 3
+SYO 2002 07 17 10 05 00 -999 -9 -9 -9 -9 -9 1736.01 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1023-91 ... 1 1 2 3
+SYO 2002 07 17 10 05 00 -999 -9 -9 -9 -9 -9 1737.8 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1024-91 ... 1 1 2 3
+SYO 2002 08 08 11 22 00 -999 -9 -9 -9 -9 -9 1739.81 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4149-91 ... 1 1 2 3
+SYO 2002 08 08 11 22 00 -999 -9 -9 -9 -9 -9 1739.95 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4150-91 ... 1 1 2 3
+SYO 2002 08 17 07 33 00 -999 -9 -9 -9 -9 -9 1739.62 1.87 -9 -69.0 39.575 16.0 11.0 5.0 635-91 ... 1 1 2 3
+SYO 2002 08 17 07 33 00 -999 -9 -9 -9 -9 -9 1739.61 1.87 -9 -69.0 39.575 16.0 11.0 5.0 636-91 ... 1 1 2 3
+SYO 2002 09 03 13 26 00 -999 -9 -9 -9 -9 -9 1743.17 1.87 -9 -69.0 39.575 16.0 11.0 5.0 327-91 ... 1 1 2 3
+SYO 2002 09 03 13 26 00 -999 -9 -9 -9 -9 -9 1744.02 1.87 -9 -69.0 39.575 16.0 11.0 5.0 328-91 ... 1 1 2 3
+SYO 2002 09 20 10 45 00 -999 -9 -9 -9 -9 -9 1742.22 1.87 -9 -69.0 39.575 16.0 11.0 5.0 57-91 ... 1 1 2 3
+SYO 2002 09 20 10 45 00 -999 -9 -9 -9 -9 -9 1741.09 1.87 -9 -69.0 39.575 16.0 11.0 5.0 58-91 ... 1 1 2 3
+SYO 2002 10 03 11 14 00 -999 -9 -9 -9 -9 -9 1742.44 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4603-91 ... 1 1 2 3
+SYO 2002 10 03 11 14 00 -999 -9 -9 -9 -9 -9 1744.77 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4604-91 ... 1 1 2 3
+SYO 2002 10 17 06 08 00 -999 -9 -9 -9 -9 -9 1742.76 1.87 -9 -69.0 39.575 16.0 11.0 5.0 317-99 ... 1 1 2 3
+SYO 2002 10 17 06 08 00 -999 -9 -9 -9 -9 -9 1742.0 1.87 -9 -69.0 39.575 16.0 11.0 5.0 318-99 ... 1 1 2 3
+SYO 2002 11 06 11 05 00 -999 -9 -9 -9 -9 -9 1738.51 1.87 -9 -69.0 39.575 16.0 11.0 5.0 10-98 ... 1 1 2 3
+SYO 2002 11 06 11 05 00 -999 -9 -9 -9 -9 -9 1741.04 1.87 -9 -69.0 39.575 16.0 11.0 5.0 9-98 ... 1 1 2 3
+SYO 2002 11 19 13 30 00 -999 -9 -9 -9 -9 -9 1739.11 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4899-91 ... 1 1 2 3
+SYO 2002 11 19 13 30 00 -999 -9 -9 -9 -9 -9 1739.51 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4900-91 ... 1 1 2 3
+SYO 2002 12 04 05 56 00 -999 -9 -9 -9 -9 -9 1733.4 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1601-91 ... 1 1 2 3
+SYO 2002 12 04 05 56 00 -999 -9 -9 -9 -9 -9 1733.26 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1602-91 ... 1 1 2 3
+SYO 2002 12 21 07 39 00 -999 -9 -9 -9 -9 -9 1729.96 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1447-91 ... 1 1 2 3
+SYO 2002 12 21 07 39 00 -999 -9 -9 -9 -9 -9 1728.32 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1448-91 ... 1 1 2 3
+SYO 2003 01 11 09 44 00 -999 -9 -9 -9 -9 -9 1720.7 1.87 -9 -69.0 39.575 16.0 11.0 5.0 377-99 ... 1 1 2 3
+SYO 2003 01 11 09 44 00 -999 -9 -9 -9 -9 -9 1720.51 1.87 -9 -69.0 39.575 16.0 11.0 5.0 378-99 ... 1 1 2 3
+SYO 2003 01 24 06 26 00 -999 -9 -9 -9 -9 -9 1717.87 1.87 -9 -69.0 39.575 16.0 11.0 5.0 527-91 ... 1 1 2 3
+SYO 2003 01 24 06 26 00 -999 -9 -9 -9 -9 -9 1720.4 1.87 -9 -69.0 39.575 16.0 11.0 5.0 528-91 ... 1 1 2 3
+SYO 2003 02 20 13 00 00 -999 -9 -9 -9 -9 -9 1710.23 1.87 -9 -69.0 39.575 16.0 11.0 5.0 711-99 ... 1 1 2 3
+SYO 2003 02 20 13 00 00 -999 -9 -9 -9 -9 -9 1709.91 1.87 -9 -69.0 39.575 16.0 11.0 5.0 712-99 ... 1 1 2 3
+SYO 2003 02 27 12 40 00 -999 -9 -9 -9 -9 -9 1709.81 1.87 -9 -69.0 39.575 16.0 11.0 5.0 713-99 ... 1 1 2 3
+SYO 2003 02 27 12 40 00 -999 -9 -9 -9 -9 -9 1711.3 1.87 -9 -69.0 39.575 16.0 11.0 5.0 714-99 ... 1 1 2 3
+SYO 2003 03 04 11 00 00 -999 -9 -9 -9 -9 -9 1712.69 1.87 -9 -69.0 39.575 16.0 11.0 5.0 715-99 ... 1 1 2 3
+SYO 2003 03 04 11 00 00 -999 -9 -9 -9 -9 -9 1712.97 1.87 -9 -69.0 39.575 16.0 11.0 5.0 716-99 ... 1 1 2 3
+SYO 2003 03 17 12 05 00 -999 -9 -9 -9 -9 -9 1712.55 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4805-91 ... 1 1 2 3
+SYO 2003 03 17 12 05 00 -999 -9 -9 -9 -9 -9 1712.45 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4806-91 ... 1 1 2 3
+SYO 2003 04 02 14 30 00 -999 -9 -9 -9 -9 -9 1714.2 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1597-91 ... 1 1 2 3
+SYO 2003 04 02 14 30 00 -999 -9 -9 -9 -9 -9 1711.86 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1598-91 ... 1 1 2 3
+SYO 2003 04 16 14 00 00 -999 -9 -9 -9 -9 -9 1716.24 1.87 -9 -69.0 39.575 16.0 11.0 5.0 717-99 ... 1 1 2 3
+SYO 2003 04 16 14 00 00 -999 -9 -9 -9 -9 -9 1715.39 1.87 -9 -69.0 39.575 16.0 11.0 5.0 718-99 ... 1 1 2 3
+SYO 2003 05 06 10 20 00 -999 -9 -9 -9 -9 -9 1719.96 1.87 -9 -69.0 39.575 16.0 11.0 5.0 719-99 ... 1 1 2 3
+SYO 2003 05 06 10 20 00 -999 -9 -9 -9 -9 -9 1719.16 1.87 -9 -69.0 39.575 16.0 11.0 5.0 720-99 ... 1 1 2 3
+SYO 2003 05 31 14 10 00 -999 -9 -9 -9 -9 -9 1723.95 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4681-91 ... 1 1 2 3
+SYO 2003 05 31 14 10 00 -999 -9 -9 -9 -9 -9 1724.37 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4682-91 ... 1 1 2 3
+SYO 2003 06 09 14 00 00 -999 -9 -9 -9 -9 -9 1726.51 1.87 -9 -69.0 39.575 16.0 11.0 5.0 691-99 ... 1 1 2 3
+SYO 2003 06 09 14 00 00 -999 -9 -9 -9 -9 -9 1728.34 1.87 -9 -69.0 39.575 16.0 11.0 5.0 692-99 ... 1 1 2 3
+SYO 2003 06 26 08 15 00 -999 -9 -9 -9 -9 -9 1730.77 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1067-91 ... 1 1 2 3
+SYO 2003 06 26 08 15 00 -999 -9 -9 -9 -9 -9 1727.75 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1068-91 ... 1 1 2 3
+SYO 2003 07 10 08 30 00 -999 -9 -9 -9 -9 -9 1736.1 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1357-91 ... 1 1 2 3
+SYO 2003 07 10 08 30 00 -999 -9 -9 -9 -9 -9 1735.35 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1358-91 ... 1 1 2 3
+SYO 2003 08 03 06 00 00 -999 -9 -9 -9 -9 -9 1740.91 1.87 -9 -69.0 39.575 16.0 11.0 5.0 627-99 ... 1 1 2 3
+SYO 2003 08 03 06 00 00 -999 -9 -9 -9 -9 -9 1742.11 1.87 -9 -69.0 39.575 16.0 11.0 5.0 628-99 ... 1 1 2 3
+SYO 2003 08 11 09 30 00 -999 -9 -9 -9 -9 -9 1741.19 1.87 -9 -69.0 39.575 16.0 11.0 5.0 429-99 ... 1 1 2 3
+SYO 2003 08 11 09 30 00 -999 -9 -9 -9 -9 -9 1741.33 1.87 -9 -69.0 39.575 16.0 11.0 5.0 430-99 ... 1 1 2 3
+SYO 2003 08 28 08 23 00 -999 -9 -9 -9 -9 -9 1744.05 1.87 -9 -69.0 39.575 16.0 11.0 5.0 69-91 ... 1 1 2 3
+SYO 2003 08 28 08 23 00 -999 -9 -9 -9 -9 -9 1744.35 1.87 -9 -69.0 39.575 16.0 11.0 5.0 70-91 ... 1 1 2 3
+SYO 2003 09 06 08 30 00 -999 -9 -9 -9 -9 -9 1744.34 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1813-91 ... 1 1 2 3
+SYO 2003 09 06 08 30 00 -999 -9 -9 -9 -9 -9 1746.22 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1814-91 ... 1 1 2 3
+SYO 2003 09 17 13 00 00 -999 -9 -9 -9 -9 -9 1744.86 1.87 -9 -69.0 39.575 16.0 11.0 5.0 685-99 ... 1 1 2 3
+SYO 2003 09 17 13 00 00 -999 -9 -9 -9 -9 -9 1745.52 1.87 -9 -69.0 39.575 16.0 11.0 5.0 686-99 ... 1 1 2 3
+SYO 2003 10 12 17 20 00 -999 -9 -9 -9 -9 -9 1742.23 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4703-91 ... 1 1 2 3
+SYO 2003 10 12 17 20 00 -999 -9 -9 -9 -9 -9 1744.3 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4704-91 ... 1 1 2 3
+SYO 2003 10 26 13 40 00 -999 -9 -9 -9 -9 -9 1740.72 1.87 -9 -69.0 39.575 16.0 11.0 5.0 131-99 ... 1 1 2 3
+SYO 2003 10 26 13 40 00 -999 -9 -9 -9 -9 -9 1741.89 1.87 -9 -69.0 39.575 16.0 11.0 5.0 132-99 ... 1 1 2 3
+SYO 2003 11 05 11 50 00 -999 -9 -9 -9 -9 -9 1739.41 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4181-91 ... 1 1 2 3
+SYO 2003 11 05 11 50 00 -999 -9 -9 -9 -9 -9 1741.03 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4182-91 ... 1 1 2 3
+SYO 2003 11 17 12 30 00 -999 -9 -9 -9 -9 -9 1736.42 1.87 -9 -69.0 39.575 16.0 11.0 5.0 709-99 ... 1 1 2 3
+SYO 2003 11 17 12 30 00 -999 -9 -9 -9 -9 -9 1735.74 1.87 -9 -69.0 39.575 16.0 11.0 5.0 710-99 ... 1 1 2 3
+SYO 2003 12 07 05 10 00 -999 -9 -9 -9 -9 -9 1732.78 1.87 -9 -69.0 39.575 16.0 11.0 5.0 675-99 ... 1 1 2 3
+SYO 2003 12 07 05 10 00 -999 -9 -9 -9 -9 -9 1735.43 1.87 -9 -69.0 39.575 16.0 11.0 5.0 676-99 ... 1 1 2 3
+SYO 2003 12 16 21 20 00 -999 -9 -9 -9 -9 -9 1729.81 1.87 -9 -69.0 39.575 16.0 11.0 5.0 100-99 ... 1 1 2 3
+SYO 2003 12 16 21 20 00 -999 -9 -9 -9 -9 -9 1729.1 1.87 -9 -69.0 39.575 16.0 11.0 5.0 99-99 ... 1 1 2 3
+SYO 2004 01 12 11 15 00 -999 -9 -9 -9 -9 -9 1722.15 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1473-91 ... 1 1 2 3
+SYO 2004 01 12 11 15 00 -999 -9 -9 -9 -9 -9 1721.41 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1474-91 ... 1 1 2 3
+SYO 2004 01 15 11 50 00 -999 -9 -9 -9 -9 -9 1722.09 1.87 -9 -69.0 39.575 16.0 11.0 5.0 41-99 ... 1 1 2 3
+SYO 2004 01 15 11 50 00 -999 -9 -9 -9 -9 -9 1719.79 1.87 -9 -69.0 39.575 16.0 11.0 5.0 42-99 ... 1 1 2 3
+SYO 2004 02 04 18 50 00 -999 -9 -9 -9 -9 -9 1713.38 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1049-99 ... 1 1 2 3
+SYO 2004 02 04 18 50 00 -999 -9 -9 -9 -9 -9 1746.61 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1050-99 N.. 3 1 2 3
+SYO 2004 02 23 12 35 00 -999 -9 -9 -9 -9 -9 1713.57 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1395-99 ... 1 1 2 3
+SYO 2004 02 23 12 35 00 -999 -9 -9 -9 -9 -9 1712.51 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1396-99 ... 1 1 2 3
+SYO 2004 03 05 16 52 00 -999 -9 -9 -9 -9 -9 1706.31 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1505-99 ... 1 1 2 3
+SYO 2004 03 05 16 52 00 -999 -9 -9 -9 -9 -9 1708.74 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1506-99 ... 1 1 2 3
+SYO 2004 03 19 13 10 00 -999 -9 -9 -9 -9 -9 1710.69 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1085-99 ... 1 1 2 3
+SYO 2004 03 19 13 10 00 -999 -9 -9 -9 -9 -9 1711.85 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1086-99 ... 1 1 2 3
+SYO 2004 04 10 11 25 00 -999 -9 -9 -9 -9 -9 1714.32 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1393-99 ... 1 1 2 3
+SYO 2004 04 10 11 25 00 -999 -9 -9 -9 -9 -9 1713.06 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1394-99 ... 1 1 2 3
+SYO 2004 04 21 10 37 00 -999 -9 -9 -9 -9 -9 1716.94 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1265-99 ... 1 1 2 3
+SYO 2004 04 21 10 37 00 -999 -9 -9 -9 -9 -9 1714.26 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1266-99 ... 1 1 2 3
+SYO 2004 05 07 14 08 00 -999 -9 -9 -9 -9 -9 1716.44 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1203-99 ... 1 1 2 3
+SYO 2004 05 07 14 08 00 -999 -9 -9 -9 -9 -9 1718.88 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1204-99 ... 1 1 2 3
+SYO 2004 05 21 13 53 00 -999 -9 -9 -9 -9 -9 1723.91 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1287-99 ... 1 1 2 3
+SYO 2004 05 21 13 53 00 -999 -9 -9 -9 -9 -9 1722.93 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1288-99 ... 1 1 2 3
+SYO 2004 06 06 10 45 00 -999 -9 -9 -9 -9 -9 1723.91 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1991-99 ... 1 1 2 3
+SYO 2004 06 06 10 45 00 -999 -9 -9 -9 -9 -9 1723.78 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1992-99 ... 1 1 2 3
+SYO 2004 06 18 08 25 00 -999 -9 -9 -9 -9 -9 1730.1 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1993-99 ... 1 1 2 3
+SYO 2004 06 18 08 25 00 -999 -9 -9 -9 -9 -9 1731.68 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1994-99 ... 1 1 2 3
+SYO 2004 07 07 10 30 00 -999 -9 -9 -9 -9 -9 1731.98 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2033-99 ... 1 1 2 3
+SYO 2004 07 07 10 30 00 -999 -9 -9 -9 -9 -9 1733.26 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2034-99 ... 1 1 2 3
+SYO 2004 07 23 12 19 00 -999 -9 -9 -9 -9 -9 1737.34 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1343-99 ... 1 1 2 3
+SYO 2004 07 23 12 19 00 -999 -9 -9 -9 -9 -9 1738.18 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1344-99 ... 1 1 2 3
+SYO 2004 08 13 17 00 00 -999 -9 -9 -9 -9 -9 1740.74 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2087-99 ..> 1 1 2 3
+SYO 2004 08 13 17 00 00 -999 -9 -9 -9 -9 -9 1738.9 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2088-99 ... 1 1 2 3
+SYO 2004 08 24 10 32 00 -999 -9 -9 -9 -9 -9 1740.69 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2089-99 ... 1 1 2 3
+SYO 2004 08 24 10 32 00 -999 -9 -9 -9 -9 -9 1742.71 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2090-99 ... 1 1 2 3
+SYO 2004 09 08 04 50 00 -999 -9 -9 -9 -9 -9 1744.89 1.87 -9 -69.0 39.575 16.0 11.0 5.0 401-99 ... 1 1 2 3
+SYO 2004 09 08 04 50 00 -999 -9 -9 -9 -9 -9 1743.23 1.87 -9 -69.0 39.575 16.0 11.0 5.0 402-99 ... 1 1 2 3
+SYO 2004 09 17 12 23 00 -999 -9 -9 -9 -9 -9 1742.38 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1201-99 ... 1 1 2 3
+SYO 2004 09 17 12 23 00 -999 -9 -9 -9 -9 -9 1742.78 1.87 -9 -69.0 39.575 16.0 11.0 5.0 1202-99 ... 1 1 2 3
+SYO 2004 10 03 08 53 00 -999 -9 -9 -9 -9 -9 1741.33 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2035-99 ... 1 1 2 3
+SYO 2004 10 03 08 53 00 -999 -9 -9 -9 -9 -9 1744.66 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2036-99 ... 1 1 2 3
+SYO 2004 10 21 06 10 00 -999 -9 -9 -9 -9 -9 1741.9 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4781-91 ... 1 1 2 3
+SYO 2004 10 21 06 10 00 -999 -9 -9 -9 -9 -9 1740.25 1.87 -9 -69.0 39.575 16.0 11.0 5.0 4782-91 ... 1 1 2 3
+SYO 2004 11 03 11 06 00 -999 -9 -9 -9 -9 -9 1738.15 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2091-99 ... 1 1 2 3
+SYO 2004 11 03 11 06 00 -999 -9 -9 -9 -9 -9 1737.41 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2092-99 ... 1 1 2 3
+SYO 2004 11 20 07 12 00 -999 -9 -9 -9 -9 -9 1738.16 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2081-99 ... 1 1 2 3
+SYO 2004 11 20 07 12 00 -999 -9 -9 -9 -9 -9 1786.65 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2082-99 N.. 3 1 2 3
+SYO 2004 12 09 06 45 00 -999 -9 -9 -9 -9 -9 1731.08 1.87 -9 -69.0 39.575 16.0 11.0 5.0 233-99 ... 1 1 2 3
+SYO 2004 12 09 06 45 00 -999 -9 -9 -9 -9 -9 1749.11 1.87 -9 -69.0 39.575 16.0 11.0 5.0 234-99 N.. 3 1 2 3
+SYO 2004 12 22 08 08 00 -999 -9 -9 -9 -9 -9 1726.38 1.87 -9 -69.0 39.575 16.0 11.0 5.0 181-99 ... 1 1 2 3
+SYO 2004 12 22 08 08 00 -999 -9 -9 -9 -9 -9 1724.89 1.87 -9 -69.0 39.575 16.0 11.0 5.0 182-99 ... 1 1 2 3
+SYO 2005 01 05 19 41 00 -999 -9 -9 -9 -9 -9 1723.44 1.87 -9 -69.0 39.575 16.0 11.0 5.0 957-99 ... 1 1 2 3
+SYO 2005 01 05 19 41 00 -999 -9 -9 -9 -9 -9 1721.36 1.87 -9 -69.0 39.575 16.0 11.0 5.0 958-99 ... 1 1 2 3
+SYO 2005 01 18 08 33 00 -999 -9 -9 -9 -9 -9 1716.4 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2083-99 ... 1 1 2 3
+SYO 2005 01 18 08 33 00 -999 -9 -9 -9 -9 -9 1717.46 1.87 -9 -69.0 39.575 16.0 11.0 5.0 2084-99 ... 1 1 2 3
+SYO 2005 02 07 17 58 00 -999 -9 -9 -9 -9 -9 1712.54 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4037-99 ... 1 1 2 3
+SYO 2005 02 07 17 58 00 -999 -9 -9 -9 -9 -9 1710.95 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4038-99 ... 1 1 2 3
+SYO 2005 02 22 05 48 00 -999 -9 -9 -9 -9 -9 1707.77 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4039-99 ... 1 1 2 3
+SYO 2005 02 22 05 48 00 -999 -9 -9 -9 -9 -9 1706.26 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4040-99 ... 1 1 2 3
+SYO 2005 03 11 07 50 00 -999 -9 -9 -9 -9 -9 1711.27 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3435-99 ... 1 1 2 3
+SYO 2005 03 11 07 50 00 -999 -9 -9 -9 -9 -9 1711.22 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3436-99 ... 1 1 2 3
+SYO 2005 03 26 11 40 00 -999 -9 -9 -9 -9 -9 1708.07 2.05 -9 -69.0 39.575 16.0 11.0 5.0 191-99 ... 1 1 2 3
+SYO 2005 03 26 11 40 00 -999 -9 -9 -9 -9 -9 1712.74 2.05 -9 -69.0 39.575 16.0 11.0 5.0 192-99 ... 1 1 2 3
+SYO 2005 04 13 07 10 00 -999 -9 -9 -9 -9 -9 1711.33 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4041-99 ... 1 1 2 3
+SYO 2005 04 13 07 10 00 -999 -9 -9 -9 -9 -9 1713.29 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4042-99 ... 1 1 2 3
+SYO 2005 04 26 08 17 00 -999 -9 -9 -9 -9 -9 1713.32 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4025-99 ... 1 1 2 3
+SYO 2005 04 26 08 17 00 -999 -9 -9 -9 -9 -9 1714.36 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4026-99 ... 1 1 2 3
+SYO 2005 05 10 12 35 00 -999 -9 -9 -9 -9 -9 1714.67 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4023-99 ... 1 1 2 3
+SYO 2005 05 10 12 35 00 -999 -9 -9 -9 -9 -9 1717.43 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4024-99 ... 1 1 2 3
+SYO 2005 05 25 06 50 00 -999 -9 -9 -9 -9 -9 1722.4 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2671-99 ... 1 1 2 3
+SYO 2005 05 25 06 50 00 -999 -9 -9 -9 -9 -9 1721.43 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2672-99 ... 1 1 2 3
+SYO 2005 06 07 11 45 00 -999 -9 -9 -9 -9 -9 1724.17 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2095-99 ... 1 1 2 3
+SYO 2005 06 07 11 45 00 -999 -9 -9 -9 -9 -9 1725.08 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2096-99 ... 1 1 2 3
+SYO 2005 07 14 07 10 00 -999 -9 -9 -9 -9 -9 1732.04 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2188-99 ... 1 1 2 3
+SYO 2005 07 14 07 10 00 -999 -9 -9 -9 -9 -9 1732.44 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3471-99 ... 1 1 2 3
+SYO 2005 07 30 13 05 00 -999 -9 -9 -9 -9 -9 1735.33 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4027-99 ... 1 1 2 3
+SYO 2005 07 30 13 05 00 -999 -9 -9 -9 -9 -9 1736.36 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4028-99 ... 1 1 2 3
+SYO 2005 08 12 11 15 00 -999 -9 -9 -9 -9 -9 1738.96 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1211-99 ... 1 1 2 3
+SYO 2005 08 12 11 15 00 -999 -9 -9 -9 -9 -9 1734.5 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1212-99 ... 1 1 2 3
+SYO 2005 08 29 05 25 00 -999 -9 -9 -9 -9 -9 1737.08 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2361-99 ... 1 1 2 3
+SYO 2005 08 29 05 25 00 -999 -9 -9 -9 -9 -9 1739.27 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3472-99 ... 1 1 2 3
+SYO 2005 09 06 07 20 00 -999 -9 -9 -9 -9 -9 1741.54 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1783-99 ... 1 1 2 3
+SYO 2005 09 06 07 20 00 -999 -9 -9 -9 -9 -9 1740.7 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1784-99 ... 1 1 2 3
+SYO 2005 09 27 05 40 00 -999 -9 -9 -9 -9 -9 1737.25 2.05 -9 -69.0 39.575 16.0 11.0 5.0 837-99 ... 1 1 2 3
+SYO 2005 09 27 05 40 00 -999 -9 -9 -9 -9 -9 1739.81 2.05 -9 -69.0 39.575 16.0 11.0 5.0 838-99 ... 1 1 2 3
+SYO 2005 10 06 12 50 00 -999 -9 -9 -9 -9 -9 1740.38 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2247-99 ... 1 1 2 3
+SYO 2005 10 06 12 50 00 -999 -9 -9 -9 -9 -9 1739.87 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2248-99 ... 1 1 2 3
+SYO 2005 10 23 07 41 00 -999 -9 -9 -9 -9 -9 1740.8 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2011-99 ... 1 1 2 3
+SYO 2005 10 23 07 41 00 -999 -9 -9 -9 -9 -9 1740.19 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2012-99 ... 1 1 2 3
+SYO 2005 11 13 13 50 00 -999 -9 -9 -9 -9 -9 1736.63 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2347-99 ... 1 1 2 3
+SYO 2005 11 13 13 50 00 -999 -9 -9 -9 -9 -9 1736.01 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2348-99 ... 1 1 2 3
+SYO 2005 11 22 11 40 00 -999 -9 -9 -9 -9 -9 1730.92 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2273-99 ... 1 1 2 3
+SYO 2005 11 22 11 40 00 -999 -9 -9 -9 -9 -9 1733.04 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2274-99 ... 1 1 2 3
+SYO 2005 12 16 02 25 00 -999 -9 -9 -9 -9 -9 1728.7 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3131-99 ... 1 1 2 3
+SYO 2005 12 16 02 25 00 -999 -9 -9 -9 -9 -9 1726.22 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3132-99 ... 1 1 2 3
+SYO 2005 12 26 23 42 00 -999 -9 -9 -9 -9 -9 1723.06 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2207-99 ... 1 1 2 3
+SYO 2005 12 26 23 42 00 -999 -9 -9 -9 -9 -9 1723.46 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2208-99 ... 1 1 2 3
+SYO 2006 01 05 11 55 00 -999 -9 -9 -9 -9 -9 1719.69 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1825-99 ... 1 1 2 3
+SYO 2006 01 05 11 55 00 -999 -9 -9 -9 -9 -9 1721.79 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1826-99 ... 1 1 2 3
+SYO 2006 01 13 06 20 00 -999 -9 -9 -9 -9 -9 1720.21 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4033-99 ... 1 1 2 3
+SYO 2006 01 13 06 20 00 -999 -9 -9 -9 -9 -9 1720.2 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4034-99 ... 1 1 2 3
+SYO 2006 02 15 13 59 00 -999 -9 -9 -9 -9 -9 1709.79 2.05 -9 -69.0 39.575 16.0 11.0 5.0 629-99 ... 1 1 2 3
+SYO 2006 02 15 13 59 00 -999 -9 -9 -9 -9 -9 1710.32 2.05 -9 -69.0 39.575 16.0 11.0 5.0 630-99 ... 1 1 2 3
+SYO 2006 02 28 11 20 00 -999 -9 -9 -9 -9 -9 1711.15 2.05 -9 -69.0 39.575 16.0 11.0 5.0 897-99 ... 1 1 2 3
+SYO 2006 02 28 11 20 00 -999 -9 -9 -9 -9 -9 1710.36 2.05 -9 -69.0 39.575 16.0 11.0 5.0 898-99 ... 1 1 2 3
+SYO 2006 03 13 14 10 00 -999 -9 -9 -9 -9 -9 1709.47 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3873-99 ... 1 1 2 3
+SYO 2006 03 13 14 10 00 -999 -9 -9 -9 -9 -9 1712.47 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3874-99 ... 1 1 2 3
+SYO 2006 04 03 10 29 00 -999 -9 -9 -9 -9 -9 1712.3 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2885-99 ... 1 1 2 3
+SYO 2006 04 03 10 29 00 -999 -9 -9 -9 -9 -9 1716.31 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2886-99 ... 1 1 2 3
+SYO 2006 04 12 11 42 00 -999 -9 -9 -9 -9 -9 1713.9 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4057-99 ... 1 1 2 3
+SYO 2006 04 12 11 42 00 -999 -9 -9 -9 -9 -9 1711.7 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4058-99 ... 1 1 2 3
+SYO 2006 04 25 14 00 00 -999 -9 -9 -9 -9 -9 1716.59 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3713-99 ... 1 1 2 3
+SYO 2006 04 25 14 00 00 -999 -9 -9 -9 -9 -9 1714.64 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3714-99 ... 1 1 2 3
+SYO 2006 05 17 08 20 00 -999 -9 -9 -9 -9 -9 1720.09 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2545-99 ... 1 1 2 3
+SYO 2006 05 17 08 20 00 -999 -9 -9 -9 -9 -9 1719.2 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2546-99 ... 1 1 2 3
+SYO 2006 06 02 13 27 00 -999 -9 -9 -9 -9 -9 1723.3 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4139-99 ... 1 1 2 3
+SYO 2006 06 02 13 27 00 -999 -9 -9 -9 -9 -9 1724.62 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4140-99 ... 1 1 2 3
+SYO 2006 06 15 10 56 00 -999 -9 -9 -9 -9 -9 1723.59 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4055-99 ... 1 1 2 3
+SYO 2006 06 15 10 56 00 -999 -9 -9 -9 -9 -9 1725.78 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4056-99 ... 1 1 2 3
+SYO 2006 06 30 08 28 00 -999 -9 -9 -9 -9 -9 1730.41 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4101-99 ... 1 1 2 3
+SYO 2006 06 30 08 28 00 -999 -9 -9 -9 -9 -9 1727.75 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4102-99 ... 1 1 2 3
+SYO 2006 07 15 08 01 00 -999 -9 -9 -9 -9 -9 1730.46 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1353-99 ... 1 1 2 3
+SYO 2006 07 15 08 01 00 -999 -9 -9 -9 -9 -9 1730.98 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1354-99 ... 1 1 2 3
+SYO 2006 08 04 08 15 00 -999 -9 -9 -9 -9 -9 1736.24 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3395-99 ... 1 1 2 3
+SYO 2006 08 04 08 15 00 -999 -9 -9 -9 -9 -9 1736.33 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3396-99 ... 1 1 2 3
+SYO 2006 08 16 13 12 00 -999 -9 -9 -9 -9 -9 1737.53 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3579-99 ... 1 1 2 3
+SYO 2006 08 16 13 12 00 -999 -9 -9 -9 -9 -9 1738.65 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3580-99 ... 1 1 2 3
+SYO 2006 09 02 13 21 00 -999 -9 -9 -9 -9 -9 1738.87 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1057-99 ... 1 1 2 3
+SYO 2006 09 02 13 21 00 -999 -9 -9 -9 -9 -9 1742.42 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1058-99 ... 1 1 2 3
+SYO 2006 09 11 12 14 00 -999 -9 -9 -9 -9 -9 1739.24 2.05 -9 -69.0 39.575 16.0 11.0 5.0 673-99 ... 1 1 2 3
+SYO 2006 09 11 12 14 00 -999 -9 -9 -9 -9 -9 1739.42 2.05 -9 -69.0 39.575 16.0 11.0 5.0 674-99 ... 1 1 2 3
+SYO 2006 10 07 14 35 00 -999 -9 -9 -9 -9 -9 1740.5 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2031-99 ... 1 1 2 3
+SYO 2006 10 07 14 35 00 -999 -9 -9 -9 -9 -9 1739.54 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2032-99 ... 1 1 2 3
+SYO 2006 10 17 10 26 00 -999 -9 -9 -9 -9 -9 1740.28 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1467-99 ... 1 1 2 3
+SYO 2006 10 17 10 26 00 -999 -9 -9 -9 -9 -9 1738.74 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1468-99 ... 1 1 2 3
+SYO 2006 10 27 10 30 00 -999 -9 -9 -9 -9 -9 1736.26 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1107-99 ... 1 1 2 3
+SYO 2006 10 27 10 30 00 -999 -9 -9 -9 -9 -9 1736.38 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1108-99 ... 1 1 2 3
+SYO 2006 11 16 17 25 00 -999 -9 -9 -9 -9 -9 1737.63 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2677-99 ... 1 1 2 3
+SYO 2006 11 16 17 25 00 -999 -9 -9 -9 -9 -9 1736.85 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2678-99 ... 1 1 2 3
+SYO 2006 11 26 08 16 00 -999 -9 -9 -9 -9 -9 1730.92 1.31 -9 -69.0 39.575 16.0 11.0 5.0 29-99 ... 1 1 2 3
+SYO 2006 11 26 08 16 00 -999 -9 -9 -9 -9 -9 1732.11 1.31 -9 -69.0 39.575 16.0 11.0 5.0 30-99 ... 1 1 2 3
+SYO 2006 12 15 07 09 00 -999 -9 -9 -9 -9 -9 1725.4 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3467-99 ... 1 1 2 3
+SYO 2006 12 15 07 09 00 -999 -9 -9 -9 -9 -9 1729.91 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3468-99 ... 1 1 2 3
+SYO 2006 12 29 19 00 00 -999 -9 -9 -9 -9 -9 1722.5 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3851-99 ... 1 1 2 3
+SYO 2006 12 29 19 00 00 -999 -9 -9 -9 -9 -9 1722.76 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3852-99 ... 1 1 2 3
+SYO 2007 01 10 09 35 00 -999 -9 -9 -9 -9 -9 1719.3 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1149-99 ... 1 1 2 3
+SYO 2007 01 10 09 35 00 -999 -9 -9 -9 -9 -9 1719.44 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1150-99 ... 1 1 2 3
+SYO 2007 01 23 21 52 00 -999 -9 -9 -9 -9 -9 1716.04 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1267-99 ... 1 1 2 3
+SYO 2007 01 23 21 52 00 -999 -9 -9 -9 -9 -9 1715.16 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1268-99 ... 1 1 2 3
+SYO 2007 02 05 07 49 00 -999 -9 -9 -9 -9 -9 1711.44 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3735-99 ... 1 1 2 3
+SYO 2007 02 05 07 49 00 -999 -9 -9 -9 -9 -9 1714.26 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3736-99 ... 1 1 2 3
+SYO 2007 02 22 05 12 00 -999 -9 -9 -9 -9 -9 1710.51 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2527-99 ... 1 1 2 3
+SYO 2007 02 22 05 12 00 -999 -9 -9 -9 -9 -9 1712.67 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2528-99 ... 1 1 2 3
+SYO 2007 03 03 10 36 00 -999 -9 -9 -9 -9 -9 1711.66 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4015-99 ... 1 1 2 3
+SYO 2007 03 03 10 36 00 -999 -9 -9 -9 -9 -9 1713.09 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4016-99 ... 1 1 2 3
+SYO 2007 03 22 07 16 00 -999 -9 -9 -9 -9 -9 1712.25 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1221-99 ... 1 1 2 3
+SYO 2007 03 22 07 16 00 -999 -9 -9 -9 -9 -9 1711.02 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1222-99 ... 1 1 2 3
+SYO 2007 04 03 05 49 00 -999 -9 -9 -9 -9 -9 1717.01 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2091-99 ... 1 1 2 3
+SYO 2007 04 03 05 49 00 -999 -9 -9 -9 -9 -9 1715.63 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2092-99 ... 1 1 2 3
+SYO 2007 04 16 06 50 00 -999 -9 -9 -9 -9 -9 1718.27 2.05 -9 -69.0 39.575 16.0 11.0 5.0 317-99 ... 1 1 2 3
+SYO 2007 04 16 06 50 00 -999 -9 -9 -9 -9 -9 1715.91 2.05 -9 -69.0 39.575 16.0 11.0 5.0 318-99 ... 1 1 2 3
+SYO 2007 05 07 11 10 00 -999 -9 -9 -9 -9 -9 1723.46 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3191-99 ... 1 1 2 3
+SYO 2007 05 07 11 10 00 -999 -9 -9 -9 -9 -9 1722.98 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3192-99 ... 1 1 2 3
+SYO 2007 05 24 14 12 00 -999 -9 -9 -9 -9 -9 1724.76 2.05 -9 -69.0 39.575 16.0 11.0 5.0 191-99 ... 1 1 2 3
+SYO 2007 05 24 14 12 00 -999 -9 -9 -9 -9 -9 1724.99 2.05 -9 -69.0 39.575 16.0 11.0 5.0 192-99 ... 1 1 2 3
+SYO 2007 06 09 08 52 00 -999 -9 -9 -9 -9 -9 1730.63 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1461-99 ... 1 1 2 3
+SYO 2007 06 09 08 52 00 -999 -9 -9 -9 -9 -9 1729.61 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1462-99 ... 1 1 2 3
+SYO 2007 06 27 09 22 00 -999 -9 -9 -9 -9 -9 1734.94 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4061-99 ... 1 1 2 3
+SYO 2007 06 27 09 22 00 -999 -9 -9 -9 -9 -9 1770.27 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4062-99 N.. 3 1 2 3
+SYO 2007 07 05 04 42 00 -999 -9 -9 -9 -9 -9 1738.77 2.05 -9 -69.0 39.575 16.0 11.0 5.0 381-99 ... 1 1 2 3
+SYO 2007 07 05 04 42 00 -999 -9 -9 -9 -9 -9 1741.26 2.05 -9 -69.0 39.575 16.0 11.0 5.0 382-99 ... 1 1 2 3
+SYO 2007 07 16 10 20 00 -999 -9 -9 -9 -9 -9 1739.02 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1315-99 ... 1 1 2 3
+SYO 2007 07 16 10 20 00 -999 -9 -9 -9 -9 -9 1740.06 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1316-99 ... 1 1 2 3
+SYO 2007 08 07 10 08 00 -999 -9 -9 -9 -9 -9 1745.89 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3239-99 ... 1 1 2 3
+SYO 2007 08 07 10 08 00 -999 -9 -9 -9 -9 -9 1743.63 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3240-99 ... 1 1 2 3
+SYO 2007 08 22 08 42 00 -999 -9 -9 -9 -9 -9 1745.73 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1947-99 ... 1 1 2 3
+SYO 2007 08 22 08 42 00 -999 -9 -9 -9 -9 -9 1744.59 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1948-99 ... 1 1 2 3
+SYO 2007 09 05 07 32 00 -999 -9 -9 -9 -9 -9 1747.22 2.05 -9 -69.0 39.575 16.0 11.0 5.0 445-99 ... 1 1 2 3
+SYO 2007 09 05 07 32 00 -999 -9 -9 -9 -9 -9 1748.34 2.05 -9 -69.0 39.575 16.0 11.0 5.0 446-99 ... 1 1 2 3
+SYO 2007 09 17 06 42 00 -999 -9 -9 -9 -9 -9 1748.32 2.05 -9 -69.0 39.575 16.0 11.0 5.0 307-99 ... 1 1 2 3
+SYO 2007 09 17 06 42 00 -999 -9 -9 -9 -9 -9 1748.85 2.05 -9 -69.0 39.575 16.0 11.0 5.0 308-99 ... 1 1 2 3
+SYO 2007 10 04 09 40 00 -999 -9 -9 -9 -9 -9 1747.2 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2811-99 ... 1 1 2 3
+SYO 2007 10 04 09 40 00 -999 -9 -9 -9 -9 -9 1746.67 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2812-99 ... 1 1 2 3
+SYO 2007 10 17 06 50 00 -999 -9 -9 -9 -9 -9 1746.2 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3125-99 ... 1 1 2 3
+SYO 2007 10 17 06 50 00 -999 -9 -9 -9 -9 -9 1747.54 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3126-99 ... 1 1 2 3
+SYO 2007 11 11 10 07 00 -999 -9 -9 -9 -9 -9 1743.13 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3775-99 ... 1 1 2 3
+SYO 2007 11 11 10 07 00 -999 -9 -9 -9 -9 -9 1743.49 2.05 -9 -69.0 39.575 16.0 11.0 5.0 3776-99 ... 1 1 2 3
+SYO 2007 11 19 06 25 00 -999 -9 -9 -9 -9 -9 1744.0 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2989-99 ... 1 1 2 3
+SYO 2007 11 19 06 25 00 -999 -9 -9 -9 -9 -9 1743.17 2.05 -9 -69.0 39.575 16.0 11.0 5.0 2990-99 ... 1 1 2 3
+SYO 2007 12 03 06 10 00 -999 -9 -9 -9 -9 -9 1741.9 2.05 -9 -69.0 39.575 16.0 11.0 5.0 653-99 ... 1 1 2 3
+SYO 2007 12 03 06 10 00 -999 -9 -9 -9 -9 -9 1740.17 2.05 -9 -69.0 39.575 16.0 11.0 5.0 654-99 ... 1 1 2 3
+SYO 2007 12 17 08 17 00 -999 -9 -9 -9 -9 -9 1735.18 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1075-99 ... 1 1 2 3
+SYO 2007 12 17 08 17 00 -999 -9 -9 -9 -9 -9 1736.25 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1076-99 ... 1 1 2 3
+SYO 2008 01 10 18 05 00 -999 -9 -9 -9 -9 -9 1728.25 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4651-99 ... 1 1 2 3
+SYO 2008 01 10 18 05 00 -999 -9 -9 -9 -9 -9 1728.35 2.05 -9 -69.0 39.575 16.0 11.0 5.0 4652-99 ... 1 1 2 3
+SYO 2008 01 26 07 38 00 -999 -9 -9 -9 -9 -9 1724.3 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1985-99 ... 1 1 2 3
+SYO 2008 01 26 07 38 00 -999 -9 -9 -9 -9 -9 1725.41 2.05 -9 -69.0 39.575 16.0 11.0 5.0 1986-99 ... 1 1 2 3
+SYO 2008 02 09 05 48 00 -999 -9 -9 -9 -9 -9 1723.92 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1389-99 ... 1 1 2 3
+SYO 2008 02 09 05 48 00 -999 -9 -9 -9 -9 -9 1724.8 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1390-99 ... 1 1 2 3
+SYO 2008 02 29 05 20 00 -999 -9 -9 -9 -9 -9 1721.79 1.31 -9 -69.0 39.575 16.0 11.0 5.0 75-99 ... 1 1 2 3
+SYO 2008 02 29 05 20 00 -999 -9 -9 -9 -9 -9 1722.19 1.31 -9 -69.0 39.575 16.0 11.0 5.0 76-99 ... 1 1 2 3
+SYO 2008 03 08 06 01 00 -999 -9 -9 -9 -9 -9 1723.62 1.31 -9 -69.0 39.575 16.0 11.0 5.0 571-99 ... 1 1 2 3
+SYO 2008 03 08 06 01 00 -999 -9 -9 -9 -9 -9 1722.09 1.31 -9 -69.0 39.575 16.0 11.0 5.0 572-99 ... 1 1 2 3
+SYO 2008 03 22 05 45 00 -999 -9 -9 -9 -9 -9 1724.02 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1657-99 ... 1 1 2 3
+SYO 2008 03 22 05 45 00 -999 -9 -9 -9 -9 -9 1722.97 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1658-99 ... 1 1 2 3
+SYO 2008 04 09 12 58 00 -999 -9 -9 -9 -9 -9 1729.4 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1669-99 ... 1 1 2 3
+SYO 2008 04 09 12 58 00 -999 -9 -9 -9 -9 -9 1728.8 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1670-99 ... 1 1 2 3
+SYO 2008 04 22 11 13 00 -999 -9 -9 -9 -9 -9 1729.87 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2839-99 ... 1 1 2 3
+SYO 2008 04 22 11 13 00 -999 -9 -9 -9 -9 -9 1728.8 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2840-99 ... 1 1 2 3
+SYO 2008 05 26 06 47 00 -999 -9 -9 -9 -9 -9 1735.73 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3335-99 ... 1 1 2 3
+SYO 2008 05 26 06 47 00 -999 -9 -9 -9 -9 -9 1738.06 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3336-99 ... 1 1 2 3
+SYO 2008 05 31 17 57 00 -999 -9 -9 -9 -9 -9 1736.96 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4213-99 ... 1 1 2 3
+SYO 2008 05 31 17 57 00 -999 -9 -9 -9 -9 -9 1737.4 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4214-99 ... 1 1 2 3
+SYO 2008 06 07 10 40 00 -999 -9 -9 -9 -9 -9 1740.17 1.31 -9 -69.0 39.575 16.0 11.0 5.0 697-99 ... 1 1 2 3
+SYO 2008 06 07 10 40 00 -999 -9 -9 -9 -9 -9 1741.1 1.31 -9 -69.0 39.575 16.0 11.0 5.0 698-99 ... 1 1 2 3
+SYO 2008 06 28 10 08 00 -999 -9 -9 -9 -9 -9 1744.92 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3591-99 ... 1 1 2 3
+SYO 2008 06 28 10 08 00 -999 -9 -9 -9 -9 -9 1743.16 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3592-99 ... 1 1 2 3
+SYO 2008 07 13 07 38 00 -999 -9 -9 -9 -9 -9 1747.93 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4865-99 ... 1 1 2 3
+SYO 2008 07 13 07 38 00 -999 -9 -9 -9 -9 -9 1749.1 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4866-99 ... 1 1 2 3
+SYO 2008 07 20 07 43 00 -999 -9 -9 -9 -9 -9 1748.67 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4867-99 ... 1 1 2 3
+SYO 2008 07 20 07 43 00 -999 -9 -9 -9 -9 -9 1750.29 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4868-99 ... 1 1 2 3
+SYO 2008 08 04 13 50 00 -999 -9 -9 -9 -9 -9 1751.97 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4879-99 ... 1 1 2 3
+SYO 2008 08 04 13 50 00 -999 -9 -9 -9 -9 -9 1752.51 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4880-99 ... 1 1 2 3
+SYO 2008 08 31 13 59 00 -999 -9 -9 -9 -9 -9 1755.03 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4885-99 ... 1 1 2 3
+SYO 2008 08 31 13 59 00 -999 -9 -9 -9 -9 -9 1756.76 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4886-99 ... 1 1 2 3
+SYO 2008 09 09 13 47 00 -999 -9 -9 -9 -9 -9 1755.02 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4887-99 ... 1 1 2 3
+SYO 2008 09 09 13 47 00 -999 -9 -9 -9 -9 -9 1755.93 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4888-99 ... 1 1 2 3
+SYO 2008 09 20 08 33 00 -999 -9 -9 -9 -9 -9 1755.36 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4895-99 ... 1 1 2 3
+SYO 2008 09 20 08 33 00 -999 -9 -9 -9 -9 -9 1754.88 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4896-99 ... 1 1 2 3
+SYO 2008 10 03 07 18 00 -999 -9 -9 -9 -9 -9 1752.83 1.31 -9 -69.0 39.575 16.0 11.0 5.0 79-99 ... 1 1 2 3
+SYO 2008 10 03 07 18 00 -999 -9 -9 -9 -9 -9 1753.56 1.31 -9 -69.0 39.575 16.0 11.0 5.0 80-99 ... 1 1 2 3
+SYO 2008 10 19 16 20 00 -999 -9 -9 -9 -9 -9 1753.25 1.31 -9 -69.0 39.575 16.0 11.0 5.0 815-99 ... 1 1 2 3
+SYO 2008 10 19 16 20 00 -999 -9 -9 -9 -9 -9 1753.12 1.31 -9 -69.0 39.575 16.0 11.0 5.0 816-99 ... 1 1 2 3
+SYO 2008 11 12 11 19 00 -999 -9 -9 -9 -9 -9 1749.63 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1341-99 ... 1 1 2 3
+SYO 2008 11 12 11 19 00 -999 -9 -9 -9 -9 -9 1749.83 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1342-99 ... 1 1 2 3
+SYO 2008 11 21 16 14 00 -999 -9 -9 -9 -9 -9 1746.23 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1801-99 ... 1 1 2 3
+SYO 2008 11 21 16 14 00 -999 -9 -9 -9 -9 -9 1746.72 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1802-99 ... 1 1 2 3
+SYO 2008 12 02 10 55 00 -999 -9 -9 -9 -9 -9 1743.98 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2143-99 ... 1 1 2 3
+SYO 2008 12 02 10 55 00 -999 -9 -9 -9 -9 -9 1744.33 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2144-99 ... 1 1 2 3
+SYO 2008 12 17 13 13 00 -999 -9 -9 -9 -9 -9 1739.57 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2363-99 ... 1 1 2 3
+SYO 2008 12 17 13 13 00 -999 -9 -9 -9 -9 -9 1739.55 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2364-99 ... 1 1 2 3
+SYO 2009 01 02 05 51 00 -999 -9 -9 -9 -9 -9 1734.75 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2535-99 ... 1 1 2 3
+SYO 2009 01 02 05 51 00 -999 -9 -9 -9 -9 -9 1733.9 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2536-99 ... 1 1 2 3
+SYO 2009 01 15 07 36 00 -999 -9 -9 -9 -9 -9 1731.91 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4861-99 ... 1 1 2 3
+SYO 2009 01 15 07 36 00 -999 -9 -9 -9 -9 -9 1729.54 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4862-99 ... 1 1 2 3
+SYO 2009 02 13 08 51 00 -999 -9 -9 -9 -9 -9 1725.61 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2489-99 ... 1 1 2 3
+SYO 2009 02 13 08 51 00 -999 -9 -9 -9 -9 -9 1725.88 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2490-99 ... 1 1 2 3
+SYO 2009 02 22 17 15 00 -999 -9 -9 -9 -9 -9 1724.85 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3057-99 ... 1 1 2 3
+SYO 2009 02 22 17 15 00 -999 -9 -9 -9 -9 -9 1724.3 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3058-99 ... 1 1 2 3
+SYO 2009 03 05 05 48 00 -999 -9 -9 -9 -9 -9 1726.57 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3439-99 ... 1 1 2 3
+SYO 2009 03 05 05 48 00 -999 -9 -9 -9 -9 -9 1726.06 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3440-99 ... 1 1 2 3
+SYO 2009 03 19 13 39 00 -999 -9 -9 -9 -9 -9 1725.7 1.31 -9 -69.0 39.575 16.0 11.0 5.0 679-99 ... 1 1 2 3
+SYO 2009 03 19 13 39 00 -999 -9 -9 -9 -9 -9 1726.41 1.31 -9 -69.0 39.575 16.0 11.0 5.0 680-99 ... 1 1 2 3
+SYO 2009 04 11 05 16 00 -999 -9 -9 -9 -9 -9 1729.15 1.31 -9 -69.0 39.575 16.0 11.0 5.0 371-99 ... 1 1 2 3
+SYO 2009 04 11 05 16 00 -999 -9 -9 -9 -9 -9 1728.76 1.31 -9 -69.0 39.575 16.0 11.0 5.0 372-99 ... 1 1 2 3
+SYO 2009 04 27 07 39 00 -999 -9 -9 -9 -9 -9 1732.38 1.31 -9 -69.0 39.575 16.0 11.0 5.0 759-99 ... 1 1 2 3
+SYO 2009 04 27 07 39 00 -999 -9 -9 -9 -9 -9 1731.2 1.31 -9 -69.0 39.575 16.0 11.0 5.0 760-99 ... 1 1 2 3
+SYO 2009 05 13 11 22 00 -999 -9 -9 -9 -9 -9 1735.74 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1221-99 ... 1 1 2 3
+SYO 2009 05 13 11 22 00 -999 -9 -9 -9 -9 -9 1736.1 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1222-99 ... 1 1 2 3
+SYO 2009 05 21 11 23 00 -999 -9 -9 -9 -9 -9 1739.93 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3053-99 ... 1 1 2 3
+SYO 2009 05 21 11 23 00 -999 -9 -9 -9 -9 -9 1739.2 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3054-99 ... 1 1 2 3
+SYO 2009 06 03 14 33 00 -999 -9 -9 -9 -9 -9 1743.84 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4039-99 ... 1 1 2 3
+SYO 2009 06 03 14 33 00 -999 -9 -9 -9 -9 -9 1742.37 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4040-99 ... 1 1 2 3
+SYO 2009 06 20 14 31 00 -999 -9 -9 -9 -9 -9 1747.01 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3781-99 ... 1 1 2 3
+SYO 2009 06 20 14 31 00 -999 -9 -9 -9 -9 -9 1746.82 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3782-99 ... 1 1 2 3
+SYO 2009 07 01 08 26 00 -999 -9 -9 -9 -9 -9 1749.25 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3721-99 ... 1 1 2 3
+SYO 2009 07 01 08 26 00 -999 -9 -9 -9 -9 -9 1748.93 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3722-99 ... 1 1 2 3
+SYO 2009 07 27 10 44 00 -999 -9 -9 -9 -9 -9 1754.36 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3595-99 ... 1 1 2 3
+SYO 2009 07 27 10 44 00 -999 -9 -9 -9 -9 -9 1752.77 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3596-99 ... 1 1 2 3
+SYO 2009 08 07 05 18 00 -999 -9 -9 -9 -9 -9 1756.18 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2925-99 ... 1 1 2 3
+SYO 2009 08 07 05 18 00 -999 -9 -9 -9 -9 -9 1755.44 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2926-99 ... 1 1 2 3
+SYO 2009 08 15 18 09 00 -999 -9 -9 -9 -9 -9 1756.88 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4991-99 ... 1 1 2 3
+SYO 2009 08 15 18 09 00 -999 -9 -9 -9 -9 -9 1757.65 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4992-99 ... 1 1 2 3
+SYO 2009 09 05 14 38 00 -999 -9 -9 -9 -9 -9 1759.0 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2811-99 ... 1 1 2 3
+SYO 2009 09 05 14 38 00 -999 -9 -9 -9 -9 -9 1758.98 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2812-99 ... 1 1 2 3
+SYO 2009 09 19 14 19 00 -999 -9 -9 -9 -9 -9 1760.81 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3089-99 ... 1 1 2 3
+SYO 2009 10 01 14 16 00 -999 -9 -9 -9 -9 -9 1759.44 1.31 -9 -69.0 39.575 16.0 11.0 5.0 997-99 ... 1 1 2 3
+SYO 2009 10 01 14 16 00 -999 -9 -9 -9 -9 -9 1762.76 1.31 -9 -69.0 39.575 16.0 11.0 5.0 998-99 ... 1 1 2 3
+SYO 2009 10 16 08 17 00 -999 -9 -9 -9 -9 -9 1760.12 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3405-99 ... 1 1 2 3
+SYO 2009 10 16 08 17 00 -999 -9 -9 -9 -9 -9 1759.11 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3406-99 ... 1 1 2 3
+SYO 2009 11 02 16 16 00 -999 -9 -9 -9 -9 -9 1756.0 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2419-99 ... 1 1 2 3
+SYO 2009 11 02 16 16 00 -999 -9 -9 -9 -9 -9 1758.17 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2420-99 ... 1 1 2 3
+SYO 2009 11 16 21 06 00 -999 -9 -9 -9 -9 -9 1755.33 1.31 -9 -69.0 39.575 16.0 11.0 5.0 13-99 ... 1 1 2 3
+SYO 2009 11 16 21 06 00 -999 -9 -9 -9 -9 -9 1753.97 1.31 -9 -69.0 39.575 16.0 11.0 5.0 14-99 ... 1 1 2 3
+SYO 2009 12 03 10 49 00 -999 -9 -9 -9 -9 -9 1749.31 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2021-99 ... 1 1 2 3
+SYO 2009 12 03 10 49 00 -999 -9 -9 -9 -9 -9 1749.83 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2022-99 ... 1 1 2 3
+SYO 2009 12 21 07 15 00 -999 -9 -9 -9 -9 -9 1747.25 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2549-99 ... 1 1 2 3
+SYO 2009 12 21 07 15 00 -999 -9 -9 -9 -9 -9 1745.88 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2550-99 ... 1 1 2 3
+SYO 2010 01 02 19 07 00 -999 -9 -9 -9 -9 -9 1740.8 1.31 -9 -69.0 39.575 16.0 11.0 5.0 803-99 ... 1 1 2 3
+SYO 2010 01 02 19 07 00 -999 -9 -9 -9 -9 -9 1742.01 1.31 -9 -69.0 39.575 16.0 11.0 5.0 804-99 ... 1 1 2 3
+SYO 2010 01 15 10 32 00 -999 -9 -9 -9 -9 -9 1735.04 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3831-99 ... 1 1 2 3
+SYO 2010 01 15 10 32 00 -999 -9 -9 -9 -9 -9 1735.48 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3832-99 ... 1 1 2 3
+SYO 2010 02 05 03 46 00 -999 -9 -9 -9 -9 -9 1732.6 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1483-99 ... 1 1 2 3
+SYO 2010 02 05 03 46 00 -999 -9 -9 -9 -9 -9 1731.35 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1484-99 ... 1 1 2 3
+SYO 2010 02 20 04 24 00 -999 -9 -9 -9 -9 -9 1729.41 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1735-99 ... 1 1 2 3
+SYO 2010 02 20 04 24 00 -999 -9 -9 -9 -9 -9 1729.85 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1736-99 ... 1 1 2 3
+SYO 2010 03 16 17 52 00 -999 -9 -9 -9 -9 -9 1730.35 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1593-99 ... 1 1 2 3
+SYO 2010 03 16 17 52 00 -999 -9 -9 -9 -9 -9 1729.71 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1594-99 ... 1 1 2 3
+SYO 2010 04 07 09 38 00 -999 -9 -9 -9 -9 -9 1733.48 0.91 -9 -69.0 39.575 16.0 11.0 5.0 79-99 ... 1 1 2 3
+SYO 2010 04 07 09 38 00 -999 -9 -9 -9 -9 -9 1734.18 0.91 -9 -69.0 39.575 16.0 11.0 5.0 80-99 ... 1 1 2 3
+SYO 2010 04 18 14 15 00 -999 -9 -9 -9 -9 -9 1736.02 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3911-99 ... 1 1 2 3
+SYO 2010 04 18 14 15 00 -999 -9 -9 -9 -9 -9 1736.24 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3912-99 ... 1 1 2 3
+SYO 2010 05 06 17 45 00 -999 -9 -9 -9 -9 -9 1729.16 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2207-99 N.. 3 1 2 3
+SYO 2010 05 06 17 45 00 -999 -9 -9 -9 -9 -9 1730.43 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2208-99 N.. 3 1 2 3
+SYO 2010 05 13 10 37 00 -999 -9 -9 -9 -9 -9 1739.06 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4311-99 ... 1 1 2 3
+SYO 2010 05 13 10 37 00 -999 -9 -9 -9 -9 -9 1740.61 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4312-99 ... 1 1 2 3
+SYO 2010 05 23 22 33 00 -999 -9 -9 -9 -9 -9 1741.6 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4089-99 ... 1 1 2 3
+SYO 2010 05 23 22 33 00 -999 -9 -9 -9 -9 -9 1742.77 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4090-99 ... 1 1 2 3
+SYO 2010 06 14 11 46 00 -999 -9 -9 -9 -9 -9 1746.45 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1863-99 ... 1 1 2 3
+SYO 2010 06 14 11 46 00 -999 -9 -9 -9 -9 -9 1748.17 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1864-99 ... 1 1 2 3
+SYO 2010 06 25 07 52 00 -999 -9 -9 -9 -9 -9 1751.72 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3969-99 ... 1 1 2 3
+SYO 2010 06 25 07 52 00 -999 -9 -9 -9 -9 -9 1752.12 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3970-99 ... 1 1 2 3
+SYO 2010 07 12 01 07 00 -999 -9 -9 -9 -9 -9 1757.85 1.31 -9 -69.0 39.575 16.0 11.0 5.0 643-99 ... 1 1 2 3
+SYO 2010 07 12 01 07 00 -999 -9 -9 -9 -9 -9 1755.91 1.31 -9 -69.0 39.575 16.0 11.0 5.0 644-99 ... 1 1 2 3
+SYO 2010 07 22 06 42 00 -999 -9 -9 -9 -9 -9 1757.33 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3371-99 ... 1 1 2 3
+SYO 2010 07 22 06 42 00 -999 -9 -9 -9 -9 -9 1757.37 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3372-99 ... 1 1 2 3
+SYO 2010 08 11 07 11 00 -999 -9 -9 -9 -9 -9 1762.2 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4937-99 ... 1 1 2 3
+SYO 2010 08 11 07 11 00 -999 -9 -9 -9 -9 -9 1762.28 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4938-99 ... 1 1 2 3
+SYO 2010 08 23 14 23 00 -999 -9 -9 -9 -9 -9 1762.23 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3723-99 ... 1 1 2 3
+SYO 2010 08 23 14 23 00 -999 -9 -9 -9 -9 -9 1760.34 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3724-99 ... 1 1 2 3
+SYO 2010 09 14 09 59 00 -999 -9 -9 -9 -9 -9 1762.83 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1049-99 ... 1 1 2 3
+SYO 2010 09 14 09 59 00 -999 -9 -9 -9 -9 -9 1765.93 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1050-99 ... 1 1 2 3
+SYO 2010 09 25 03 09 00 -999 -9 -9 -9 -9 -9 1764.41 0.91 -9 -69.0 39.575 16.0 11.0 5.0 5035-99 ... 1 1 2 3
+SYO 2010 09 25 03 09 00 -999 -9 -9 -9 -9 -9 1765.24 0.91 -9 -69.0 39.575 16.0 11.0 5.0 5036-99 ... 1 1 2 3
+SYO 2010 10 14 10 05 00 -999 -9 -9 -9 -9 -9 1764.71 1.31 -9 -69.0 39.575 16.0 11.0 5.0 607-99 ... 1 1 2 3
+SYO 2010 10 14 10 05 00 -999 -9 -9 -9 -9 -9 1765.14 1.31 -9 -69.0 39.575 16.0 11.0 5.0 608-99 ... 1 1 2 3
+SYO 2010 10 31 07 53 00 -999 -9 -9 -9 -9 -9 1763.24 1.31 -9 -69.0 39.575 16.0 11.0 5.0 103-99 ... 1 1 2 3
+SYO 2010 10 31 07 53 00 -999 -9 -9 -9 -9 -9 1762.3 1.31 -9 -69.0 39.575 16.0 11.0 5.0 104-99 ... 1 1 2 3
+SYO 2010 11 10 17 13 00 -999 -9 -9 -9 -9 -9 1762.23 1.31 -9 -69.0 39.575 16.0 11.0 5.0 5033-99 ... 1 1 2 3
+SYO 2010 11 10 17 13 00 -999 -9 -9 -9 -9 -9 1761.94 1.31 -9 -69.0 39.575 16.0 11.0 5.0 5034-99 ... 1 1 2 3
+SYO 2010 11 24 13 50 00 -999 -9 -9 -9 -9 -9 1756.79 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1205-99 ... 1 1 2 3
+SYO 2010 11 24 13 50 00 -999 -9 -9 -9 -9 -9 1758.6 1.31 -9 -69.0 39.575 16.0 11.0 5.0 1206-99 ... 1 1 2 3
+SYO 2010 12 08 20 28 00 -999 -9 -9 -9 -9 -9 1755.57 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2371-99 ... 1 1 2 3
+SYO 2010 12 08 20 28 00 -999 -9 -9 -9 -9 -9 1756.11 1.31 -9 -69.0 39.575 16.0 11.0 5.0 2372-99 ... 1 1 2 3
+SYO 2010 12 18 02 07 00 -999 -9 -9 -9 -9 -9 1752.87 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4669-99 ... 1 1 2 3
+SYO 2010 12 18 02 07 00 -999 -9 -9 -9 -9 -9 1753.72 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4670-99 ... 1 1 2 3
+SYO 2011 01 06 19 25 00 -999 -9 -9 -9 -9 -9 1747.44 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4759-99 ... 1 1 2 3
+SYO 2011 01 06 19 25 00 -999 -9 -9 -9 -9 -9 1747.5 1.31 -9 -69.0 39.575 16.0 11.0 5.0 4760-99 ... 1 1 2 3
+SYO 2011 01 16 07 11 00 -999 -9 -9 -9 -9 -9 1745.98 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3729-99 ... 1 1 2 3
+SYO 2011 01 16 07 11 00 -999 -9 -9 -9 -9 -9 1744.34 1.31 -9 -69.0 39.575 16.0 11.0 5.0 3730-99 ... 1 1 2 3
+SYO 2011 02 14 18 22 00 -999 -9 -9 -9 -9 -9 1738.01 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2437-99 ... 1 1 2 3
+SYO 2011 02 14 18 22 00 -999 -9 -9 -9 -9 -9 1737.42 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2438-99 ... 1 1 2 3
+SYO 2011 02 28 20 45 00 -999 -9 -9 -9 -9 -9 1736.76 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2737-99 ... 1 1 2 3
+SYO 2011 02 28 20 45 00 -999 -9 -9 -9 -9 -9 1737.19 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2738-99 ... 1 1 2 3
+SYO 2011 03 10 18 40 00 -999 -9 -9 -9 -9 -9 1738.25 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4773-99 ... 1 1 2 3
+SYO 2011 03 10 18 40 00 -999 -9 -9 -9 -9 -9 1737.72 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4774-99 ... 1 1 2 3
+SYO 2011 04 02 19 10 00 -999 -9 -9 -9 -9 -9 1740.23 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3559-99 ... 1 1 2 3
+SYO 2011 04 02 19 10 00 -999 -9 -9 -9 -9 -9 1740.68 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3560-99 ... 1 1 2 3
+SYO 2011 04 19 19 30 00 -999 -9 -9 -9 -9 -9 1742.61 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4423-99 ... 1 1 2 3
+SYO 2011 04 19 19 30 00 -999 -9 -9 -9 -9 -9 1742.06 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4424-99 ... 1 1 2 3
+SYO 2011 04 25 18 41 00 -999 -9 -9 -9 -9 -9 1742.6 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4543-99 ... 1 1 2 3
+SYO 2011 04 25 18 41 00 -999 -9 -9 -9 -9 -9 1743.25 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4544-99 ... 1 1 2 3
+SYO 2011 05 12 17 30 00 -999 -9 -9 -9 -9 -9 1751.04 0.91 -9 -69.0 39.575 16.0 11.0 5.0 307-99 ... 1 1 2 3
+SYO 2011 05 12 17 30 00 -999 -9 -9 -9 -9 -9 1751.21 0.91 -9 -69.0 39.575 16.0 11.0 5.0 308-99 ... 1 1 2 3
+SYO 2011 06 02 22 03 00 -999 -9 -9 -9 -9 -9 1755.14 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2307-99 ... 1 1 2 3
+SYO 2011 06 02 22 03 00 -999 -9 -9 -9 -9 -9 1755.37 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2308-99 ... 1 1 2 3
+SYO 2011 06 13 21 00 00 -999 -9 -9 -9 -9 -9 1755.99 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2479-99 ... 1 1 2 3
+SYO 2011 06 13 21 00 00 -999 -9 -9 -9 -9 -9 1754.17 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2480-99 ... 1 1 2 3
+SYO 2011 06 29 05 00 00 -999 -9 -9 -9 -9 -9 1761.15 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3663-99 ... 1 1 2 3
+SYO 2011 06 29 05 00 00 -999 -9 -9 -9 -9 -9 1760.65 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3664-99 ... 1 1 2 3
+SYO 2011 07 07 21 15 00 -999 -9 -9 -9 -9 -9 1759.7 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2179-99 ... 1 1 2 3
+SYO 2011 07 07 21 15 00 -999 -9 -9 -9 -9 -9 1760.06 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2180-99 ... 1 1 2 3
+SYO 2011 07 31 01 35 00 -999 -9 -9 -9 -9 -9 1767.84 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4919-99 ... 1 1 2 3
+SYO 2011 07 31 01 35 00 -999 -9 -9 -9 -9 -9 1767.28 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4920-99 ... 1 1 2 3
+SYO 2011 08 09 05 50 00 -999 -9 -9 -9 -9 -9 1769.16 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3056-99 ... 1 1 2 3
+SYO 2011 08 22 21 00 00 -999 -9 -9 -9 -9 -9 1769.93 0.91 -9 -69.0 39.575 16.0 11.0 5.0 995-99 ... 1 1 2 3
+SYO 2011 08 22 21 00 00 -999 -9 -9 -9 -9 -9 1769.53 0.91 -9 -69.0 39.575 16.0 11.0 5.0 996-99 ... 1 1 2 3
+SYO 2011 09 04 22 04 00 -999 -9 -9 -9 -9 -9 1771.82 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2285-99 ... 1 1 2 3
+SYO 2011 09 04 22 04 00 -999 -9 -9 -9 -9 -9 1772.25 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2286-99 ... 1 1 2 3
+SYO 2011 09 21 22 04 00 -999 -9 -9 -9 -9 -9 1771.12 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4785-99 ... 1 1 2 3
+SYO 2011 09 21 22 04 00 -999 -9 -9 -9 -9 -9 1771.21 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4786-99 ... 1 1 2 3
+SYO 2011 10 16 20 10 00 -999 -9 -9 -9 -9 -9 1771.18 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3861-99 ... 1 1 2 3
+SYO 2011 10 16 20 10 00 -999 -9 -9 -9 -9 -9 1771.98 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3862-99 ... 1 1 2 3
+SYO 2011 11 02 20 11 00 -999 -9 -9 -9 -9 -9 1770.1 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4679-99 ... 1 1 2 3
+SYO 2011 11 02 20 11 00 -999 -9 -9 -9 -9 -9 1768.79 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4680-99 ... 1 1 2 3
+SYO 2011 11 14 22 09 00 -999 -9 -9 -9 -9 -9 1767.59 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4649-99 ... 1 1 2 3
+SYO 2011 11 14 22 09 00 -999 -9 -9 -9 -9 -9 1766.55 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4650-99 ... 1 1 2 3
+SYO 2011 11 30 07 43 00 -999 -9 -9 -9 -9 -9 1762.34 0.91 -9 -69.0 39.575 16.0 11.0 5.0 5072-99 ... 1 1 2 3
+SYO 2011 12 12 21 25 00 -999 -9 -9 -9 -9 -9 1759.17 0.91 -9 -69.0 39.575 16.0 11.0 5.0 325-99 ... 1 1 2 3
+SYO 2011 12 12 21 25 00 -999 -9 -9 -9 -9 -9 1759.45 0.91 -9 -69.0 39.575 16.0 11.0 5.0 326-99 ... 1 1 2 3
+SYO 2011 12 30 19 54 00 -999 -9 -9 -9 -9 -9 1751.43 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4397-99 ... 1 1 2 3
+SYO 2011 12 30 19 54 00 -999 -9 -9 -9 -9 -9 1752.49 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4398-99 ... 1 1 2 3
+SYO 2012 01 16 21 52 00 -999 -9 -9 -9 -9 -9 1748.07 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2149-99 ... 1 1 2 3
+SYO 2012 01 16 21 52 00 -999 -9 -9 -9 -9 -9 1747.55 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2150-99 ... 1 1 2 3
+SYO 2012 01 23 21 16 00 -999 -9 -9 -9 -9 -9 1747.11 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1723-99 ... 1 1 2 3
+SYO 2012 01 23 21 16 00 -999 -9 -9 -9 -9 -9 1747.41 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1724-99 ... 1 1 2 3
+SYO 2012 02 14 11 48 00 -999 -9 -9 -9 -9 -9 1743.91 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3953-99 ... 1 1 2 3
+SYO 2012 02 14 11 48 00 -999 -9 -9 -9 -9 -9 1743.83 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3954-99 ... 1 1 2 3
+SYO 2012 02 23 06 50 00 -999 -9 -9 -9 -9 -9 1742.39 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4744-99 ... 1 1 2 3
+SYO 2012 03 01 14 50 00 -999 -9 -9 -9 -9 -9 1742.52 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4277-99 ... 1 1 2 3
+SYO 2012 03 01 14 50 00 -999 -9 -9 -9 -9 -9 1742.27 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4278-99 ... 1 1 2 3
+SYO 2012 03 15 16 20 00 -999 -9 -9 -9 -9 -9 1744.55 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2993-99 ... 1 1 2 3
+SYO 2012 03 15 16 20 00 -999 -9 -9 -9 -9 -9 1742.93 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2994-99 ... 1 1 2 3
+SYO 2012 04 02 07 55 00 -999 -9 -9 -9 -9 -9 1745.56 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4587-99 ... 1 1 2 3
+SYO 2012 04 02 07 55 00 -999 -9 -9 -9 -9 -9 1745.73 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4588-99 ... 1 1 2 3
+SYO 2012 04 18 10 55 00 -999 -9 -9 -9 -9 -9 1747.44 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4191-99 ... 1 1 2 3
+SYO 2012 04 18 10 55 00 -999 -9 -9 -9 -9 -9 1748.69 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4192-99 ... 1 1 2 3
+SYO 2012 05 04 08 07 00 -999 -9 -9 -9 -9 -9 1752.32 0.91 -9 -69.0 39.575 16.0 11.0 5.0 115-99 ... 1 1 2 3
+SYO 2012 05 04 08 07 00 -999 -9 -9 -9 -9 -9 1751.32 0.91 -9 -69.0 39.575 16.0 11.0 5.0 116-99 ... 1 1 2 3
+SYO 2012 05 15 05 20 00 -999 -9 -9 -9 -9 -9 1756.68 0.91 -9 -69.0 39.575 16.0 11.0 5.0 987-99 ... 1 1 2 3
+SYO 2012 05 15 05 20 00 -999 -9 -9 -9 -9 -9 1756.64 0.91 -9 -69.0 39.575 16.0 11.0 5.0 988-99 ... 1 1 2 3
+SYO 2012 06 03 07 20 00 -999 -9 -9 -9 -9 -9 1758.03 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4531-99 ... 1 1 2 3
+SYO 2012 06 03 07 20 00 -999 -9 -9 -9 -9 -9 1757.4 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4532-99 ... 1 1 2 3
+SYO 2012 06 17 06 50 00 -999 -9 -9 -9 -9 -9 1761.91 0.91 -9 -69.0 39.575 16.0 11.0 5.0 5043-99 ... 1 1 2 3
+SYO 2012 06 17 06 50 00 -999 -9 -9 -9 -9 -9 1762.64 0.91 -9 -69.0 39.575 16.0 11.0 5.0 5044-99 ... 1 1 2 3
+SYO 2012 07 01 07 10 00 -999 -9 -9 -9 -9 -9 1766.83 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3159-99 ... 1 1 2 3
+SYO 2012 07 01 07 10 00 -999 -9 -9 -9 -9 -9 1767.47 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3160-99 ... 1 1 2 3
+SYO 2012 07 17 10 10 00 -999 -9 -9 -9 -9 -9 1769.34 0.91 -9 -69.0 39.575 16.0 11.0 5.0 1308-99 ... 1 1 2 3
+SYO 2012 07 29 05 05 00 -999 -9 -9 -9 -9 -9 1771.95 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4675-99 ... 1 1 2 3
+SYO 2012 07 29 05 05 00 -999 -9 -9 -9 -9 -9 1771.12 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4676-99 ... 1 1 2 3
+SYO 2012 08 17 10 30 00 -999 -9 -9 -9 -9 -9 1774.4 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2371-99 ... 1 1 2 3
+SYO 2012 08 17 10 30 00 -999 -9 -9 -9 -9 -9 1773.76 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2372-99 ... 1 1 2 3
+SYO 2012 09 10 10 50 00 -999 -9 -9 -9 -9 -9 1776.11 0.91 -9 -69.0 39.575 16.0 11.0 5.0 935-99 ... 1 1 2 3
+SYO 2012 09 10 10 50 00 -999 -9 -9 -9 -9 -9 1776.59 0.91 -9 -69.0 39.575 16.0 11.0 5.0 936-99 ... 1 1 2 3
+SYO 2012 09 17 06 25 00 -999 -9 -9 -9 -9 -9 1778.06 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2869-99 ... 1 1 2 3
+SYO 2012 09 17 06 25 00 -999 -9 -9 -9 -9 -9 1777.03 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2870-99 ... 1 1 2 3
+SYO 2012 10 01 06 00 00 -999 -9 -9 -9 -9 -9 1776.42 0.91 -9 -69.0 39.575 16.0 11.0 5.0 851-99 ... 1 1 2 3
+SYO 2012 10 01 06 00 00 -999 -9 -9 -9 -9 -9 1777.54 0.91 -9 -69.0 39.575 16.0 11.0 5.0 852-99 ... 1 1 2 3
+SYO 2012 10 13 12 30 00 -999 -9 -9 -9 -9 -9 1778.66 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4997-99 ... 1 1 2 3
+SYO 2012 10 13 12 30 00 -999 -9 -9 -9 -9 -9 1777.25 0.91 -9 -69.0 39.575 16.0 11.0 5.0 4998-99 ... 1 1 2 3
+SYO 2012 11 02 05 10 00 -999 -9 -9 -9 -9 -9 1775.99 0.91 -9 -69.0 39.575 16.0 11.0 5.0 5064-99 ... 1 1 2 3
+SYO 2012 11 21 09 35 00 -999 -9 -9 -9 -9 -9 1771.98 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2965-99 ... 1 1 2 3
+SYO 2012 11 21 09 35 00 -999 -9 -9 -9 -9 -9 1771.92 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2966-99 ... 1 1 2 3
+SYO 2012 12 02 03 30 00 -999 -9 -9 -9 -9 -9 1768.47 0.91 -9 -69.0 39.575 16.0 11.0 5.0 67-99 ... 1 1 2 3
+SYO 2012 12 02 03 30 00 -999 -9 -9 -9 -9 -9 1768.34 0.91 -9 -69.0 39.575 16.0 11.0 5.0 68-99 ... 1 1 2 3
+SYO 2012 12 15 07 45 00 -999 -9 -9 -9 -9 -9 1765.98 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2631-99 ... 1 1 2 3
+SYO 2012 12 15 07 45 00 -999 -9 -9 -9 -9 -9 1765.72 0.91 -9 -69.0 39.575 16.0 11.0 5.0 2632-99 ... 1 1 2 3
+SYO 2013 01 04 06 00 00 -999 -9 -9 -9 -9 -9 1758.72 0.91 -9 -69.0 39.575 16.0 11.0 5.0 595-99 ... 1 1 2 3
+SYO 2013 01 04 06 00 00 -999 -9 -9 -9 -9 -9 1757.22 0.91 -9 -69.0 39.575 16.0 11.0 5.0 596-99 ... 1 1 2 3
+SYO 2013 01 16 05 30 00 -999 -9 -9 -9 -9 -9 1753.86 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3379-99 ... 1 1 2 3
+SYO 2013 01 16 05 30 00 -999 -9 -9 -9 -9 -9 1753.98 0.91 -9 -69.0 39.575 16.0 11.0 5.0 3380-99 ... 1 1 2 3
+SYO 2013 02 15 06 02 00 -999 -9 -9 -9 -9 -9 1747.86 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3583-99 ... 1 1 2 3
+SYO 2013 02 15 06 02 00 -999 -9 -9 -9 -9 -9 1747.92 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3584-99 ... 1 1 2 3
+SYO 2013 02 23 08 53 00 -999 -9 -9 -9 -9 -9 1748.3 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4901-99 ... 1 1 2 3
+SYO 2013 02 23 08 53 00 -999 -9 -9 -9 -9 -9 1747.71 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4902-99 ... 1 1 2 3
+SYO 2013 03 10 08 13 00 -999 -9 -9 -9 -9 -9 1747.58 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1559-99 ... 1 1 2 3
+SYO 2013 03 10 08 13 00 -999 -9 -9 -9 -9 -9 1746.83 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1560-99 ... 1 1 2 3
+SYO 2013 03 22 08 24 00 -999 -9 -9 -9 -9 -9 1747.27 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3655-99 ... 1 1 2 3
+SYO 2013 03 22 08 24 00 -999 -9 -9 -9 -9 -9 1747.52 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3656-99 ... 1 1 2 3
+SYO 2013 04 09 09 19 00 -999 -9 -9 -9 -9 -9 1749.76 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2109-99 ... 1 1 2 3
+SYO 2013 04 09 09 19 00 -999 -9 -9 -9 -9 -9 1750.12 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2110-99 ... 1 1 2 3
+SYO 2013 04 28 11 05 00 -999 -9 -9 -9 -9 -9 1752.39 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 843-99 ... 1 1 2 3
+SYO 2013 04 28 11 05 00 -999 -9 -9 -9 -9 -9 1738.39 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 844-99 N.. 3 1 2 3
+SYO 2013 05 13 09 00 00 -999 -9 -9 -9 -9 -9 1755.38 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 339-99 ... 1 1 2 3
+SYO 2013 05 13 09 00 00 -999 -9 -9 -9 -9 -9 1740.59 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 340-99 N.. 3 1 2 3
+SYO 2013 05 24 10 39 00 -999 -9 -9 -9 -9 -9 1757.39 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4825-99 ... 1 1 2 3
+SYO 2013 05 24 10 39 00 -999 -9 -9 -9 -9 -9 1733.98 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4826-99 N.. 3 1 2 3
+SYO 2013 06 13 08 50 00 -999 -9 -9 -9 -9 -9 1767.3 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1169-99 ... 1 1 2 3
+SYO 2013 06 13 08 50 00 -999 -9 -9 -9 -9 -9 1765.89 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1170-99 ... 1 1 2 3
+SYO 2013 06 24 12 55 00 -999 -9 -9 -9 -9 -9 1766.81 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2949-99 ... 1 1 2 3
+SYO 2013 06 24 12 55 00 -999 -9 -9 -9 -9 -9 1748.87 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2950-99 N.. 3 1 2 3
+SYO 2013 07 06 13 53 00 -999 -9 -9 -9 -9 -9 1769.4 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2003-99 ... 1 1 2 3
+SYO 2013 07 06 13 53 00 -999 -9 -9 -9 -9 -9 1754.84 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2004-99 N.. 3 1 2 3
+SYO 2013 07 25 08 06 00 -999 -9 -9 -9 -9 -9 1772.62 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5293-99 ... 1 1 2 3
+SYO 2013 07 25 08 06 00 -999 -9 -9 -9 -9 -9 1758.7 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5294-99 N.. 3 1 2 3
+SYO 2013 08 12 11 40 00 -999 -9 -9 -9 -9 -9 1775.68 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1745-99 ... 1 1 2 3
+SYO 2013 08 12 11 40 00 -999 -9 -9 -9 -9 -9 1772.93 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1746-99 N.. 3 1 2 3
+SYO 2013 08 23 08 24 00 -999 -9 -9 -9 -9 -9 1779.5 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3157-99 ... 1 1 2 3
+SYO 2013 08 23 08 24 00 -999 -9 -9 -9 -9 -9 1762.66 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3158-99 N.. 3 1 2 3
+SYO 2013 09 07 06 56 00 -999 -9 -9 -9 -9 -9 1780.44 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2735-99 ... 1 1 2 3
+SYO 2013 09 07 06 56 00 -999 -9 -9 -9 -9 -9 1770.35 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2736-99 N.. 3 1 2 3
+SYO 2013 09 22 06 54 00 -999 -9 -9 -9 -9 -9 1782.06 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3181-99 ... 1 1 2 3
+SYO 2013 09 22 06 54 00 -999 -9 -9 -9 -9 -9 1775.66 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3182-99 N.. 3 1 2 3
+SYO 2013 10 06 09 50 00 -999 -9 -9 -9 -9 -9 1780.95 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 809-99 ... 1 1 2 3
+SYO 2013 10 06 09 50 00 -999 -9 -9 -9 -9 -9 1771.57 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 810-99 N.. 3 1 2 3
+SYO 2013 10 25 05 30 00 -999 -9 -9 -9 -9 -9 1779.2 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1519-99 ... 1 1 2 3
+SYO 2013 10 25 05 30 00 -999 -9 -9 -9 -9 -9 1779.52 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1520-99 ... 1 1 2 3
+SYO 2013 11 08 08 04 00 -999 -9 -9 -9 -9 -9 1774.4 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1639-99 ... 1 1 2 3
+SYO 2013 11 08 08 04 00 -999 -9 -9 -9 -9 -9 1768.83 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1640-99 N.. 3 1 2 3
+SYO 2013 11 19 07 30 00 -999 -9 -9 -9 -9 -9 1776.55 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1257-99 ... 1 1 2 3
+SYO 2013 11 19 07 30 00 -999 -9 -9 -9 -9 -9 1774.46 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1258-99 N.. 3 1 2 3
+SYO 2013 12 02 20 58 00 -999 -9 -9 -9 -9 -9 1770.67 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 279-99 ... 1 1 2 3
+SYO 2013 12 02 20 58 00 -999 -9 -9 -9 -9 -9 1770.46 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 280-99 ... 1 1 2 3
+SYO 2013 12 18 19 56 00 -999 -9 -9 -9 -9 -9 1765.77 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1055-99 ... 1 1 2 3
+SYO 2013 12 18 19 56 00 -999 -9 -9 -9 -9 -9 1762.94 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1056-99 N.. 3 1 2 3
+SYO 2014 01 02 12 43 00 -999 -9 -9 -9 -9 -9 1759.98 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 177-99 ... 1 1 2 3
+SYO 2014 01 02 12 43 00 -999 -9 -9 -9 -9 -9 1760.32 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 178-99 ... 1 1 2 3
+SYO 2014 01 02 12 43 00 -999 -9 -9 -9 -9 -9 1759.62 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3763-99 ... 1 1 2 3
+SYO 2014 01 02 12 43 00 -999 -9 -9 -9 -9 -9 1744.45 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3764-99 N.. 3 1 2 3
+SYO 2014 01 22 11 17 00 -999 -9 -9 -9 -9 -9 1754.95 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4191-99 ... 1 1 2 3
+SYO 2014 01 22 11 17 00 -999 -9 -9 -9 -9 -9 1754.74 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4192-99 ... 1 1 2 3
+SYO 2014 01 22 11 18 00 -999 -9 -9 -9 -9 -9 1755.19 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 61-99 ... 1 1 2 3
+SYO 2014 01 22 11 18 00 -999 -9 -9 -9 -9 -9 1753.39 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 62-99 N.. 3 1 2 3
+SYO 2014 02 05 10 47 00 -999 -9 -9 -9 -9 -9 1753.31 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4315-99 ... 1 1 2 3
+SYO 2014 02 25 18 18 00 -999 -9 -9 -9 -9 -9 1751.82 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5245-99 ... 1 1 2 3
+SYO 2014 02 25 18 18 00 -999 -9 -9 -9 -9 -9 1751.93 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5246-99 ... 1 1 2 3
+SYO 2014 03 09 14 52 00 -999 -9 -9 -9 -9 -9 1751.54 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3671-99 ... 1 1 2 3
+SYO 2014 03 09 14 52 00 -999 -9 -9 -9 -9 -9 1752.28 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3672-99 ... 1 1 2 3
+SYO 2014 03 26 08 08 00 -999 -9 -9 -9 -9 -9 1754.04 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4175-99 ... 1 1 2 3
+SYO 2014 03 26 08 08 00 -999 -9 -9 -9 -9 -9 1753.06 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4176-99 ... 1 1 2 3
+SYO 2014 04 04 07 35 00 -999 -9 -9 -9 -9 -9 1755.98 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3683-99 ... 1 1 2 3
+SYO 2014 04 04 07 35 00 -999 -9 -9 -9 -9 -9 1755.72 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3684-99 ... 1 1 2 3
+SYO 2014 04 22 09 57 00 -999 -9 -9 -9 -9 -9 1760.19 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4113-99 ... 1 1 2 3
+SYO 2014 04 22 09 57 00 -999 -9 -9 -9 -9 -9 1759.85 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4114-99 ... 1 1 2 3
+SYO 2014 05 12 16 47 00 -999 -9 -9 -9 -9 -9 1766.67 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1417-99 ... 1 1 2 3
+SYO 2014 05 12 16 47 00 -999 -9 -9 -9 -9 -9 1765.94 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1418-99 ... 1 1 2 3
+SYO 2014 05 19 18 06 00 -999 -9 -9 -9 -9 -9 1767.63 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4185-99 ... 1 1 2 3
+SYO 2014 05 19 18 06 00 -999 -9 -9 -9 -9 -9 1767.7 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4186-99 ... 1 1 2 3
+SYO 2014 06 02 12 48 00 -999 -9 -9 -9 -9 -9 1773.05 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3792-99 ... 1 1 2 3
+SYO 2014 06 02 12 48 00 -999 -9 -9 -9 -9 -9 1772.95 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5049-99 ... 1 1 2 3
+SYO 2014 06 15 19 18 00 -999 -9 -9 -9 -9 -9 1776.01 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4483-99 ... 1 1 2 3
+SYO 2014 06 15 19 18 00 -999 -9 -9 -9 -9 -9 1776.64 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 980-99 ... 1 1 2 3
+SYO 2014 07 08 01 07 00 -999 -9 -9 -9 -9 -9 1782.13 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1848-99 ... 1 1 2 3
+SYO 2014 07 08 01 07 00 -999 -9 -9 -9 -9 -9 1783.03 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 691-99 ... 1 1 2 3
+SYO 2014 07 27 03 05 00 -999 -9 -9 -9 -9 -9 1786.6 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3161-99 ... 1 1 2 3
+SYO 2014 07 27 03 05 00 -999 -9 -9 -9 -9 -9 1785.96 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3547-99 ... 1 1 2 3
+SYO 2014 08 07 10 26 00 -999 -9 -9 -9 -9 -9 1788.03 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2840-99 ... 1 1 2 3
+SYO 2014 08 07 10 26 00 -999 -9 -9 -9 -9 -9 1788.22 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3029-99 ... 1 1 2 3
+SYO 2014 08 25 12 30 00 -999 -9 -9 -9 -9 -9 1790.5 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1137-99 ... 1 1 2 3
+SYO 2014 08 25 12 30 00 -999 -9 -9 -9 -9 -9 1791.07 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3336-99 ... 1 1 2 3
+SYO 2014 09 09 20 02 00 -999 -9 -9 -9 -9 -9 1791.61 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2032-99 ... 1 1 2 3
+SYO 2014 09 09 20 02 00 -999 -9 -9 -9 -9 -9 1792.86 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2357-99 ... 1 1 2 3
+SYO 2014 09 20 09 16 00 -999 -9 -9 -9 -9 -9 1791.95 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2586-99 ... 1 1 2 3
+SYO 2014 09 20 09 16 00 -999 -9 -9 -9 -9 -9 1792.96 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3185-99 ... 1 1 2 3
+SYO 2014 10 04 09 05 00 -999 -9 -9 -9 -9 -9 1793.08 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1821-99 ... 1 1 2 3
+SYO 2014 10 04 09 05 00 -999 -9 -9 -9 -9 -9 1792.18 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1822-99 ... 1 1 2 3
+SYO 2014 10 24 07 35 00 -999 -9 -9 -9 -9 -9 1791.41 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 175-99 ... 1 1 2 3
+SYO 2014 10 24 07 35 00 -999 -9 -9 -9 -9 -9 1790.89 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 176-99 ... 1 1 2 3
+SYO 2014 11 04 13 32 00 -999 -9 -9 -9 -9 -9 1789.29 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3101-99 ... 1 1 2 3
+SYO 2014 11 04 13 32 00 -999 -9 -9 -9 -9 -9 1789.87 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3102-99 ... 1 1 2 3
+SYO 2014 11 18 12 28 00 -999 -9 -9 -9 -9 -9 1786.55 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5007-99 ... 1 1 2 3
+SYO 2014 11 18 12 28 00 -999 -9 -9 -9 -9 -9 1786.26 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5008-99 ... 1 1 2 3
+SYO 2014 12 07 19 14 00 -999 -9 -9 -9 -9 -9 1781.67 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2237-99 ... 1 1 2 3
+SYO 2014 12 07 19 14 00 -999 -9 -9 -9 -9 -9 1782.29 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2238-99 ... 1 1 2 3
+SYO 2014 12 24 17 57 00 -999 -9 -9 -9 -9 -9 1777.9 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5383-99 ... 1 1 2 3
+SYO 2014 12 24 17 57 00 -999 -9 -9 -9 -9 -9 1777.31 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5384-99 ... 1 1 2 3
+SYO 2015 01 09 02 52 00 -999 -9 -9 -9 -9 -9 1773.0 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3689-99 ... 1 1 2 3
+SYO 2015 01 09 02 52 00 -999 -9 -9 -9 -9 -9 1773.24 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3690-99 ... 1 1 2 3
+SYO 2015 01 20 18 14 00 -999 -9 -9 -9 -9 -9 1769.27 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5365-99 ... 1 1 2 3
+SYO 2015 02 09 19 00 00 -999 -9 -9 -9 -9 -9 1765.88 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4354-99 ... 1 1 2 3
+SYO 2015 02 09 19 00 00 -999 -9 -9 -9 -9 -9 1765.31 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 799-99 ... 1 1 2 3
+SYO 2015 02 18 20 01 00 -999 -9 -9 -9 -9 -9 1764.49 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4752-99 ... 1 1 2 3
+SYO 2015 02 18 20 01 00 -999 -9 -9 -9 -9 -9 1764.29 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4994-99 ... 1 1 2 3
+SYO 2015 03 04 04 06 00 -999 -9 -9 -9 -9 -9 1765.14 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5260-99 ... 1 1 2 3
+SYO 2015 03 04 04 06 00 -999 -9 -9 -9 -9 -9 1765.59 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 605-99 ... 1 1 2 3
+SYO 2015 03 27 03 45 00 -999 -9 -9 -9 -9 -9 1766.24 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1030-99 ... 1 1 2 3
+SYO 2015 03 27 03 45 00 -999 -9 -9 -9 -9 -9 1767.87 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3739-99 ... 1 1 2 3
+SYO 2015 04 06 05 40 00 -999 -9 -9 -9 -9 -9 1769.24 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1040-99 ... 1 1 2 3
+SYO 2015 04 06 05 40 00 -999 -9 -9 -9 -9 -9 1767.99 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 237-99 ... 1 1 2 3
+SYO 2015 04 20 10 42 00 -999 -9 -9 -9 -9 -9 1771.23 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5407-99 ... 1 1 2 3
+SYO 2015 04 20 10 42 00 -999 -9 -9 -9 -9 -9 1770.46 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5417-99 ... 1 1 2 3
+SYO 2015 05 04 06 14 00 -999 -9 -9 -9 -9 -9 1774.85 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4039-99 ... 1 1 2 3
+SYO 2015 05 04 06 14 00 -999 -9 -9 -9 -9 -9 1774.69 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4620-99 ... 1 1 2 3
+SYO 2015 05 22 02 55 00 -999 -9 -9 -9 -9 -9 1778.55 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2565-99 ... 1 1 2 3
+SYO 2015 05 22 02 55 00 -999 -9 -9 -9 -9 -9 1778.11 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3107-99 ... 1 1 2 3
+SYO 2015 06 09 10 22 00 -999 -9 -9 -9 -9 -9 1784.56 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1054-99 ... 1 1 2 3
+SYO 2015 06 09 10 22 00 -999 -9 -9 -9 -9 -9 1783.7 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4171-99 ... 1 1 2 3
+SYO 2015 06 25 14 17 00 -999 -9 -9 -9 -9 -9 1789.76 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1715-99 ... 1 1 2 3
+SYO 2015 06 25 14 17 00 -999 -9 -9 -9 -9 -9 1789.25 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2175-99 ... 1 1 2 3
+SYO 2015 07 11 10 40 00 -999 -9 -9 -9 -9 -9 1790.69 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3989-99 ... 1 1 2 3
+SYO 2015 07 11 10 40 00 -999 -9 -9 -9 -9 -9 1790.94 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4635-99 ... 1 1 2 3
+SYO 2015 07 20 07 54 00 -999 -9 -9 -9 -9 -9 1796.11 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2823-99 ... 1 1 2 3
+SYO 2015 07 20 07 54 00 -999 -9 -9 -9 -9 -9 1796.8 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3874-99 ... 1 1 2 3
+SYO 2015 08 05 10 23 00 -999 -9 -9 -9 -9 -9 1797.6 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 425-99 ... 1 1 2 3
+SYO 2015 08 05 10 23 00 -999 -9 -9 -9 -9 -9 1797.8 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5131-99 ... 1 1 2 3
+SYO 2015 08 22 10 03 00 -999 -9 -9 -9 -9 -9 1800.42 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1442-99 ... 1 1 2 3
+SYO 2015 08 22 10 03 00 -999 -9 -9 -9 -9 -9 1800.93 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2603-99 ... 1 1 2 3
+SYO 2015 09 08 12 35 00 -999 -9 -9 -9 -9 -9 1801.69 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2960-99 ... 1 1 2 3
+SYO 2015 09 08 12 35 00 -999 -9 -9 -9 -9 -9 1802.42 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3525-99 ... 1 1 2 3
+SYO 2015 09 22 19 46 00 -999 -9 -9 -9 -9 -9 1802.74 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3708-99 ... 1 1 2 3
+SYO 2015 09 22 19 46 00 -999 -9 -9 -9 -9 -9 1802.98 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4324-99 ... 1 1 2 3
+SYO 2015 10 04 16 40 00 -999 -9 -9 -9 -9 -9 1801.79 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3936-99 ... 1 1 2 3
+SYO 2015 10 04 16 40 00 -999 -9 -9 -9 -9 -9 1802.78 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 716-99 ... 1 1 2 3
+SYO 2015 10 20 19 00 00 -999 -9 -9 -9 -9 -9 1800.5 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2123-99 ... 1 1 2 3
+SYO 2015 10 20 19 00 00 -999 -9 -9 -9 -9 -9 1803.0 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2425-99 ... 1 1 2 3
+SYO 2015 11 08 19 08 00 -999 -9 -9 -9 -9 -9 1797.7 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1598-99 ... 1 1 2 3
+SYO 2015 11 08 19 08 00 -999 -9 -9 -9 -9 -9 1797.96 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2097-99 ... 1 1 2 3
+SYO 2015 11 23 06 28 00 -999 -9 -9 -9 -9 -9 1794.58 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1596-99 ... 1 1 2 3
+SYO 2015 11 23 06 28 00 -999 -9 -9 -9 -9 -9 1795.74 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4016-99 ... 1 1 2 3
+SYO 2015 12 08 03 32 00 -999 -9 -9 -9 -9 -9 1790.13 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3866-99 ... 1 1 2 3
+SYO 2015 12 08 03 32 00 -999 -9 -9 -9 -9 -9 1789.85 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 452-99 ... 1 1 2 3
+SYO 2015 12 27 04 18 00 -999 -9 -9 -9 -9 -9 1785.99 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1573-99 ... 1 1 2 3
+SYO 2015 12 27 04 18 00 -999 -9 -9 -9 -9 -9 1786.32 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3607-99 ... 1 1 2 3
+SYO 2016 01 08 04 18 00 -999 -9 -9 -9 -9 -9 1782.76 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1017-99 ... 1 1 2 3
+SYO 2016 01 08 04 18 00 -999 -9 -9 -9 -9 -9 1783.25 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3554-99 ... 1 1 2 3
+SYO 2016 01 30 04 31 00 -999 -9 -9 -9 -9 -9 1778.61 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5138-99 ... 1 1 2 3
+SYO 2016 01 30 04 31 00 -999 -9 -9 -9 -9 -9 1778.78 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 6334-66 ... 1 1 2 3
+SYO 2016 02 13 05 53 00 -999 -9 -9 -9 -9 -9 1775.98 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1483-99 ... 1 1 2 3
+SYO 2016 02 13 05 53 00 -999 -9 -9 -9 -9 -9 1776.44 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2318-99 ... 1 1 2 3
+SYO 2016 02 23 17 07 00 -999 -9 -9 -9 -9 -9 1775.22 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3246-99 ... 1 1 2 3
+SYO 2016 02 23 17 07 00 -999 -9 -9 -9 -9 -9 1773.6 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4397-99 ... 1 1 2 3
+SYO 2016 03 08 03 29 00 -999 -9 -9 -9 -9 -9 1774.31 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5284-99 ... 1 1 2 3
+SYO 2016 03 08 03 29 00 -999 -9 -9 -9 -9 -9 1773.62 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 6367-66 ... 1 1 2 3
+SYO 2016 03 21 12 04 00 -999 -9 -9 -9 -9 -9 1775.99 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4360-99 ... 1 1 2 3
+SYO 2016 03 21 12 04 00 -999 -9 -9 -9 -9 -9 1775.82 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5020-99 ... 1 1 2 3
+SYO 2016 04 05 04 09 00 -999 -9 -9 -9 -9 -9 1776.65 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2735-99 ... 1 1 2 3
+SYO 2016 04 05 04 09 00 -999 -9 -9 -9 -9 -9 1777.69 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3025-99 ... 1 1 2 3
+SYO 2016 04 27 09 20 00 -999 -9 -9 -9 -9 -9 1783.15 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2558-99 ... 1 1 2 3
+SYO 2016 04 27 09 20 00 -999 -9 -9 -9 -9 -9 1782.72 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3859-99 ... 1 1 2 3
+SYO 2016 05 07 15 25 00 -999 -9 -9 -9 -9 -9 1784.52 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4962-99 ... 1 1 2 3
+SYO 2016 05 07 15 25 00 -999 -9 -9 -9 -9 -9 1784.56 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5241-99 ... 1 1 2 3
+SYO 2016 05 17 16 51 00 -999 -9 -9 -9 -9 -9 1785.06 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2205-99 ... 1 1 2 3
+SYO 2016 05 17 16 51 00 -999 -9 -9 -9 -9 -9 1784.45 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2697-99 ... 1 1 2 3
+SYO 2016 06 09 18 38 00 -999 -9 -9 -9 -9 -9 1792.32 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1788-99 ... 1 1 2 3
+SYO 2016 06 09 18 38 00 -999 -9 -9 -9 -9 -9 1792.36 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3715-99 ... 1 1 2 3
+SYO 2016 06 21 14 06 00 -999 -9 -9 -9 -9 -9 1794.27 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4863-99 ... 1 1 2 3
+SYO 2016 06 21 14 06 00 -999 -9 -9 -9 -9 -9 1793.56 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 824-99 ... 1 1 2 3
+SYO 2016 07 13 14 25 00 -999 -9 -9 -9 -9 -9 1798.74 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1613-99 ... 1 1 2 3
+SYO 2016 07 13 14 25 00 -999 -9 -9 -9 -9 -9 1799.57 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2702-99 ... 1 1 2 3
+SYO 2016 07 27 05 40 00 -999 -9 -9 -9 -9 -9 1802.09 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3266-99 ... 1 1 2 3
+SYO 2016 07 27 05 40 00 -999 -9 -9 -9 -9 -9 1801.77 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4700-99 ... 1 1 2 3
+SYO 2016 08 13 10 20 00 -999 -9 -9 -9 -9 -9 1805.58 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2857-99 ... 1 1 2 3
+SYO 2016 08 13 10 20 00 -999 -9 -9 -9 -9 -9 1805.72 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3174-99 ... 1 1 2 3
+SYO 2016 08 28 13 01 00 -999 -9 -9 -9 -9 -9 1806.08 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3967-99 ... 1 1 2 3
+SYO 2016 08 28 13 01 00 -999 -9 -9 -9 -9 -9 1806.2 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4851-99 ... 1 1 2 3
+SYO 2016 09 08 22 19 00 -999 -9 -9 -9 -9 -9 1806.49 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2088-99 ... 1 1 2 3
+SYO 2016 09 08 22 19 00 -999 -9 -9 -9 -9 -9 1807.22 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4129-99 ... 1 1 2 3
+SYO 2016 09 23 06 13 00 -999 -9 -9 -9 -9 -9 1808.47 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3475-99 ... 1 1 2 3
+SYO 2016 09 23 06 13 00 -999 -9 -9 -9 -9 -9 1809.18 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3476-99 ... 1 1 2 3
+SYO 2016 10 08 04 57 00 -999 -9 -9 -9 -9 -9 1809.62 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 631-99 ... 1 1 2 3
+SYO 2016 10 08 04 57 00 -999 -9 -9 -9 -9 -9 1808.73 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 632-99 ... 1 1 2 3
+SYO 2016 10 19 22 56 00 -999 -9 -9 -9 -9 -9 1805.53 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 269-99 ... 1 1 2 3
+SYO 2016 10 19 22 56 00 -999 -9 -9 -9 -9 -9 1804.71 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 270-99 ... 1 1 2 3
+SYO 2016 11 09 18 32 00 -999 -9 -9 -9 -9 -9 1802.64 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 399-99 ... 1 1 2 3
+SYO 2016 11 09 18 32 00 -999 -9 -9 -9 -9 -9 1802.53 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 400-99 ... 1 1 2 3
+SYO 2016 11 22 17 11 00 -999 -9 -9 -9 -9 -9 1799.38 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1050-99 ... 1 1 2 3
+SYO 2016 11 22 17 11 00 -999 -9 -9 -9 -9 -9 1799.89 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4391-99 ... 1 1 2 3
+SYO 2016 12 08 22 33 00 -999 -9 -9 -9 -9 -9 1794.39 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3923-99 ... 1 1 2 3
+SYO 2016 12 08 22 33 00 -999 -9 -9 -9 -9 -9 1794.5 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3924-99 ... 1 1 2 3
+SYO 2016 12 26 22 10 00 -999 -9 -9 -9 -9 -9 1788.19 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 365-99 ... 1 1 2 3
+SYO 2016 12 26 22 10 00 -999 -9 -9 -9 -9 -9 1787.42 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 366-99 ... 1 1 2 3
+SYO 2017 01 11 01 37 00 -999 -9 -9 -9 -9 -9 1784.27 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4379-99 ... 1 1 2 3
+SYO 2017 01 11 01 37 00 -999 -9 -9 -9 -9 -9 1784.25 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4380-99 ... 1 1 2 3
+SYO 2017 01 28 03 34 00 -999 -9 -9 -9 -9 -9 1779.77 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4599-99 ... 1 1 2 3
+SYO 2017 01 28 03 34 00 -999 -9 -9 -9 -9 -9 1778.86 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4600-99 ... 1 1 2 3
+SYO 2017 02 09 13 04 00 -999 -9 -9 -9 -9 -9 1777.81 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1243-99 ... 1 1 2 3
+SYO 2017 02 09 13 04 00 -999 -9 -9 -9 -9 -9 1777.69 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1244-99 ... 1 1 2 3
+SYO 2017 02 24 06 48 00 -999 -9 -9 -9 -9 -9 1777.76 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2893-99 ... 1 1 2 3
+SYO 2017 02 24 06 48 00 -999 -9 -9 -9 -9 -9 1776.2 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2894-99 ... 1 1 2 3
+SYO 2017 03 13 17 38 00 -999 -9 -9 -9 -9 -9 1777.87 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5023-99 ... 1 1 2 3
+SYO 2017 03 13 17 38 00 -999 -9 -9 -9 -9 -9 1778.71 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5024-99 ... 1 1 2 3
+SYO 2017 03 24 13 17 00 -999 -9 -9 -9 -9 -9 1778.53 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3069-99 ... 1 1 2 3
+SYO 2017 03 24 13 17 00 -999 -9 -9 -9 -9 -9 1776.89 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3070-99 ... 1 1 2 3
+SYO 2017 04 16 07 01 00 -999 -9 -9 -9 -9 -9 1782.79 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4637-99 ... 1 1 2 3
+SYO 2017 04 16 07 01 00 -999 -9 -9 -9 -9 -9 1781.42 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4638-99 ... 1 1 2 3
+SYO 2017 04 27 11 10 00 -999 -9 -9 -9 -9 -9 1783.54 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 247-99 ... 1 1 2 3
+SYO 2017 04 27 11 10 00 -999 -9 -9 -9 -9 -9 1784.37 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 248-99 ... 1 1 2 3
+SYO 2017 05 12 10 58 00 -999 -9 -9 -9 -9 -9 1790.36 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 123-99 ... 1 1 2 3
+SYO 2017 05 12 10 58 00 -999 -9 -9 -9 -9 -9 1789.37 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 124-99 ... 1 1 2 3
+SYO 2017 05 29 11 48 00 -999 -9 -9 -9 -9 -9 1796.01 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3013-99 ... 1 1 2 3
+SYO 2017 05 29 11 48 00 -999 -9 -9 -9 -9 -9 1796.49 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3014-99 ... 1 1 2 3
+SYO 2017 06 15 11 50 00 -999 -9 -9 -9 -9 -9 1797.75 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1541-99 ... 1 1 2 3
+SYO 2017 06 15 11 50 00 -999 -9 -9 -9 -9 -9 1798.27 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1542-99 ... 1 1 2 3
+SYO 2017 07 02 13 31 00 -999 -9 -9 -9 -9 -9 1803.59 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3515-99 ... 1 1 2 3
+SYO 2017 07 02 13 31 00 -999 -9 -9 -9 -9 -9 1802.42 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3516-99 ... 1 1 2 3
+SYO 2017 07 13 10 01 00 -999 -9 -9 -9 -9 -9 1805.37 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4505-99 ... 1 1 2 3
+SYO 2017 07 13 10 01 00 -999 -9 -9 -9 -9 -9 1806.26 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 4506-99 ... 1 1 2 3
+SYO 2017 07 29 12 02 00 -999 -9 -9 -9 -9 -9 1811.81 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 297-99 ... 1 1 2 3
+SYO 2017 07 29 12 02 00 -999 -9 -9 -9 -9 -9 1812.29 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 298-99 ... 1 1 2 3
+SYO 2017 08 13 08 41 00 -999 -9 -9 -9 -9 -9 1813.02 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 537-99 ... 1 1 2 3
+SYO 2017 08 13 08 41 00 -999 -9 -9 -9 -9 -9 1813.41 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 538-99 ... 1 1 2 3
+SYO 2017 08 31 12 52 00 -999 -9 -9 -9 -9 -9 1816.62 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5371-99 ... 1 1 2 3
+SYO 2017 08 31 12 52 00 -999 -9 -9 -9 -9 -9 1815.47 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 5372-99 ... 1 1 2 3
+SYO 2017 09 16 06 57 00 -999 -9 -9 -9 -9 -9 1816.82 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 59-99 ... 1 1 2 3
+SYO 2017 09 16 06 57 00 -999 -9 -9 -9 -9 -9 1817.05 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 60-99 ... 1 1 2 3
+SYO 2017 09 30 04 01 00 -999 -9 -9 -9 -9 -9 1817.74 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1849-99 ... 1 1 2 3
+SYO 2017 09 30 04 01 00 -999 -9 -9 -9 -9 -9 1817.89 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1850-99 ... 1 1 2 3
+SYO 2017 10 13 06 30 00 -999 -9 -9 -9 -9 -9 1815.61 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1452-99 ... 1 1 2 3
+SYO 2017 10 13 06 30 00 -999 -9 -9 -9 -9 -9 1815.87 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 996-99 ... 1 1 2 3
+SYO 2017 10 29 12 44 00 -999 -9 -9 -9 -9 -9 1815.62 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 198-99 ... 1 1 2 3
+SYO 2017 10 29 12 44 00 -999 -9 -9 -9 -9 -9 1815.57 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 735-99 ... 1 1 2 3
+SYO 2017 11 16 12 04 00 -999 -9 -9 -9 -9 -9 1810.6 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2553-99 ... 1 1 2 3
+SYO 2017 11 16 12 04 00 -999 -9 -9 -9 -9 -9 1810.86 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3995-99 ... 1 1 2 3
+SYO 2017 11 29 12 30 00 -999 -9 -9 -9 -9 -9 1808.1 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2536-99 ... 1 1 2 3
+SYO 2017 11 29 12 30 00 -999 -9 -9 -9 -9 -9 1808.91 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 962-99 ... 1 1 2 3
+SYO 2017 12 17 04 47 00 -999 -9 -9 -9 -9 -9 1805.64 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 359-99 ... 1 1 2 3
+SYO 2017 12 17 04 47 00 -999 -9 -9 -9 -9 -9 1804.29 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3734-99 ... 1 1 2 3
+SYO 2017 12 30 12 12 00 -999 -9 -9 -9 -9 -9 1799.17 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 2316-99 ... 1 1 2 3
+SYO 2017 12 30 12 12 00 -999 -9 -9 -9 -9 -9 1799.27 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3823-99 ... 1 1 2 3
+SYO 2018 01 14 06 34 00 -999 -9 -9 -9 -9 -9 1793.96 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3019-99 ... 1 1 2 3
+SYO 2018 01 14 06 34 00 -999 -9 -9 -9 -9 -9 1794.35 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 770-99 ... 1 1 2 3
+SYO 2018 01 25 05 30 00 -999 -9 -9 -9 -9 -9 1791.41 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 1874-99 ... 1 1 2 3
+SYO 2018 01 25 05 30 00 -999 -9 -9 -9 -9 -9 1791.59 0.91 -9 -69.0125 39.59 19.0 14.0 5.0 3544-99 ... 1 1 2 3
+SYO 2018 02 09 12 58 00 -999 -9 -9 -9 -9 -9 1787.94 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3208-99 ... 1 1 2 3
+SYO 2018 02 09 12 58 00 -999 -9 -9 -9 -9 -9 1787.48 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 5190-99 ... 1 1 2 3
+SYO 2018 02 21 05 20 00 -999 -9 -9 -9 -9 -9 1787.31 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 1758-99 ... 1 1 2 3
+SYO 2018 02 21 05 20 00 -999 -9 -9 -9 -9 -9 1786.68 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3803-99 ... 1 1 2 3
+SYO 2018 03 07 14 39 00 -999 -9 -9 -9 -9 -9 1786.7 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3399-99 ... 1 1 2 3
+SYO 2018 03 07 14 39 00 -999 -9 -9 -9 -9 -9 1787.17 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 5061-99 ... 1 1 2 3
+SYO 2018 03 21 13 44 00 -999 -9 -9 -9 -9 -9 1787.01 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2876-99 ... 1 1 2 3
+SYO 2018 03 21 13 44 00 -999 -9 -9 -9 -9 -9 1789.7 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3869-99 ... 1 1 2 3
+SYO 2018 04 12 10 30 00 -999 -9 -9 -9 -9 -9 1793.93 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3333-99 ... 1 1 2 3
+SYO 2018 04 12 10 30 00 -999 -9 -9 -9 -9 -9 1792.45 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 5042-99 ... 1 1 2 3
+SYO 2018 04 24 13 08 00 -999 -9 -9 -9 -9 -9 1796.92 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2916-99 ... 1 1 2 3
+SYO 2018 04 24 13 08 00 -999 -9 -9 -9 -9 -9 1796.22 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 572-99 ... 1 1 2 3
+SYO 2018 05 13 06 54 00 -999 -9 -9 -9 -9 -9 1803.02 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2172-99 ... 1 1 2 3
+SYO 2018 05 13 06 54 00 -999 -9 -9 -9 -9 -9 1803.06 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2940-99 ... 1 1 2 3
+SYO 2018 05 21 07 51 00 -999 -9 -9 -9 -9 -9 1803.8 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2836-99 ... 1 1 2 3
+SYO 2018 05 21 07 51 00 -999 -9 -9 -9 -9 -9 1803.08 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3374-99 ... 1 1 2 3
+SYO 2018 06 15 06 42 00 -999 -9 -9 -9 -9 -9 1812.34 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2315-99 ... 1 1 2 3
+SYO 2018 06 15 06 42 00 -999 -9 -9 -9 -9 -9 1811.83 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2882-99 ... 1 1 2 3
+SYO 2018 06 26 11 11 00 -999 -9 -9 -9 -9 -9 1814.31 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3171-99 ... 1 1 2 3
+SYO 2018 06 26 11 11 00 -999 -9 -9 -9 -9 -9 1815.69 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 5440-99 ... 1 1 2 3
+SYO 2018 07 13 07 45 00 -999 -9 -9 -9 -9 -9 1819.06 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2371-99 ... 1 1 2 3
+SYO 2018 07 13 07 45 00 -999 -9 -9 -9 -9 -9 1818.1 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 783-99 ... 1 1 2 3
+SYO 2018 07 27 08 46 00 -999 -9 -9 -9 -9 -9 1821.84 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2328-99 ... 1 1 2 3
+SYO 2018 07 27 08 46 00 -999 -9 -9 -9 -9 -9 1822.49 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 5441-99 ... 1 1 2 3
+SYO 2018 08 08 11 10 00 -999 -9 -9 -9 -9 -9 1823.74 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2549-99 ... 1 1 2 3
+SYO 2018 08 08 11 10 00 -999 -9 -9 -9 -9 -9 1823.61 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 312-99 ... 1 1 2 3
+SYO 2018 08 15 10 44 00 -999 -9 -9 -9 -9 -9 1827.44 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 1098-99 ... 1 1 2 3
+SYO 2018 08 15 10 44 00 -999 -9 -9 -9 -9 -9 1826.24 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3654-99 ... 1 1 2 3
+SYO 2018 09 10 06 17 00 -999 -9 -9 -9 -9 -9 1828.39 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 4300-99 ... 1 1 2 3
+SYO 2018 09 10 06 17 00 -999 -9 -9 -9 -9 -9 1827.06 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 633-99 ... 1 1 2 3
+SYO 2018 09 28 10 57 00 -999 -9 -9 -9 -9 -9 1828.08 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3080-99 ... 1 1 2 3
+SYO 2018 09 28 10 57 00 -999 -9 -9 -9 -9 -9 1826.97 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 999-99 ... 1 1 2 3
+SYO 2018 10 15 05 59 00 -999 -9 -9 -9 -9 -9 1827.49 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 1341-99 ... 1 1 2 3
+SYO 2018 10 15 05 59 00 -999 -9 -9 -9 -9 -9 1827.19 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 155-99 ... 1 1 2 3
+SYO 2018 10 21 11 08 00 -999 -9 -9 -9 -9 -9 1824.22 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2943-99 ... 1 1 2 3
+SYO 2018 10 21 11 08 00 -999 -9 -9 -9 -9 -9 1825.21 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 321-99 ... 1 1 2 3
+SYO 2018 11 05 11 35 00 -999 -9 -9 -9 -9 -9 1822.42 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3785-99 ... 1 1 2 3
+SYO 2018 11 05 11 35 00 -999 -9 -9 -9 -9 -9 1822.2 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 4590-99 ... 1 1 2 3
+SYO 2018 11 20 11 14 00 -999 -9 -9 -9 -9 -9 1818.34 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 153-99 ... 1 1 2 3
+SYO 2018 11 20 11 14 00 -999 -9 -9 -9 -9 -9 1818.08 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 5103-99 ... 1 1 2 3
+SYO 2018 12 09 07 08 00 -999 -9 -9 -9 -9 -9 1815.13 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 1809-99 ... 1 1 2 3
+SYO 2018 12 09 07 08 00 -999 -9 -9 -9 -9 -9 1814.11 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 4536-99 ... 1 1 2 3
+SYO 2018 12 24 08 59 00 -999 -9 -9 -9 -9 -9 1808.97 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 1033-99 ... 1 1 2 3
+SYO 2018 12 24 08 59 00 -999 -9 -9 -9 -9 -9 1809.29 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 536-99 ... 1 1 2 3
+SYO 2019 01 11 08 14 00 -999 -9 -9 -9 -9 -9 1803.79 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 3975-99 ... 1 1 2 3
+SYO 2019 01 21 03 01 00 -999 -9 -9 -9 -9 -9 1801.45 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 2249-99 ... 1 1 2 3
+SYO 2019 01 21 03 01 00 -999 -9 -9 -9 -9 -9 1801.33 0.907 -9 -69.0125 39.59 19.0 14.0 5.0 5408-99 ... 1 1 2 3
+SYO 2019 02 03 13 55 00 -999 -9 -9 -9 -9 -9 1797.91 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3628-99 ... 1 2 18 3
+SYO 2019 02 03 13 55 00 -999 -9 -9 -9 -9 -9 1798.14 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4023-99 ... 1 2 18 3
+SYO 2019 02 18 03 54 00 -999 -9 -9 -9 -9 -9 1796.96 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2260-99 ... 1 2 18 3
+SYO 2019 02 18 03 54 00 -999 -9 -9 -9 -9 -9 1796.94 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4908-99 ... 1 2 18 3
+SYO 2019 03 04 08 53 00 -999 -9 -9 -9 -9 -9 1797.45 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2219-99 ... 1 2 18 3
+SYO 2019 03 04 08 53 00 -999 -9 -9 -9 -9 -9 1797.67 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3091-99 ... 1 2 18 3
+SYO 2019 03 18 05 03 00 -999 -9 -9 -9 -9 -9 1798.23 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1637-99 ... 1 2 18 3
+SYO 2019 03 18 05 03 00 -999 -9 -9 -9 -9 -9 1798.19 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 582-99 ... 1 2 18 3
+SYO 2019 04 08 13 58 00 -999 -9 -9 -9 -9 -9 1800.48 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2121-99 ... 1 2 18 3
+SYO 2019 04 08 13 58 00 -999 -9 -9 -9 -9 -9 1800.48 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3222-99 ... 1 2 18 3
+SYO 2019 04 25 05 36 00 -999 -9 -9 -9 -9 -9 1804.26 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2798-99 ... 1 2 18 3
+SYO 2019 04 25 05 36 00 -999 -9 -9 -9 -9 -9 1804.32 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 802-99 ... 1 2 18 3
+SYO 2019 05 06 09 31 00 -999 -9 -9 -9 -9 -9 1805.6 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3162-99 ... 1 2 18 3
+SYO 2019 05 06 09 31 00 -999 -9 -9 -9 -9 -9 1805.69 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 799-99 ... 1 2 18 3
+SYO 2019 05 20 19 57 00 -999 -9 -9 -9 -9 -9 1807.83 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1900-99 ... 1 2 18 3
+SYO 2019 05 20 19 57 00 -999 -9 -9 -9 -9 -9 1808.02 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4324-99 ... 1 2 18 3
+SYO 2019 06 03 17 10 00 -999 -9 -9 -9 -9 -9 1812.01 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1-99 ... 1 2 18 3
+SYO 2019 06 03 17 10 00 -999 -9 -9 -9 -9 -9 1812.15 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2856-99 ... 1 2 18 3
+SYO 2019 06 19 04 47 00 -999 -9 -9 -9 -9 -9 1815.93 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1722-99 ... 1 2 18 3
+SYO 2019 06 19 04 47 00 -999 -9 -9 -9 -9 -9 1815.99 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4648-99 ... 1 2 18 3
+SYO 2019 07 08 19 52 00 -999 -9 -9 -9 -9 -9 1823.29 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1462-99 ... 1 2 18 3
+SYO 2019 07 08 19 52 00 -999 -9 -9 -9 -9 -9 1823.43 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5038-99 ... 1 2 18 3
+SYO 2019 07 23 08 27 00 -999 -9 -9 -9 -9 -9 1825.94 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1949-99 ... 1 2 18 3
+SYO 2019 07 23 08 27 00 -999 -9 -9 -9 -9 -9 1825.66 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2228-99 ... 1 2 18 3
+SYO 2019 08 07 11 17 00 -999 -9 -9 -9 -9 -9 1829.36 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3367-99 ... 1 2 18 3
+SYO 2019 08 07 11 17 00 -999 -9 -9 -9 -9 -9 1829.37 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 653-99 ... 1 2 18 3
+SYO 2019 08 21 13 46 00 -999 -9 -9 -9 -9 -9 1832.12 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2555-99 ... 1 2 18 3
+SYO 2019 08 21 13 46 00 -999 -9 -9 -9 -9 -9 1832.01 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4439-99 ... 1 2 18 3
+SYO 2019 09 11 07 41 00 -999 -9 -9 -9 -9 -9 1833.22 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2187-99 ... 1 2 18 3
+SYO 2019 09 11 07 41 00 -999 -9 -9 -9 -9 -9 1833.32 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5395-99 ... 1 2 18 3
+SYO 2019 09 23 08 30 00 -999 -9 -9 -9 -9 -9 1833.53 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2227-99 ... 1 2 18 3
+SYO 2019 09 23 08 30 00 -999 -9 -9 -9 -9 -9 1833.75 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5493-99 ... 1 2 18 3
+SYO 2019 10 08 13 52 00 -999 -9 -9 -9 -9 -9 1833.11 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3354-99 ... 1 2 18 3
+SYO 2019 10 08 13 52 00 -999 -9 -9 -9 -9 -9 1833.16 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 483-99 ... 1 2 18 3
+SYO 2019 10 24 03 03 00 -999 -9 -9 -9 -9 -9 1832.24 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3159-99 ... 1 2 18 3
+SYO 2019 10 24 03 03 00 -999 -9 -9 -9 -9 -9 1832.18 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3217-99 ... 1 2 18 3
+SYO 2019 11 05 06 51 00 -999 -9 -9 -9 -9 -9 1830.86 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3351-99 ... 1 2 18 3
+SYO 2019 11 05 06 51 00 -999 -9 -9 -9 -9 -9 1830.81 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4028-99 ... 1 2 18 3
+SYO 2019 11 20 05 11 00 -999 -9 -9 -9 -9 -9 1827.82 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2388-99 ... 1 2 18 3
+SYO 2019 11 20 05 11 00 -999 -9 -9 -9 -9 -9 1827.64 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 94-99 ... 1 2 18 3
+SYO 2019 12 10 05 28 00 -999 -9 -9 -9 -9 -9 1821.48 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4391-99 ... 1 2 18 3
+SYO 2019 12 10 05 28 00 -999 -9 -9 -9 -9 -9 1821.31 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5405-99 ... 1 2 18 3
+SYO 2019 12 23 07 28 00 -999 -9 -9 -9 -9 -9 1816.66 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3863-99 ... 1 2 18 3
+SYO 2019 12 23 07 28 00 -999 -9 -9 -9 -9 -9 1816.63 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5183-99 ... 1 2 18 3
+SYO 2020 01 06 05 56 00 -999 -9 -9 -9 -9 -9 1812.23 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3859-99 ... 1 2 18 3
+SYO 2020 01 06 05 56 00 -999 -9 -9 -9 -9 -9 1812.26 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 471-99 ... 1 2 18 3
+SYO 2020 01 20 04 56 00 -999 -9 -9 -9 -9 -9 1807.68 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2558-99 ... 1 2 18 3
+SYO 2020 01 20 04 56 00 -999 -9 -9 -9 -9 -9 1807.71 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5714-99 ... 1 2 18 3
+SYO 2020 02 04 18 30 00 -999 -9 -9 -9 -9 -9 1804.93 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2233-99 ... 1 2 18 3
+SYO 2020 02 04 18 30 00 -999 -9 -9 -9 -9 -9 1804.92 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4019-99 ... 1 2 18 3
+SYO 2020 02 17 02 27 00 -999 -9 -9 -9 -9 -9 1803.66 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4295-99 ... 1 2 18 3
+SYO 2020 02 17 02 27 00 -999 -9 -9 -9 -9 -9 1803.69 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4338-99 ... 1 2 18 3
+SYO 2020 03 02 14 37 00 -999 -9 -9 -9 -9 -9 1803.18 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 333-99 ... 1 2 18 3
+SYO 2020 03 02 14 37 00 -999 -9 -9 -9 -9 -9 1803.03 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3618-99 ... 1 2 18 3
+SYO 2020 03 15 11 55 00 -999 -9 -9 -9 -9 -9 1803.69 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1305-99 ... 1 2 18 3
+SYO 2020 03 15 11 55 00 -999 -9 -9 -9 -9 -9 1803.57 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 858-99 ... 1 2 18 3
+SYO 2020 04 07 11 28 00 -999 -9 -9 -9 -9 -9 1805.86 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2232-99 ... 1 2 18 3
+SYO 2020 04 07 11 28 00 -999 -9 -9 -9 -9 -9 1805.63 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2275-99 ... 1 2 18 3
+SYO 2020 04 21 02 32 00 -999 -9 -9 -9 -9 -9 1808.56 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3350-99 ... 1 2 18 3
+SYO 2020 04 21 02 32 00 -999 -9 -9 -9 -9 -9 1808.61 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5341-99 ... 1 2 18 3
+SYO 2020 05 05 04 48 00 -999 -9 -9 -9 -9 -9 1811.83 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2068-99 ... 1 2 18 3
+SYO 2020 05 05 04 48 00 -999 -9 -9 -9 -9 -9 1811.71 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 459-99 ... 1 2 18 3
+SYO 2020 05 20 10 07 00 -999 -9 -9 -9 -9 -9 1816.29 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2419-99 ... 1 2 18 3
+SYO 2020 05 20 10 07 00 -999 -9 -9 -9 -9 -9 1816.28 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4448-99 ... 1 2 18 3
+SYO 2020 06 03 06 47 00 -999 -9 -9 -9 -9 -9 1818.69 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3139-99 ... 1 2 18 3
+SYO 2020 06 03 06 47 00 -999 -9 -9 -9 -9 -9 1818.94 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5074-99 ... 1 2 18 3
+SYO 2020 06 17 10 16 00 -999 -9 -9 -9 -9 -9 1823.66 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3109-99 ... 1 2 18 3
+SYO 2020 06 17 10 16 00 -999 -9 -9 -9 -9 -9 1823.78 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3131-99 ... 1 2 18 3
+SYO 2020 07 12 11 29 00 -999 -9 -9 -9 -9 -9 1832.1 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1739-99 ... 1 2 18 3
+SYO 2020 07 12 11 29 00 -999 -9 -9 -9 -9 -9 1832.23 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5145-99 ... 1 2 18 3
+SYO 2020 07 24 04 21 00 -999 -9 -9 -9 -9 -9 1834.34 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1257-99 ... 1 2 18 3
+SYO 2020 07 24 04 21 00 -999 -9 -9 -9 -9 -9 1834.29 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2207-99 ... 1 2 18 3
+SYO 2020 08 07 17 06 00 -999 -9 -9 -9 -9 -9 1836.34 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1404-99 ... 1 2 18 3
+SYO 2020 08 07 17 06 00 -999 -9 -9 -9 -9 -9 1836.36 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2663-99 ... 1 2 18 3
+SYO 2020 08 20 13 20 00 -999 -9 -9 -9 -9 -9 1840.13 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1021-99 ... 1 2 18 3
+SYO 2020 08 20 13 20 00 -999 -9 -9 -9 -9 -9 1840.08 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2730-99 ... 1 2 18 3
+SYO 2020 09 05 12 20 00 -999 -9 -9 -9 -9 -9 1841.97 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 286-99 ... 1 2 18 3
+SYO 2020 09 05 12 20 00 -999 -9 -9 -9 -9 -9 1841.92 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3157-99 ... 1 2 18 3
+SYO 2020 09 20 05 18 00 -999 -9 -9 -9 -9 -9 1843.02 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3458-99 ... 1 2 18 3
+SYO 2020 09 20 05 18 00 -999 -9 -9 -9 -9 -9 1843.16 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5016-99 ... 1 2 18 3
+SYO 2020 10 10 03 11 00 -999 -9 -9 -9 -9 -9 1842.96 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 1491-99 ... 1 2 18 3
+SYO 2020 10 10 03 11 00 -999 -9 -9 -9 -9 -9 1842.9 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2432-99 ... 1 2 18 3
+SYO 2020 10 19 07 36 00 -999 -9 -9 -9 -9 -9 1841.65 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3519-99 ... 1 2 18 3
+SYO 2020 10 19 07 36 00 -999 -9 -9 -9 -9 -9 1841.78 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5104-99 ... 1 2 18 3
+SYO 2020 11 10 04 16 00 -999 -9 -9 -9 -9 -9 1838.81 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4097-99 ... 1 2 18 3
+SYO 2020 11 10 04 16 00 -999 -9 -9 -9 -9 -9 1838.91 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 737-99 ... 1 2 18 3
+SYO 2020 11 22 05 56 00 -999 -9 -9 -9 -9 -9 1835.63 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3234-99 ... 1 2 18 3
+SYO 2020 11 22 05 56 00 -999 -9 -9 -9 -9 -9 1835.36 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 5540-99 ... 1 2 18 3
+SYO 2020 12 07 09 46 00 -999 -9 -9 -9 -9 -9 1831.24 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 2450-99 ... 1 2 18 3
+SYO 2020 12 07 09 46 00 -999 -9 -9 -9 -9 -9 1831.13 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 3549-99 ... 1 2 18 3
+SYO 2020 12 23 06 15 00 -999 -9 -9 -9 -9 -9 1826.96 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 4078-99 ... 1 2 18 3
+SYO 2020 12 23 06 15 00 -999 -9 -9 -9 -9 -9 1826.96 0.575 -9 -69.0125 39.59 19.0 14.0 5.0 540-99 ... 1 2 18 3
