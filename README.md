@@ -18,6 +18,16 @@ I'll let you know how to use pip install.
 ## Quickstart
 ### read data
 
+```python
+rdat = pw.read_file("ch4_syo_surface-flask_2_3001-9999_event.txt")
+```
+
+### get header information
+
+```python
+info = rdat.about_info()
+```
+
 
 ## Note
 Commentary article (under construction)
