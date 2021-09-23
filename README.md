@@ -16,18 +16,19 @@ I'll let you know how to use pip install.
 - pandas
 
 ## Quickstart
-### read data
-
-```python
-rdat = pw.read_file("ch4_syo_surface-flask_2_3001-9999_event.txt")
-```
-
 ### get header information
 
 ```python
+rdat = pw.read_file("ch4_syo_surface-flask_2_3001-9999_event.txt")
 info = rdat.about_info()
 ```
 
+### get value
+
+```python
+rdat = pw.read_file("ch4_syo_surface-flask_2_3001-9999_event.txt")
+dat = rdat.get_value()
+```
 
 ## Note
 Commentary article (under construction)
