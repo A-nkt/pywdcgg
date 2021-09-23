@@ -57,6 +57,20 @@ import pywdcgg as pw
 
 ## Quickstart
 
+### ヘッダー情報を取得
+
+```python
+rdat = pw.read_file("ch4_syo_surface-flask_2_3001-9999_event.txt")
+info = rdat.about_info()
+```
+
+### データを取得
+
+```python
+rdat = pw.read_file("ch4_syo_surface-flask_2_3001-9999_event.txt")
+dat = rdat.get_value()
+```
+
 ## Note
 解説記事(作成中)
 
