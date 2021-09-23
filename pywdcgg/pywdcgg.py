@@ -17,19 +17,16 @@ class read_file():
         ----------
         df : pd.DataFrame
             output file
-
         """
+        # read data from txt file
         with open(self.file) as f:
-            l_strip = [s.strip() for s in f.readlines()]
-            for indx,l in enumerate(l_strip):
-                if l[0] != "#":
-                    header_row = l_strip[indx-1]
-                    skiprows = indx
-                    break
-
-        header_list = header_row.split(" ")[1:]
+            l_strip = f.readlines()
+        # molding file
+        skiprows = int(l_strip[0].split(" ")[3])
+        header_list = l_strip[skiprows-1].split(" ")[1:]
         df = pd.read_csv(self.file, skiprows=skiprows, header=None, sep=" ")
         df.columns = header_list
+
         return df
 
     def about_info(self):
