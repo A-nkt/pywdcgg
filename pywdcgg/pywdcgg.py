@@ -119,4 +119,6 @@ class read_file():
 
         return header_info
 
+# make data list
+# read data extract data range
 # linear interpolation about lat,lon,height
