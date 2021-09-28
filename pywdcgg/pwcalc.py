@@ -119,3 +119,6 @@ class read_file():
                 break
 
         return header_info
+
+    def make_header(self):
+        pass
