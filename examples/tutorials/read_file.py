@@ -10,6 +10,6 @@ rdat = pw.read_file("../data/ch4/SYO/event/ch4_syo_surface-flask_2_3001-9999_eve
 
 dat = rdat.get_value()
 print(dat)
-
-info = rdat.about_info()
-print(info)
+print(dat.make_date())
+# dat = rdat.get_value()
+# dat.make_date()

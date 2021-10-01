@@ -1,4 +1,27 @@
+"""
+In this file, mainly using calculation program.
+"""
 import pandas as pd
+
+class Get_Value():
+    """
+    make datafile and organized data
+    """
+    def __init__(self,file):
+        with open(file) as f:
+            l_strip = f.readlines()
+        # molding file
+        skiprows = int(l_strip[0].split(" ")[3])
+        header_list = l_strip[skiprows-1].split(" ")[1:]
+        header_list[-1] = header_list[-1][:-1]
+        self.df = pd.read_csv(file, skiprows=skiprows, header=None, sep=" ")
+        self.df.columns = header_list
+
+    def __repr__(self):
+        return repr(self.df)
+
+    def make_date(self):
+        return "Hello World." 
 
 # import file and organize
 class read_file():
@@ -21,16 +44,7 @@ class read_file():
             output file
         """
         # read data from txt file
-        with open(self.file) as f:
-            l_strip = f.readlines()
-        # molding file
-        skiprows = int(l_strip[0].split(" ")[3])
-        header_list = l_strip[skiprows-1].split(" ")[1:]
-        header_list[-1] = header_list[-1][:-1]
-        df = pd.read_csv(self.file, skiprows=skiprows, header=None, sep=" ")
-        df.columns = header_list
-
-        return df
+        return Get_Value(self.file)
 
     def about_info(self):
         """
@@ -119,6 +133,3 @@ class read_file():
                 break
 
         return header_info
-
-    def make_header(self):
-        pass
