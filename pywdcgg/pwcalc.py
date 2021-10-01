@@ -17,11 +17,30 @@ class Get_Value():
         self.df = pd.read_csv(file, skiprows=skiprows, header=None, sep=" ")
         self.df.columns = header_list
 
-    def __repr__(self):
-        return repr(self.df)
+    def to_dataframe(self):
+        return self.df
 
     def make_date(self):
-        return "Hello World." 
+        """
+        make date column YYYYY/MM
+
+        Parameters
+        ----------
+        self.df : pd.DataFrame
+            input dataframe
+
+        Returns
+        ----------
+        self.df : pd.DataFrame
+            output dataframe
+        """
+        #try :
+        #    for ix in range(len(self.df)):
+        #        print(self.df.loc[ix,"year"],self.df.loc[ix,"month"])
+        #        self.df.loc[ix,"date"] = "{}/{}".format(self.df.loc[ix,"year"],self.df.loc[ix,"month"])
+        #except KeyError:
+        #    return "Can't find year or month column"
+        return "Hello World"
 
 # import file and organize
 class read_file():
