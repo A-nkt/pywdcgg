@@ -58,6 +58,7 @@ class Get_Value(object):
             return "Can't find year or month column"
         return self.df
 
+
 # import file and organize
 class read_file(Get_Value):
     def __init__(self,file):
@@ -70,7 +71,7 @@ class read_file(Get_Value):
         self.file = file
         super().__init__(self.file) #read_file(class)で定義したクラスの__init__メソッドをインスタンス化
 
-    def get_value(self,make_date=False):
+    def get_value(self,make_date=False,syr=None,fyr=None):
         """
         read data from text file that download from WDCGG.
 
@@ -80,9 +81,17 @@ class read_file(Get_Value):
             if YYYY/MM add or not
         """
         if make_date:
-            return super().make_date()
+            dx = super().make_date()
         else:
-            return super().to_rowDataFrame()
+            dx = super().to_rowDataFrame()
+
+        if syr is not None:
+            dx = dx[dx["year"] >= syr]
+        if fyr is not None:
+            dx = dx[dx["year"] <= fyr]
+            
+        dx = dx.reset_index(drop=True)
+        return dx
 
     def about_info(self):
         """
