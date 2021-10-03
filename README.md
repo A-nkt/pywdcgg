@@ -72,7 +72,7 @@ dat = rdat.get_value()
 ```
 
 ## Note
-[解説記事](https://qiita.com/dsduoa31/items/a6fac6320be4dce93fc7)
+[解説記事](https://qiita.com/dsduoa31/items/52aa6f2bca6cab7ca5c2)
 
 本ライブラリを用いてWDCGGに関する新機能が欲しい場合、ご連絡ください。
 勿論、ご自身で開発されてpull requestでも大歓迎です。

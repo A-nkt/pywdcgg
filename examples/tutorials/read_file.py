@@ -7,6 +7,5 @@ import pywdcgg as pw
 # ch4 : ../data/ch4/SYO/monthly/ch4_syo_surface-flask_2_3001-9999_monthly.txt
 # ch4 : ../data/ch4/SYO/event/ch4_syo_surface-flask_2_3001-9999_event.txt
 rdat = pw.read_file("../data/ch4/SYO/monthly/ch4_syo_surface-flask_2_3001-9999_monthly.txt")
-
-dat = rdat.get_value(make_date=True,syr=2000,fyr=2018)
+dat = rdat.get_value(syr=2000,fyr=2018)
 print(dat)
