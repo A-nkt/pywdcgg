@@ -3,11 +3,19 @@ In this file, mainly using calculation program.
 """
 import pandas as pd
 
-class Get_Value():
+class Get_Value(object):
     """
     make datafile and organized data
     """
     def __init__(self,file):
+        """
+        read data from text file that download from WDCGG.
+
+        Returns
+        ----------
+        df : pd.DataFrame
+            output file
+        """
         with open(file) as f:
             l_strip = f.readlines()
         # molding file
@@ -15,9 +23,15 @@ class Get_Value():
         header_list = l_strip[skiprows-1].split(" ")[1:]
         header_list[-1] = header_list[-1][:-1]
         self.df = pd.read_csv(file, skiprows=skiprows, header=None, sep=" ")
+        ndate = ["year", "month", "day", "hour", "minute", "minute"]
+        for iax,colname in enumerate(header_list):
+            if iax >= 7 and iax <= 12:
+                if colname in ndate:
+                    header_list[iax] = header_list[iax] + "_2"
         self.df.columns = header_list
+        self.df = self.df.drop(["year_2", "month_2", "day_2", "hour_2", "minute_2", "minute_2"], axis=1)
 
-    def to_dataframe(self):
+    def to_rowDataFrame(self):
         return self.df
 
     def make_date(self):
@@ -34,16 +48,18 @@ class Get_Value():
         self.df : pd.DataFrame
             output dataframe
         """
-        #try :
-        #    for ix in range(len(self.df)):
-        #        print(self.df.loc[ix,"year"],self.df.loc[ix,"month"])
-        #        self.df.loc[ix,"date"] = "{}/{}".format(self.df.loc[ix,"year"],self.df.loc[ix,"month"])
-        #except KeyError:
-        #    return "Can't find year or month column"
-        return "Hello World"
+        try :
+            header_list = self.df.columns
+            for ix in range(len(self.df)):
+                self.df.loc[ix,"date"] = "{}/{}".format(self.df.loc[ix,"year"],str(self.df.loc[ix,"month"]).zfill(2))
+            header_list = header_list.insert(0, "date")
+            self.df = self.df[header_list]
+        except KeyError:
+            return "Can't find year or month column"
+        return self.df
 
 # import file and organize
-class read_file():
+class read_file(Get_Value):
     def __init__(self,file):
         """
         Parameters
@@ -52,18 +68,21 @@ class read_file():
             file path and your file name
         """
         self.file = file
+        super().__init__(self.file) #read_file(class)で定義したクラスの__init__メソッドをインスタンス化
 
-    def get_value(self):
+    def get_value(self,make_date=False):
         """
         read data from text file that download from WDCGG.
 
-        Returns
+        Parameters
         ----------
-        df : pd.DataFrame
-            output file
+        make_date : bool
+            if YYYY/MM add or not
         """
-        # read data from txt file
-        return Get_Value(self.file)
+        if make_date:
+            return super().make_date()
+        else:
+            return super().to_rowDataFrame()
 
     def about_info(self):
         """
