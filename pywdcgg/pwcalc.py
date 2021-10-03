@@ -89,7 +89,7 @@ class read_file(Get_Value):
             dx = dx[dx["year"] >= syr]
         if fyr is not None:
             dx = dx[dx["year"] <= fyr]
-            
+
         dx = dx.reset_index(drop=True)
         return dx
 
