@@ -9,5 +9,10 @@ def read_file(file):
     -----------
     file : str
         file that you want
+    
+    Returns
+    -----------
+    pwx.reaad_file : read_file class instansce
+    
     """
     return pwc.read_file(file)
