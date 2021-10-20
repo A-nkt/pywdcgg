@@ -4,12 +4,11 @@ import pywdcgg as pw
 import matplotlib.pyplot as plt
 import random
 
-dat = [];lon = [];lat = []
-for _ in range(100):
-    dat.append(random.randint(0,100))
-    lon.append(random.randint(-180,180))
-    lat.append(random.randint(-90,90))
-fig,ax = pw.world_map(lon,lat,data=dat,cmap="RdBu")
+lon = 136.6
+lat = 36.6
+data = 10
+
+fig,ax = pw.world_map(lon,lat,data=data)
 #fig,ax = pw.world_map(36.5,
 #                      137.5,
 #                      max_long=150,

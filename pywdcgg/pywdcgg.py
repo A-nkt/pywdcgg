@@ -17,8 +17,8 @@ def read_file(file):
     """
     return pwc.read_file(file)
 
-def world_map(lat,
-              long,
+def world_map(long,
+              lat,
               data=None,
               resolution="10m",
               dlon=60,
@@ -73,8 +73,8 @@ def world_map(lat,
     ax :matplotlib.Axes
         axes object for plot
     """
-    return pwt.world_map(lat,
-                         long,
+    return pwt.world_map(long,
+                         lat, 
                          data=data,
                          resolution=resolution,
                          dlon=dlon,

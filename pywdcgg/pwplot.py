@@ -8,8 +8,8 @@ In this file, plot about wdcgg data.
 """
 
 
-def world_map(lat,
-              long,
+def world_map(long,
+              lat,
               data=None,
               resolution="10m",
               dlon=60,
@@ -86,9 +86,15 @@ def world_map(lat,
         llong = long
 
     if vmin is None:
-        vmin = min(data)
+        if type(data) is float:
+            vmin = data * 0.5
+        elif type(data) is list:
+            vmin = min(data)
     if vmax is None:
-        vmax = max(data)
+        if type(data) is float:
+            vmax = data * 1.5
+        elif type(data) is list:
+            vmax = max(data)
 
     if data is not None:
         if type(data) is float:
@@ -108,6 +114,7 @@ def world_map(lat,
                               llat[inx],
                               c=ldat[inx],
                               marker="o",
+                              s=msize,
                               cmap=cmap,
                               vmin=vmin,
                               vmax=vmax)
