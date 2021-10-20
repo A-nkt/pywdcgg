@@ -1,8 +1,7 @@
+import pandas as pd
 """
 In this file, mainly using calculation program.
 """
-import pandas as pd
-
 class Get_Value(object):
     """
     make datafile and organized data
