@@ -28,7 +28,10 @@ def world_map(lat,
               max_long=180,
               max_lat=90,
               msize=30,
-              cmap="jet"):
+              cmap="jet",
+              vmin=None,
+              vmax=None,
+              ):
     """
     plot world map
 
@@ -38,9 +41,37 @@ def world_map(lat,
         latitude
     long : float or list
         longitude
+    data : float or list
+        data (default : None)
+    resolutin : str
+        cartpy parameter (default : 10m)
+    dlon : int or float
+        interval of longitude
+    dlat : int or float
+        interval of latitude
+    min_long : int or float
+        minimun longitude
+    min_lat : int or float
+        minimun latitude
+    max_long : int or float
+        max longitude
+    max_lat : int or float
+        max latitude
+    msize : int
+        marker size
+    cmap : str
+        colormap variation
+    vmin : int or float
+        min colorbar
+    vmax : int or float
+        max colorbar
 
     Returns
     ----------
+    fig :matplotlib.Figure
+        figure object for plotting
+    ax :matplotlib.Axes
+        axes object for plot
     """
     return pwt.world_map(lat,
                          long,
@@ -53,4 +84,7 @@ def world_map(lat,
                          max_long=max_long,
                          max_lat=max_lat,
                          msize=msize,
-                         cmap=cmap)
+                         cmap=cmap,
+                         vmin=vmin,
+                         vmax=vmax,
+                         )
